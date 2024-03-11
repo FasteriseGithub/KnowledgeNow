@@ -6,5 +6,7 @@ Rag system based on our knowledge base
 
 #2. activate your environment
 
-#3. install your requirement
+#3. install  requirements
+
+
 
