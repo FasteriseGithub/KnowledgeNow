@@ -1,6 +1,6 @@
 # RAG Chatbot Based on Fastrise Zoom Meeting Transcript
 
-This project implements a RAG (Retrival Augment) system based on Fastrise Zoom meeting transcripts. The RAG chatbot is a management tool used to quickly confirm tasks and to do verify information.
+This project implements a RAG (Retrieval-augmented generation) chatbot based on Fastrise Zoom meeting transcripts. The RAG chatbot is a management tool used to quickly confirm tasks and to do verify information.
 
 ## Setup
 
