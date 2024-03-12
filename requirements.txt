@@ -1,6 +1,7 @@
 openai 
 langchain
 langchain-openai
+langchain-community
 langchain_pinecone
 pydantic==1.10.8
 pytube 
