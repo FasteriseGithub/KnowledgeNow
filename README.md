@@ -1,33 +1,42 @@
-Rag system based on Fastrise zoom meeting transcript
+# RAG Chatbot Based on Fastrise Zoom Meeting Transcript
 
-###Steps to run the project 
+This project implements a RAG (Retrival Augment) system based on Fastrise Zoom meeting transcripts. The RAG chatbot is a management tool used to quickly confirm tasks and to do verify information.
 
-###  Step 1. create a virtual environmenet
-"""
-python -m venv env python= 3.8 -y
+## Setup
 
-"""
+Follow these steps to set up and run the project:
 
-"""
+### Step 1: Create a Virtual Environment
+
+```
+bash
+ 
+ python -m venv env
+
+'''
+
+```
+bash
+
 .\env\Scripts\activate
+'''
+### Step 2: Install Dependencies
 
-"""
+```
+bash
+pip install -r requirements.txt
+'''
 
-###  Step 2. 
+### Step 3: Configure Environment Variables
 
-"""
-pip install -r requirement.txt
-
-"""
-### Create a ".env" file in the root directory and add your Piencone credentials as follows:
+Create a .env file in the root directory and add your Pinecone and OpenAI API keys:
 
 
-"""initiatize your model
-OPENAI_API_KEY = "********************"
-
-"""Initiaze 
-PINECONE_API_KEY = ""
-
-"""
-
+```
+bash
+# Pinecone API Key
+PINECONE_API_KEY = "your_pinecone_api_key_here"
+# OpenAI API Key
+OPENAI_API_KEY = "your_openai_api_key_here"
+'''
 
