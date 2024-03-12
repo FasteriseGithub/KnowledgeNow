@@ -25,12 +25,9 @@ bash
 ```
 bash
 pip install -r requirements.txt
-'''
+
 
 ### Step 3: Configure Environment Variables
-
-Create a .env file in the root directory and add your Pinecone and OpenAI API keys:
-
 
 ```
 bash
