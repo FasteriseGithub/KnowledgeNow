@@ -1,12 +1,33 @@
-Rag system based on our knowledge base
+Rag system based on Fastrise zoom meeting transcript
 
 ###Steps to run the project 
 
-#1. create a virtual environmenet
+###  Step 1. create a virtual environmenet
+"""
+python -m venv env python= 3.8 -y
 
-#2. activate your environment
+"""
 
-#3. install  requirements
+"""
+.\env\Scripts\activate
 
+"""
+
+###  Step 2. 
+
+"""
+pip install -r requirement.txt
+
+"""
+### Create a ".env" file in the root directory and add your Piencone credentials as follows:
+
+
+"""initiatize your model
+OPENAI_API_KEY = "********************"
+
+"""Initiaze 
+PINECONE_API_KEY = ""
+
+"""
 
 
