@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify, request
 from src.helper import data_embedding
 from langchain_pinecone import PineconeVectorStore
 from langchain.prompts import PromptTemplate
@@ -37,6 +37,16 @@ qa = RetrievalQA.from_chain_type(
 @app.route("/")
 def index():
     return render_template("chat.html")
+
+
+@app.route("/get", methods=['GET',"POST"])
+def chat():
+    msg = request.form["msg"]
+    input = msg 
+    print(input)
+    result=qa({"query": input})
+    print("Response:", result["result"])
+    return str(result["result"])
 
 if __name__ == "__main__":
     app.run(debug=True)
