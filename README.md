@@ -13,19 +13,18 @@ bash
  
  python -m venv env
 
-'''
+```
 
 ```
 bash
-
 .\env\Scripts\activate
-'''
+```
 ### Step 2: Install Dependencies
 
 ```
 bash
 pip install -r requirements.txt
-
+```
 
 ### Step 3: Configure Environment Variables
 
