@@ -23,7 +23,7 @@ prompt = PromptTemplate(template=template, input_variables=["context", "question
 
 chain_type_kwargs = {"prompt": prompt}
 
-llm = ChatOpenAI(openai_api_key=openai_api_key, model="gpt-3.5-turbo")
+llm = ChatOpenAI(openai_api_key=openai_api_key, model="gpt-4")
 
 retriever = vectorstore.as_retriever(search_kwargs={'k': 2})
 
