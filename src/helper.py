@@ -20,6 +20,8 @@ def text_split(extracted_data):
 
     return documents
 
+
+
 #creating an embedding
 def data_embedding():
     embeddings = OpenAIEmbeddings()
