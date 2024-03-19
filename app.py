@@ -148,6 +148,14 @@ def chat(text):
     conversational_memory.chat_memory.add_ai_message(out["output"])
     return out["output"]
 
+    else:
+        with st.chat_message("AI"):
+            st.markdown(message.content)
+
+#user input
+user_query = st.chat_input("Your message")
+if user_query is not None and user_query !="":
+    st.session_state.chat_history.append(HumanMessage(user_query))
 
 
 # Streamlit app
