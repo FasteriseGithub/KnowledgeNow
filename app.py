@@ -150,13 +150,11 @@ def chat(text):
 
     else:
         with st.chat_message("AI"):
-            st.markdown(message.content)
+            st.markdown(message)
 
-#user input
-user_query = st.chat_input("Your message")
-if user_query is not None and user_query !="":
-    st.session_state.chat_history.append(HumanMessage(user_query))
-
+user_query = st.chat_input("Your messsage")
+if user_query is not None and user_query != "":
+    st.session_state.chat_history.append(chat(user_query))
 
 # Streamlit app
 
