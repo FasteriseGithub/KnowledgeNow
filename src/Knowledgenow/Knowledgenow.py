@@ -1,66 +1,78 @@
 #import Lbraries
-import streamlit as st 
-from langchain_community.document_loaders import UnstructuredFileLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from streamlit_extras.add_vertical_space import add_vertical_space
-from langchain_community.embeddings import OpenAIEmbeddings
-from langchain.chains import RetrievalQAWithSourcesChain
 import pinecone
-from langchain_openai import ChatOpenAI
-from langchain_community.vectorstores import Pinecone
+from dotenv import load_dotenv 
+from langchain_openai.chat_models import ChatOpenAI
+from langchain_community.document_loaders import TextLoader, DirectoryLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.llms import OpenAI
+from langchain.vectorstores import Pinecone
 from langchain.chains import RetrievalQA
-from langchain.prompts import PromptTemplate, ChatPromptTemplate
+from langchain.prompts import PromptTemplate, ChatPromptTemplate, HumanMessagePromptTemplate
+import os
+from langchain_core.messages import SystemMessage
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.tools.retriever import create_retriever_tool
-from langchain_pinecone import PineconeVectorStore
-import os
-from dotenv import load_dotenv 
-from langchain_core.messages import HumanMessage, AIMessage
+from langchain.chains import RetrievalQAWithSourcesChain
+from langchain_experimental.text_splitter import SemanticChunker
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
-from src.Knowledgenow.utilis import load_file, text_split, data_embedding, memory2str
-from src.Knowledgenow.logger import logging 
+from langchain_pinecone import PineconeVectorStore
 from langchain. retrievers.multi_query import MultiQueryRetriever
 from langchain.tools import tool
 from langchain.agents import create_openai_functions_agent
 from langchain.agents import AgentExecutor
-import sys
+from langchain.memory import ConversationBufferMemory
+from langchain_core.messages.human import HumanMessage
+from src.Knowledgenow.utilis import load_file, text_split, data_embedding, memory2str
+from src.Knowledgenow.logger import logging
 
-
-# Add the 'src' directory to the Python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
+#load environment variables from the .env file
 
 load_dotenv()
 
 
-
-
-#add your api_keys
 openai_api_key = os.getenv("OPENAI_API_KEY")
-os.getenv("PINECONE_API_KEY")
 
-# Initialize language model
-llm = ChatOpenAI(
-    openai_api_key=openai_api_key,
-    model="gpt-4-turbo-preview",
-    temperature=0.0
-)
+pinecone_api_key = os.getenv("PINECONE_API_KEY")
 
-# Load data and create embeddings
-extracted_data = load_file(["2024-03-12_Dev_Meeting_-_Knowledge_Now_summary_1.txt", "2024-03-12-Dev-Meeting-Knowledge-Now-Transcrpt-2.txt"])
+YOUR_API_KEY = os.getenv("PINECONE_API_KEY")
+
+
+
+#extract the data 
+extracted_data = load_file([ "2024-03-12_Dev_Meeting_-_Knowledge_Now_summary_1.txt", "2024-03-12-Dev-Meeting-Knowledge-Now-Transcrpt-2.txt"])
+
+#split documents into chunks
 text_chunk = text_split(extracted_data)
+
+#creating embeddings
 embeddings = data_embedding()
 
-# Initialize Pinecone vector store
-YOUR_API_KEY = os.getenv("PINECONE_API_KEY")
+#inserting the embeddings into a vectorstore
+
 Your_env = "gcp-starter"
+
 index_name = "knowledgenow"
+
 vectorstore = PineconeVectorStore.from_documents(text_chunk, embeddings, index_name=index_name)
 
-# Initialize retriever
-retriver = vectorstore.as_retriever(search_kwargs={'k': 25})
-retriever = MultiQueryRetriever.from_llm(retriever=retriver, llm=llm)
+#initializing retrival
+retriver = vectorstore.as_retriever(search_kwargs={'k':25})
 
-# Set up logging
+#initiaze language models
+llm  = ChatOpenAI(
+    openai_api_key=openai_api_key, 
+    model="gpt-4-turbo-preview", 
+    temperature= 0.0,
+    streaming=True,
+    callbacks=[StreamingStdOutCallbackHandler()]
+
+    )
+
+retriever = MultiQueryRetriever.from_llm(
+    retriever=retriver, llm=llm
+)
+
 logging.basicConfig()
 logging.getLogger("langchain.retrievers.multi_query").setLevel(logging.INFO)
 
@@ -130,55 +142,37 @@ prompt = PromptTemplate.from_template(template=template, MessagePlaceholder=["(a
 tools = [Knowledgebase]
 
 agent = create_openai_functions_agent(llm=llm, tools=tools, prompt=prompt)
+
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-#conversational memory
-conversational_memory = ConversationBufferWindowMemory(
-    memory_key= "chat_history",
-    k=5,
-    return_messages=True)
+query ="what project was bartek and Alejo discuss in the meeting"
 
-def chat(text):
-    out = agent_executor.astream({
-        "input": text,
-        "chat_history": [memory2str(conversational_memory)],
-        "global_context": global_context
-    })
+out = agent_executor.invoke({"input": query,
+                       "chat_history": [],
+                       "global_context":global_context })
+
+#conversational memory 
+conversational_memory = ConversationBufferWindowMemory(
+    memory_key="chat_history",
+    k=5,
+    return_messages=True
+
+)
+
+conversational_memory.chat_memory.add_user_message(query)
+conversational_memory.chat_memory.add_ai_message(out["output"])
+
+
+memory2str(conversational_memory)
+
+
+def chat(text:str):
+    out = agent_executor.invoke({
+        "input":text, 
+        "chat_history": [memory2str(conversational_memory)], 
+        "global_context": global_context})
     conversational_memory.chat_memory.add_user_message(text)
     conversational_memory.chat_memory.add_ai_message(out["output"])
     return out["output"]
-
-
-
-# Streamlit app
-
-if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
-
-st.set_page_config(page_title="Knowledgenow")
-
-st.title("Knowledge Bot")
-
-
-#conversation 
-for message in st.session_state.chat_history:
-    if isinstance(message, str):
-        with st.chat_message("Human"):
-            st.markdown(message)
-    else:
-        with st.chat_message("AI"):
-            st.markdown(message)
-
-user_query = st.chat_input("Your messsage")
-if user_query is not None and user_query != "":
-    st.session_state.chat_history.append(chat(user_query))
-
-    with st.chat_message("Human"):
-        st.markdown(user_query)
-
-    with st.chat_message("AI"):
-        ai_response=st.write_stream(chat(user_query))
-
-    st.session_state.chat_history.append(("AI", ai_response))
 
 
