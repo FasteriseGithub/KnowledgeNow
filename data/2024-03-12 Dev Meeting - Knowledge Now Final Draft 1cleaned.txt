@@ -1,0 +1,1170 @@
+Speaker 1
+Thank you guys for sharing your update on Friday. It makes me very happy to see progress on what you get to work on or what you want to work on. I hear a lot of rag, I hear a lot of lang chain. As you said, kua, Rag is the future. And it's been very exciting to talk to developers this last week. A variety of experiences and expertise and they all say the same thing. It's like Rag is where it's at. Rag is the future, Rag is what I want to learn. So we're taking that strong indication and running with it. We're building knowledge now. First of all, before we step into that because start rallying on, wanted to share an update. I'm working on the real estate automations. I'm working on the free side on the two free real estate automations. When those are ready, I'll share the demo. In the next few days. They'll be ready in the next few days. I'll share the demo. We can make sure we get some testing in together and I will make sure that each of us can follow the exact same process for when we actually have the paid clients that will come through referrals that we can emulate this system for their side. For some of those that might include importing contacts to the follow up boss CRM and just setting them up from scratch. For some of them that might be like, hey, I would like these automations and each of us needs to already know the API and how does the CRM actually look and feel? So I kind of tried to do that last week, but I realized I don't understand it well enough to guide others. So I took a step back, let me work on these automations, finish them, let me fall into the pits of working with any new API and make sure that I set up you guys for success once the money actually comes in. So that's the update on that, on real estate automations client is still very excited. We got introduced to two people that she's working with, the manual follow up boss guy that's kind of importing her contacts manually and her social media person. And we're going to be able to find ways to help in both of those areas. We got some questions around profit sharing and we will make sure that we have a Gen XAc to clarify, to share, to have questions, and to make sure that everything is clear. It's very important to us, to all of us, to each of us, that we know what's going to happen with the money once the money hits the account. Right. So we'll make sure that everybody has clarity on that and that everybody agrees. Yes, this is fair.
+
+Speaker 2
+Because we are kind of starting to work this week, probably internally on some content automation. So I think we can actually work simultaneously on the automation for the real estate. We have this idea to make notion integrated with relevance AI. Like make some agents and for example you have idea for your content, you write it in the notion, you have this kanban in notion. And then for example you have this raw idea and then some ideas you want to put to AI to draft. And then that will trigger the relevance AI agent, for example, first kind of EDH version of it. And then basically it would draft a post or whatever and then send it back to notion. So that's where I'm thinking, and we're probably going to start working on it this week if there is a time, if the winds are correct. And I also have updates now from the call just a second ago. I was talking to this guy from the prompt hub and we can have collaboration there, like constant collaboration or whatever. I was talking to him on this kind of note. But the thing that really clicks after this call because I was showing him PFA and the output was kind of short. I mean the use case was for a recipe and for a cuisine, sending and generating recipes. So I see that the details couldn't be there more. But I got thinking like PFA sometimes does that PFA sometimes give a short prompt and you need to regenerate. And I was thinking like we need the swarm, we absolutely need the swarm. It's not a product until we have the swarm. This is just a proof of content. And if user have to know that the prompt is not good, but users won't. So we need to have this. The thing that I'm doing manually, like regenerating, like looking. The prompt is not good. Or regenerating, or saying, like, use more markdown, or make this prompt more detailed. We need a feedback loop for that in the PFA swarm, like some agents doing basically what I'm doing now. So the prompt is too short, the prompt lacks markdown, lack structure. Yeah, we should really go there. And I'm thinking about maybe we could repurpose some of our agent systems. Like, I'm not sure how we can. Maybe we can use the outreach system a little bit to change it in a way that we could have those. Or maybe it's better to make it from scratch. I'm still not sure, but we kind of have this structure already where we have those agents talking to each other. I mean, they are not really talking in a chain, right? Yeah, it's kind of chain of action rather than conversation. I think we need to step into the conversation part where we have some kind of hierarchies. Like this is agent one that making the context enrichment, and then there is another one, let's say in the simplest form, generating. And then we would have some agents that above them and checks their work. And they need to talk, basically. I think we need to make it from scratch.
+
+Speaker 1
+Let's get to the point where everybody's on the same page and we can actually make some decisions because there's a lot of things that we don't need to do from scratch. Right. There's a lot of research on communication frameworks that we can probably just grab from an open source and then just tune for the use case of prompt regeneration of EFA. So that's what we will step into. Since we're there. Let's just go there. Cuba. We'll get around to personalized our system and I'll give you an update on that. I would like to ask you, Kuba, were you able to start with this Rac system from the single document transcript? 
+
+Speaker 3
+Yeah, I created it with pine cone. I tested pine cone and coma system. One with pine cone and one with open source vector database. I'm just testing. Like diverto, cosine, similarities between diversity. I've used the two system. I'll show you demo.
+
+Speaker 2
+On the note of databases, I wanted to ask if we have capabilities on the AWS in our developer team or generally, because there is those two things. Like there is the vector databases and the new stuff, and there is the old stuff, the relational databases, non relational databases. And actually, right now we are facing the problem, the challenge, more of them, the problem. Let's see. Challenges, not problems. So we're facing challenge to actually offering the chatbot that will kind of pick four different data inputs into a chatbot interface so the client can basically talk with it. Yeah, I referred to that Us client, and we're thinking if there should be one database out of those four, so we're going to have some data migration and stuff. So I'm just thinking if there may be somebody who already been doing some of those stuff. I saw Kuba actually posting something on the discord about the AWS. So maybe I can ask you if you've been doing some stuff with.
+
+Speaker 3
+Yeah, yeah. During the weekend, I played around using, I created a little QC generator, so I created the front end with extremely, and I hosted it on AWS server. So just like playing around with. Figure it out. Have you been doing some with data migration? 
+
+Speaker 2
+No, not yet. 
+
+Speaker 2
+All right, so maybe we connect later after this call and maybe talk about this more, or are you aware of somebody else having AWS experience? 
+
+Speaker 1
+Yes, because at Nike we worked on AWs. So I have experience with AWS storage. I have experience with limited experience with AWS systems, but they don't feel strange to know. I will ask around. And you're essentially looking for a systems engineer, like somebody that could do potentially a migration. Yeah. Okay, I'll ask around. Knowledge. Now remind me to ask for a systems engineer. Already getting used to it. Basically, we need to do like centralized database for the chatbot interface. Like initial. And that's probably going to be migration. Of the data migration into a data migration AWs into a central database. Okay, let's pause on that and we can talk more about it later. Kuba, the stage is all yours.
+
+Speaker 3
+So I created it with pine cone. I tested pine cone and coma system. One with pine cone and one with open source vector database. Yeah, I'm just testing. Like diverto, cosine, similarities between diversity. I've used the two system. I'll show you demo. So this is like the chart, the knowledge now. So first of all I put in my pocket, let me just keep this. So yeah, remember I told you I'm not going to use Google Colab. I had to use it because number one, it's crashing my system for now because I'm testing, I found a way to build visual code. So this is like the other one I'm building like the version. Colab is great. Colab is fantastic. Prototyping on Colab is a great idea. As we look at versioning and actually making it more usable, that's when we'll transition out. Colab works great for now, but thank you for clarifying. Let me walk you through the code. First of all I imported the meetings transcript using planchain. So this is like the transcript. So I split that it into chunks. So this is a chunk of it.Speaker 1
+Wow, what are those? 
+
+Speaker 3
+Just the chunk of the data. So this is the total length after the chunk of the data. So I embedded it using open air embedding. 
+
+Speaker 1
+Cool. 
+
+Speaker 3
+So I imported into the Pancon like vector database. So this is the name of the index here. So I just queried it. This is just a normal query like to just get the similarity search. So you just return the most relevant document. So this is it here. When I ask what type of agents can we create? So this is like the documents. So in this document I can indicate how many I want it, but I just listen to just. So now I want to pass the document into an LLM. Once you get the document you can answer my query better knowing the context. So I asked the question again, what type of agents can we create? It seems like the conversation is discussing creating agent for real estate or mortgage learning purposes. 
+
+Speaker 3
+This is not clear specifically what type of agents they are referring to, but it can potentially be an automated agent. Sorry, an automated agent or a human agent. It is also mentioned that they are trying to reduce the amount of agents, keep the process simple and programmatic. So this is just like for querying it continuously, like putting it in a loop. 
+
+Speaker 1
+At the very bottom. What's that output? 
+
+Speaker 3
+Yeah, I want to show you. It's just like keeping it in a loop that I can keep on asking, chatting with it, conversational. 
+
+Speaker 1
+Yes, but what is that result from? The meeting was about implementing automation services. 
+
+Speaker 3
+Okay, this is like from another question I asked actually. Okay, I'm going to show you. Let me. 
+
+Speaker 1
+Great start, man. This is a great start. That's the one thing that's really annoying about Colab that you have to upload the documents every single time. 
+
+Speaker 3
+Yeah. 
+
+Speaker 2
+Guys, I think like thinking for the first version, for the MVP or proof of concept, I think we should list the most required functionalities we need. So I'm thinking definitely who is saying the stuff like participants. 
+
+Speaker 1
+We're doing that with Firefly. So we are going to have that. Yeah. And if we can do it through zoom cloud, then it'll be even easier. So hold that thought and we will get to that point. We'll talk about that too. 
+
+Speaker 2
+And one thing on the processing side and thinking maybe we should use, I mean, it looks quite good over here, but the beginning of the transcript was weird words we should have. Maybe. 
+
+Speaker 3
+There are a lot of weird words like in the document. 
+
+Speaker 2
+Yeah, I'm thinking maybe we should have agent that corrects the words like extract the meaning. 
+
+Speaker 1
+So that is already built. I can show you. I want to go from big picture to small picture. And we can talk about the components and the subcomponents. And fixing the transcript is one of those subcomponents. All right, call out. Cool. Let's see what it comes up with. I wonder how stochastic it is. Yeah, that's unfortunate. What if you try it again? 
+
+Speaker 2
+What if you instead of agents say product? Because I think this was about the real estate how to say listing description generator. Right? I saw it in the transcript actually me talking about the first project of celebrities. So I think it's more of a project. Oh yeah, go. 
+
+Speaker 1
+There we go. 
+
+Speaker 2
+You see you need a prompt engineer. 
+
+Speaker 1
+That's where that comes in. The prompt. 
+
+Speaker 3
+Regeneration. 
+
+Speaker 1
+Actually. 
+
+Speaker 2
+Wow, this is just. 
+
+Speaker 3
+Like imputing, like implementing continuously. 
+
+Speaker 1
+Okay, got you. Let's try. This call was about knowledge. Now could you ask what is the product called. 
+
+Speaker 3
+For? The. 
+
+Speaker 1
+How is it used about extract. 
+
+Speaker 2
+And either eight project documentation. 
+
+Speaker 3
+Extract. Sorry, I didn't get that. 
+
+Speaker 1
+Extract and ideate product documentation project. I wonder how well it does with typos summary. So this is just extracting and interpreting the chunks from. 
+
+Speaker 3
+The vector store and the vector data. 
+
+Speaker 1
+Yeah. 
+
+Speaker 3
+What I need now is like using a prompt to guide its output. Instead I'll just type in just request. 
+
+Speaker 2
+We need sort of extractor agent like extract fears and then ask later for something. In this situation we'll have two agents. One is extracting the information required, or even better, we start from what's required for the documentation for this project, from this little extraction. And then another extraction agent knows basically more where we're going with it. So say extracting. Then the documentation agent tries to make the documentation but lacks context. So it goes back to the first agent to the extractor and give me more context on this and this. And then it's kind of a feedback loop in here. 
+
+Speaker 1
+Okay. Yeah, totally. So we're noticing a few things. We're noticing the quality of the extracted documents from pine cone varied in quality, which is normal. It's only one transcript and the transcript is not even clean, so that's normal. Number two, we're noticing that the output of the queries is limited to only the context that it is given from the low quality extraction of the chunks. So it doesn't have much to work with. What if the next step was giving it more context and using that context to actually create a proper answer? Yes. And then number three or number four is the prompt regeneration so that the query being asked can be regenerated, say, by PFA, based on the context of essentially who's asking. In this case, let's just say it's the normal quote unquote faster ICE is asking. So just answer, faster ICE. 
+
+Speaker 1
+Who is faster ICE. Here's who faster ICE is. And we just feed the knowledge base of faster ICE. So there are some components there. Thank you, Kuba. This is a great start. Man. This is wonderful. I wanted to be able to visualize these components, so let's pause so we can keep going forward. So we talked about a lot of things last meeting. It was brainstorming session, and we're taking all these ideas and all these use cases and we're running with it. So let's make it a little more visual. Number one, the thing that we know for sure, which is at the end of a. Sorry, I'm trying to remove the captions. They're in the way. Okay, well, it is what it is. At the end of the day, what we need is answer. Sounds obvious, but how do we get. So let's see. 
+
+Speaker 2
+I think we definitely need to let PFA into the wild. I'm actually tired with the GPT's version now. Today is really. I agree. Making me angry about this. 
+
+Speaker 1
+Good. Get angry. Create new from that anger. 
+
+Speaker 2
+Let's make it into the wild. Yeah, I'm thinking it would best if, for example, in this collab we would have PFA as a hint text. Can you imagine writing prompt and in real time it gets like autocompletion hint text kind of thing. How do we do that? 
+
+Speaker 1
+I like that. Okay, that's a whole different component. Let's figure out where that fits, because that probably fits here somewhere. 
+
+Speaker 2
+Yeah, knowledge. 
+
+Speaker 1
+Now let's start from the end of it, which is the answer. And I want to dig into this a little bit because, Bartek, you and like connected earlier today and we threw out some great brainstorming. I want to make sure that everybody's with us because we said some really interesting things that we could do with knowledge. Now, we talked about a little more space. We talked about a bot that measures messages you with your to dos say the call ends, we're in a dev meeting. At the end of this dev meeting, the objective for each of us is to have clarity on which of these tasks of this whole system that we're going to look at. We are tackling, it's a subcomponent of a component and we're going to make sure that we are each set up for success. 
+
+Speaker 1
+What that looks like with knowledgenow in the future, with knowledgenow, is that right after the meeting we can get a list of to do's. It's like, hey, this is what you're working on and these are the subtasks that you have to. Oh, right, okay. Yeah, thank you, Hubi. We'll get you the recording and we'll make sure that you have a clear task to work on. So at the end of the meeting, Hubi that now has to leave will get a list of tasks that he has to get done and maybe he's not super clear on what those tasks really mean. So you can message the bot to catch up on the meeting, get clarity on the meeting. That's kind of one use case in itself. So number one, great. Another use case is at a dev meeting. We have a new project. 
+
+Speaker 1
+We're talking about knowledge. Now we figure out the objectives of knowledge. Now we figure out the use case, right? So let's say it's this first use case. We figure out the success criteria, that it actually messages each person after the meeting. That it's clear on the tasks, that the tasks are actually what we talked about, that they're assigned to the right person. So we set up this success criteria and we figure out the step by step. This whole thing that we're doing now is going to be that step by step. So all that knowledge exists in the meeting. After the meeting, there's already a prototype being built. So that might look like a documentation writer. A documentation writer. It might look like a project manager, multi agent, anybody. It might look like actual programmers. 
+
+Speaker 2
+Let's make digital twins. Of all the dev team partners of. 
+
+Speaker 1
+All the dev team. Hey, I am good at this, but I want to learn rag. 
+
+Speaker 3
+Great. 
+
+Speaker 1
+Now you have a Bartech digital partner that is an expert at Rag and can help you build those projects while guiding you through it. Because code, in the very near future we won't even need to write. But systems design is something that we need to keep honing in on Cuba. The fact with the personalized outreach system, the fact that were able to throw you a picture of the system that we wanted, and you were able to write the code to put each agent and how it would work together, what tools each agent would need. That is freaking awesome, man. I believe that in the future. 
+
+Speaker 2
+That'S. 
+
+Speaker 1
+Going to be a minor value added, which is huge value today, that the great value is going to be able, it's going to be in coming up with the system in the first place. So say we have a call and we come up with this system, and by the end of the meeting, there's already a prototype being built, there's already documentation written. The steps, the project manager figure out the steps because of the objective and the success criteria that we set up and the programmers are already working on it. Kuba, you wanted to add something? 
+
+Speaker 3
+No, what I'm thinking is we can actually build all this. All we need is I was watching videos on Poai and it's very cool. It can enable us to do this. That was saying like the documentation writer, the projects manager, the programmer, then we have like a supervisor for all of them. Supervisor is the one that will be assigning the rules when a query comes in. So the supervisor understands that. Okay, this message belongs to the documentation writer. Okay, let's say agent. Then this rule belongs to the project manager. Agent. It's just like routing h query to the right. 
+
+Speaker 1
+Something like perfect. Okay. Yes. And that exactly fits in with what Bartek was mentioning of. Hey, we need somebody to kind of moderate and manage the conversation. Could you text what that service thing that you were looking at is called? 
+
+Speaker 3
+The service Aws. Is that what I mean? 
+
+Speaker 1
+I'm not familiar. Could you write it? You were watching something that does this? Did I capture that? 
+
+Speaker 3
+Yeah, yeah, I was watching like a video. That's what I was saying. Like a video on YouTube. You know this guy Matthew Berman now? 
+
+Speaker 1
+No. 
+
+Speaker 3
+He'S like an AI influencer. He did a video about it, about the framework. 
+
+Speaker 1
+Okay, cool. Could you post it in the chat and we'll definitely take a look? Yeah, thank you, man. Great. And having other frameworks that we can get inspired by is a great idea. It's not a great idea. It's necessary to figure out what others have worked on and how we can make it better for ourselves. Another one that we threw out there is a scrum master assistant, which you can kind of call a project manager. It's a type of project management, but earlier, and we mentioned it last week, at the beginning of faster eyes, we had this sort of scrum format, and then it was really hard to keep up with because there were a lot of people and there were very few people. It was mostly like Henry and I and most dev calls. So this kind of fell off. 
+
+Speaker 1
+But if we can have this, and I wonder if this scrum master assistant mixes in with messaging you with your to Dos, that you can ask the scrum master assistant for clarity on what your tasks are and the programmers on how to, and creating a draft for that task that then you can go and make better. So this all comes together really beautifully to work together as different components, different use cases working in harmony. So we're coming up with these use cases. Okay, what are the steps to get there? We know a few things. We know that before the answer happens, we need a good evaluation of the answer. How close is this to a full, accurate, relevant answer? Is this an agent? Is this a second moderator that can then kick it back to supervisor? 
+
+Speaker 1
+We'll figure out how these components play together, but we definitely need an evaluation before we ever send any answer out. We're also talking about a supervisor agent. We can call it whatever we want. I'm going to put supervisor, moderator. Who is this supervisor moderating. What is that conversation that is being moderated and what information gets. We know the output, right? It's an evaluation. And the final answer, what is the input? Well, we have the knowledge base, and this knowledge base has information about all these things. We have real time Zoom call transcripts, close to real time. Every other transcript we have about who we are and what we do, knowing skills of each person and what each person wants to specialize in, like rag and knowledge of the project, et cetera. There's a bunch of things, clients, industry focus. Okay. 
+
+Speaker 1
+That's part of the input. We also have the initial prompt. Okay. And now that we know the prompt leads to the knowledge base in what exact capacity? When is the repropting? Let's figure that out together. So. 
+
+Speaker 2
+I think the PFA form framework is pretty reusable in here. We can have the input like you write a prompt, you make a type or whatever later. We have like a context enrichment. So basically, just like PFA enriches your input, this can also enrich your input. And then it's kind of trying to get maybe using the fasterized knowledge base. Like, okay, see we are in fasterized right now. This guy asking me for this and this. Now I enrich this to be more relevant to pastorize the query itself. 
+
+Speaker 1
+Yes, exactly. 
+
+Speaker 2
+And then next thing we have is innovative angles. We not use that in here. Next thing, I need to come back to the diagram. I already don't have it on my whiteboard. So first time I'm going to look at the actual photos of the whiteboard. So let's get back there. 
+
+Speaker 1
+We are putting the output to be kind of enriched prompt. So I wonder if there's a knowledge base and then a base kind of system prompt about sort of very brief, like a paragraph about fasterize. Right. Because how do we make sure that if the prompt doesn't mention anything about AI, fasterize any projects, anything. This also has the context of what faster is. What is the global context? Maybe there's some component here of global context. 
+
+Speaker 2
+I think we need to have two separate knowledge base calls. Like let's say. So we would have first, before the transcript knowledge base comes in, need to be the fasterized knowledge base. And actually the knowledge base from transcript will be after enrichment. 
+
+Speaker 1
+I think that's exactly what I was thinking. Okay. I love how this is coming together. So we go from prompt to global context knowledge base. 
+
+Speaker 2
+Actually, enrichment. Enrichment first, before you get to the global context, you have to fix the typos and enrich the input. 
+
+Speaker 1
+Okay, got you. I wonder if it's because you are. 
+
+Speaker 2
+Already querying the global context with this prompt that comes. 
+
+Speaker 1
+Yes. So, so we put vanilla PFA to fix the prompt without other context. Maybe like slight context in its system prompt. Vanilla PFA. The whole point is enrich fix. 
+
+Speaker 2
+Actually the enrichment agent could be having the faster. 
+
+Speaker 1
+Right. 
+
+Speaker 2
+Knowledge base in the enrichment agent knowledge. 
+
+Speaker 1
+Okay, question. When we're talking this component from the initial prompt, are we already talking multi agent? 
+
+Speaker 2
+I guess. 
+
+Speaker 1
+Okay, we'll put a maybe in there, maybe already multi agent wondering if we need to do the heavy lifting without even putting the global context in already. But that's minor. 
+
+Speaker 2
+Actually it's even better when we have multi agent system from the start. And then this enrichment is an agent. An agent can have its own knowledge base and that would be the global context. Because actually I doubt thing. Now the enrichment without the context I don't think would be good enrichment. So the enrichment agent already needs to know the faster. 
+
+Speaker 1
+I think your GPT without any context is pretty freaking good. Like excellent. 
+
+Speaker 2
+Yeah, but if it knows where we're going and from where we're coming from, actually the fasterized knowledge base. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+I think it will enrich even better. 
+
+Speaker 1
+Okay, so then would this step be redundant because we're going from prompt to add global context into PFA? It's not a rhetorical question. 
+
+Speaker 2
+I think the global context has to. 
+
+Speaker 1
+Be. 
+
+Speaker 2
+In the context of context enrichment. The context enrichment agent has to have the context to enrich from. It's kind of like meta enrichment. 
+
+Speaker 1
+Yeah, no, I'm with you. I'm with you on that one. Okay, so the PFA specifically, we're talking about the context enrichment agent with general knowledge of general context. General context. So that's my question here. And then we throw that into the global context knowledge base. 
+
+Speaker 2
+No, actually this gets merged. This global context gets merged into the first step as a knowledge base. So we don't have a separate call. 
+
+Speaker 1
+Later. 
+
+Speaker 2
+In the air. We don't calling the knowledge base by itself. We're calling it through the context management agent. 
+
+Speaker 1
+Okay, so go something like this then. 
+
+Speaker 2
+Yeah, I guess we can have it like that. 
+
+Speaker 1
+And this is a draft. It has lots of room for improvement. But yeah, this makes sense. There's a simple not well written prompt. We have global context and PFA. The heavy lifting in this case is done by the context and reinstrument agent with the general context fixes and enriches the prompt. Maybe it's already multi agent, maybe it's one. Good. Well, it's PFA, so yes, multi agent. Great. Wonderful. 
+
+Speaker 2
+Next step will be extractor agent. 
+
+Speaker 1
+Is that within this component? Because this component. 
+
+Speaker 2
+No, it's next step. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+Actually I'm looking at the diagram for the PFA swan, but we're going to have. 
+
+Speaker 1
+Next time. 
+
+Speaker 2
+Yeah, I don't know if you will be able to see that. 
+
+Speaker 1
+Yeah. Cool. I love blurry. 
+
+Speaker 2
+I don't know if you can read that. 
+
+Speaker 1
+I cannot. 
+
+Speaker 2
+Context. And then maybe I'll just share with. 
+
+Speaker 1
+The image later if we can get something kind of in the Figma board. Maybe just throwing the word. 
+
+Speaker 2
+Maybe I will draw this again because this is kind of mess in here. I had it on my wireboard for a few days and I was just adding stuff on top. So I will redraw this from scratch. Awesome. 
+
+Speaker 1
+Yeah. Even just getting like a general idea of what the swarm is going to be like. Because we know what PFA is and we know what swarms are. Right. We get the general idea. Okay. So there is now an enriched prompt that comes from the initial prompt and the global context. PFA creates that enriched prompt. What happens next? You mentioned a extractor agent. 
+
+Speaker 2
+An extractor agent has the transcript as a knowledge base. 
+
+Speaker 1
+Has transcript. So it has the full knowledge base. 
+
+Speaker 2
+Yeah. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+We kind of shift the usual way of calling the knowledge base. We have like every agent has the knowledge base, right? I mean, maybe not every, but definitely these two agents have a knowledge base. And he would be extracting from his knowledge through the prompt that we enriched before. 
+
+Speaker 1
+So this prompt gets passed as a rag query into the knowledge base. Is that what you're saying? 
+
+Speaker 2
+It's passed to the extractor agent. Then extractor agent gets to the rag. 
+
+Speaker 1
+Okay, I think I'm following now. So the extractor agent will intake the enriched prompt and make it a query adapted for rag. Optimized for rag. Yeah. Okay, cool. So the output of this is query optimized for rag, which as we know, it's done. 
+
+Speaker 2
+Actually, wait, we have that already. This is output of the first agent. Well, the query optimized, I think that's. 
+
+Speaker 1
+Kind of a question because this prompt is going to be like, tell me about the real estate project. Then we add the global context into that. And then this enriched prompt, this outfocus, just on the output would have, tell me about the real estate project. This is kind of like what I'm interested about it. Be very explicit about the step by step, be clear about what the client wants. Taka, taka, taka. So the enriched prompt, based on that global context, based on the initial prompt, and the PFA extractor agent may or may not have to do multiple calls to get. 
+
+Speaker 2
+That's where we're going. 
+
+Speaker 1
+Multiple queries to the knowledge base in order to actually extract all the components that the enriched prompt is talking about. 
+
+Speaker 2
+So we're kind of going like, Gemini produces three outputs and lets you choose. 
+
+Speaker 1
+Yeah. 
+
+Speaker 2
+Next we have agent that chooses the best version of the output of those queries. 
+
+Speaker 1
+So then with all that. So the PFA extractor agent is going to come up with multiple queries. Multiple queries optimized for rag. We call the knowledge base with each of those queries and the output of that. Man, this is fun. 
+
+Speaker 2
+It goes to the supervisor now. And then we have a feedback loop. 
+
+Speaker 1
+You mentioned something different, which was, we need an evaluation of all that data, all the answers of the queries. And I just want to make sure that we're on the same page, that the supervisor will lead the free for all conversation where now agents are just talking with each other and the supervisor decides what is relevant for it. Okay, cool. 
+
+Speaker 2
+All right, so now it's evaluator. 
+
+Speaker 1
+So it's the evaluator agent which will evaluate the quality, relevance, et cetera, of all the outputs of each kind of sub query to the vector database. And the output is going to be output. Let's keep it simple for now. These are the most relevant. 
+
+Speaker 2
+Can also add a scoring in there, like from one to ten. 
+
+Speaker 1
+Yes. Score one to ten. And we can start with top three. So let's say that ten chunks are extracted for each query out of the vector database and we do top five out of those. Top ten. Based on what? Well, the input is going to be the. 
+
+Speaker 2
+Enriched prompt. 
+
+Speaker 1
+Yeah. The global context. It's going to be all the queries each query. Let's call it sub query or rag query. Yeah, let's do that. Rag query. Each rag query and the global context. Maybe there's some other stuff in there, but that's good for now. 
+
+Speaker 2
+I'm thinking if we should add transcript in this one or there should be like separate agent that is focusing on rereading the transcript to kind of check the evaluator or if the evaluator should also do that. But I think that will be too much job for evaluator. We also pass the transcript. We need to think about the context window here. 
+
+Speaker 1
+Yeah, that's where it starts getting interesting and let's experiment. That's where I say, let's see how many tokens we can spend. And then when we get the best output, we can, we reduce, we simplify. Yeah. So, yes, to all your ideas, let's have a kind of, I'm not going to get too meta, but kind of an evaluator to the evaluator. So let's let the supervisor in now to say what is needed from here. 
+
+Speaker 2
+Maybe we can also add like transcript. I'm thinking like kind of code review to the evaluator, but it's a transcript review. 
+
+Speaker 1
+So. 
+
+Speaker 2
+Transcript review agent. 
+
+Speaker 1
+So this is kind of a tester. 
+
+Speaker 2
+Yeah, it brings back the whole transcript and slashes that with the evaluator output. 
+
+Speaker 1
+Yeah. 
+
+Speaker 2
+And kind of make a semantic check on the evaluator. 
+
+Speaker 1
+Kind of semantic quality check on the evaluator. Cool. So as we are testing the system, this will definitely be necessary because what if the evaluator is the one that's wrong? Right? What if the evaluator is the one that. So part of the input that this transcript reviewer is going to need is kind of its own examples. Here's the whole transcript. Here's the query here are the relevant chunks and we can kind of give its own few shot prompting. I'm not going to call it knowledge base right now because we have way too many knowledge bases to keep track of, but few shot prompt. 
+
+Speaker 2
+Yeah, but that's good. I mean, like every agent should have a knowledge base and every knowledge base should be different. 
+
+Speaker 1
+Yes, I agree with you. Let's keep fuchsia prompt for now and we can go from there. Fuchsia prompt of query plus transcript plus relevant chunks plus score from one to ten. So tester of QA agent transcript. There you go. QA agent, which will do like a check on the evaluator agent. Okay, I'm going to pause now because I want to be considerate to all the other human being in this conversation because I feel like we're robots right now. Kuba, what clarity, what questions. Maybe everything's clear, but I know sometimes. 
+
+Speaker 3
+I go off in, to be honest, I enjoyed the conversation. I like the way you guys think. This is like a new picture to the entire system. So I understand. I just need to go over the stigma body again to understand it. 
+
+Speaker 1
+Cool. Awesome. Well, if you have any questions, there's the chat, whatever comes to mind, ideas, feel free to pitch in. Okay. 
+
+Speaker 2
+Refinement loops, definitely in the evaluator to. 
+
+Speaker 1
+The extractor, my mind. So before you go into that, Kuba, you asked me the other day, what's the thought process for these icebreakers, for the personalized outreach system? And I mentioned this reinforcement learning with human feedback, or at least trying to emulate that self refinement getting better over time. And this very much we want to go in that direction with this. So that's where the QA agents might come in too, right? How do we make sure that this system gets refined over time, that it doesn't hit a ceiling. 
+
+Speaker 2
+Or at least. 
+
+Speaker 1
+Delay the ceiling as long as possible? So you're talking self refinement, which sounds like a branch from the QA agent, may or may not. 
+
+Speaker 2
+The evaluator agent, an evaluator agent into the extractor agent. And also I'm thinking like this is refinement on the process one time. But I'm thinking we could also have agents that if the refinement happens, so the initial output was somewhat wrong because maybe not always could be wrong, maybe sometimes it will just go fine. 
+
+Speaker 1
+Right? 
+
+Speaker 2
+And the evaluator has nothing to say, QA agent has nothing to say. But if they have something to say, we should save that and have agent that keeps track of the refinements that happened and use that as later maybe knowledge base. Oh fuck yeah, dude, let's go. 
+
+Speaker 1
+Okay, that sounds like we're wondering like hey, where does the supervisor get into the conversation you just mentioned? Sometimes there might be like space for the self refinement agent, for the Q agent, and we might need to go back or reroute the conversation. So now we know a point where we want a supervisor to say hey, who's next? And it will have obviously knowledge of each agent, what they do, maybe a summary of their system QA. 
+
+Speaker 2
+The QA agent needs to also report the supervisor agent like the evaluator agent do. And then supervisor makes the refinement loop. 
+
+Speaker 1
+And now the supervisor. And now we start routing. Okay, so we get, oh, we ran out of figma board. We have the evaluator agent, then the QA agent. 
+
+Speaker 2
+So we can go either to the evaluation or to the extraction from supervisor now. 
+
+Speaker 1
+So we have PFA extractor which creates multiple queries optimized for Rag. Then we have the knowledge which goes to parts of extraction from the knowledge base. We have the evaluation of that answer. What are the most relevant chunks then QA agents. We haven't defined yet what we do with these chunks. Trying to answer the prompt, right? So if we don't forget about what the user is asking, we're trying to answer the prompt. We now have the most relevant chunks to answer the prompt, at least we think we do. We pass it through the QA agent and we confirm yes, we have the most relevant chunks. Are we ready to answer the query? No. What is missing? 
+
+Speaker 2
+So we need like aggregator agent that, wait, it's aggregator agent or something else. We just need to now get these things that come out of the evaluator or QA agent and have a path downwards I guess to the, something should happen before the answer is now. And now we have evaluator that has scored the outputs and now those best scored. We need like a merger agent, I think that will take the go ahead. The merger agent could take the best scoring from the evaluator, best scoring answers and then analyze them. Let's say there is the best chunk, but in the second best and the third best chunk there is also some stuff that is not in the first chunk. You hear me? 
+
+Speaker 2
+So the manager agent take the best pieces out of the say three most scored chunks and takes the best pieces into the answer. 
+
+Speaker 1
+Yes. So take the best chunks from evaluator agent and create a full answer for each rag query. 
+
+Speaker 2
+Merging the best pieces, now merging the best pieces. It's good now? No, it was good. You just add it at the, yeah, you take the best chunks and then for each rack query you merge the best pieces from those chunks. 
+
+Speaker 1
+Best pieces from each chunk. We will work on the wording later because we are following. Okay, the merger agent takes the best chunks from the evaluator agent and creates a full answer for each rag query by merging the best pieces from each chunk. Okay. And merge the best pieces from each chunk to create a full answer for each rack query. Awesome. We're going to put the self refinement agent somewhere around here and we're going to start creating the routing function, essentially, which is most likely literally a function call with the input being which agent is next, if that makes sense. Kind of like the tool is function calling for routing to most relevant next agent to continue the conversation. Okay. 
+
+Speaker 2
+I think that the supervisor is actually making those loops back to where it was the mistake, but the self refinement agent is more of like, I would say it's like a self refinement bookkeeper. So the one that keeps track of the refinements that happened and puts them in a knowledge base. So we can have kind of wondering, this is where the self learning happens. Self learning knowledge base is happening right here. 
+
+Speaker 1
+Okay. So a supervisor could fulfill that role, technically could fulfill that role because he is keeping track of everything. He is tasked with being like the bright mind that can put all the pieces together and know who to call and kind of know what's missing. At the same time, the supervisor only knows what it knows. It's not necessarily there to judge what it was given. It's tasked with take what it's given and run with it. It's like what's next, not what could have been better. So the supervisor says, hey, maybe there was room for improvement here. That's when the self refinement agent might create a kind of full evaluation of everything up till now and kind of find the blind spots. Which agent it was where the process went astray went wrong. 
+
+Speaker 2
+Yeah. Now this agent will have a kind of bookkeeper agent that's kind of working. After the self refinement happens, it gets noted to the bookkeeper agent, which then keeps track of all the refinements that happen. So then we would. 
+
+Speaker 1
+Function more than another agent. It's like it could call the function of bookkeeping. 
+
+Speaker 2
+Oh yeah. If refinement happens, then call the function to save the refinement process that happened. 
+
+Speaker 1
+If refinement happens, keep a log of full combo into what was wrong, evaluation of what was wrong into improvements suggested. And at the very least for now, let's not let the conversation just loop back. Let's just keep a log and that's going to be great. Training data to know what might need refinement as opposed to creating a crazy loop of agents that might end up no one knowing where to go next or like a feedback loop of bad data. So bookkeeping function, great. 
+
+Speaker 2
+I think that supervisor role is to know what to do next from there. 
+
+Speaker 1
+Actually, yeah, that's the function. Routing to most relevant next agent. You mean from the self refinement agent? 
+
+Speaker 2
+Yeah. So the self refinement make decision what to refine and then supervisor makes a loop to that agent that needs to be refined. 
+
+Speaker 1
+Okay. Through all this we have to figure out, you talked about low hanging fruits, we have to figure out what's like. 
+
+Speaker 2
+Priority because that's the big picture now. 
+
+Speaker 1
+And this is great, you guys, this is truly going to be the future. Okay, so we know, let's assume that no refinement is needed. What we do know that we need is now a merger agent to take the best chunks from evaluator and merge the best species from each chunk to create a full answer for each rag query. Now that we have a full answer for those sub queries, we need to actually answer the prompt answer formatting agent. Okay, this is where if you talk. 
+
+Speaker 2
+In one prompt, this is the output format. 
+
+Speaker 1
+Yes. 
+
+Speaker 2
+And then from the merge chunks from the merger agent, it will have a structured output. 
+
+Speaker 1
+I see your mic going on Kuba, if you want to jump in, feel free. Okay, so we have answer formatting agent, but we're running out of figma space. Again, this is great. Okay, so what happens before the final evaluation of the answer? Well, there's answer formatting agent and in between evaluating the answer and deciding how the answer is going to be formatted, there's answer agent. So somebody that actually creates the final answer. 
+
+Speaker 2
+I found blind spot in all of this because the final answer is bot messages you with to do we need a knowledge base with the competency matrix or something like that? Like at least information about who is in the team. 
+
+Speaker 1
+At very least that's part of it. Knowing skills of each person and what they want to specialize in matrix. Good catch, man. 
+
+Speaker 2
+But yeah, I think that it should be at the end rather than in here. 
+
+Speaker 1
+So for each different use case, this is something great. This is a great point you're bringing in. It's like, hey, what's the actual use case? But this is not the answer agent. This is the formatting agent. What's the actual use case? What other info might be needed? But then is this, what other info might be needed? The answer formatting or the supervisor. 
+
+Speaker 2
+Or sort of like team manager agent that we are getting the answer, but now we need to actually choose who. 
+
+Speaker 1
+Going to do what. 
+
+Speaker 2
+From this answer we got. 
+
+Speaker 1
+Okay. So we could subdivide this supervisor into other sub agents, like an HR agent. 
+
+Speaker 2
+Or team lead agent. 
+
+Speaker 1
+Yeah. It would feel slightly redundant to this supervisor because they can have that ability. Yeah. 
+
+Speaker 2
+I'm just thinking if it wouldn't be too much for one agent, but let's talk MVP and maybe it will work. 
+
+Speaker 1
+Okay. Yeah, it's 02:20 a.m. For me already. But we're in a roll. We're in a roll. And then decide which agent comes next. Right off the bat is keeping track of the conversation, identify what info might be needed and then decide which agent comes next. Doesn't feel like too much. There's going to be other things that we add on top. 
+
+Speaker 2
+Also. Assign team members. 
+
+Speaker 1
+Assign team members. So what's the actual use case? For example, e. G, for the to do task use case, we would need to check relevant skills. Assign team members. We would need to. What else? 
+
+Speaker 2
+Decompose tasks. 
+
+Speaker 1
+Decompose tasks. Yes, decompose projects into components. Into tasks. 
+
+Speaker 2
+Assign deadlines. 
+
+Speaker 1
+Assign deadlines. Which ideally we're saying out loud during the call. 
+
+Speaker 2
+It'S like deadline for the whole project. Right. We talk on the call, but there is another deadline for the tasks and for the components, right? 
+
+Speaker 1
+Yes. We then have to figure out over time how much autonomy do we want to give it, even if the output is say, quote unquote perfect, the nuances of humans. And hey, I'm actually quite swamped this week and I'm only now learning rag. So how big of a deadline, how long of a deadline or how big of a task can I really take on? Let's keep that human for now. And the scrum assistant can help with the evaluation, sort of the analysis, evaluation of all of that. 
+
+Speaker 2
+Yeah, we could also have at some point availability checker, something like that. So checks tasks already assigned to the person. 
+
+Speaker 1
+Yeah. So like, checks, tasks already assigned. So we need project manager management tool to keep track of this, which is likely going to be notion. So we're actually already migrating a lot of stuff to notion, and we can then automate the project manager within notion. Check tasks already assigned, deliverables missed and delivered, missed. And it can help sort of adapt like, oh, well maybe this person is overloaded right now and kind of like checks capacity and then assigns. 
+
+Speaker 2
+This is already fault three we're talking. But that could also be like contribution calculator or whatever. 
+
+Speaker 1
+Yeah, contribution calculator. And I actually found a great template to do that. It's an airtable template where you can create a project and then keep progress logging. Yes, absolutely. And maybe even that can be filled automatically during the call live. That'd be cool. Kind of like project automated auto project logging, progress logging. 
+
+Speaker 2
+Okay, and after that we have like a UI thing going on. After the answer we are stepping out of this agent. Now we have UI, so either yes or no. For Vivalan, for example, you get the to do list from this and then you have option to say like yes. 
+
+Speaker 1
+Or no, yes or no. 
+
+Speaker 2
+Maybe later, like if you take the task or you don't take the task because you get assigned to something the AI already checked. You can do this, but now it's human decision if you want to do. 
+
+Speaker 1
+See, I see, yep. 
+
+Speaker 2
+Now we're getting to the human, to. 
+
+Speaker 1
+The UI confirm task. 
+
+Speaker 2
+I think that should be like separate card because we are stepping out of this is not AI anymore. We are going to the UI, to the human. So that should be like another card. 
+
+Speaker 1
+I think so. These are use cases. Each of these subcomponents may or may not contain AI. I want to just make sure that we're not now dividing the use cases into what we'll need, just so we can refer back to these and look at the whole use case as a whole. It's going to be very important to be very clear and almost like simplify use cases so we know what the success criteria is of each use case. Yes. Now Knowledgenow completes this to do task successfully. And we don't have such large variations of branches of the use case itself. So I'm putting here confirm task assignment. We'll figure out how that works and where that fits in. 
+
+Speaker 2
+Right. So. 
+
+Speaker 1
+Let'S look at it backwards so we get the final answer. Hey, these are your to Dos based on the project, based on the deliveries that you have the capacity that you have. This is what has been assigned to you. Do you accept these? Which ones do you accept or do you want to review this? Yes, I accept. Contribution calculator comes later. You can message bot to catch up on meetings and get clarity on assignments, which was the first low hanging fruit that we identified even as a subcomponent of this. We asked about this, right? What are the low hanging fruits? 
+
+Speaker 2
+Okay, I think what we should do now, because we have this high level thing and now we should maybe go backwards like you say, and mark the things that are required for the minimal version. 
+
+Speaker 1
+Yeah. 
+
+Speaker 2
+Let's have this green sticker. Where is things required? 
+
+Speaker 1
+Okay, cool. So we know that the actual output is required and we'll just tag like MVP. That's a little too small. MVP. Bam. Evaluation. We're going to be doing manual evaluation at first. 
+
+Speaker 2
+Yeah, I think all evaluations can go to the V two. 
+
+Speaker 1
+Yeah. Answer. Obviously we need answer. It feels like depending on the use case. Well, we're going to start with one use case. So the format is already going to be set. Maybe we don't need an agent to come up with a format to give summaries of meetings that is already set. Then we have merger agent. 
+
+Speaker 2
+We are doing evaluation. 
+
+Speaker 1
+So no. 
+
+Speaker 2
+Supervisor, I think. 
+
+Speaker 1
+Supervisor. Yeah. We ended up not having any branches. This is all sequential. The only branch is the self refinement agents, which is probably not the MVP. 
+
+Speaker 2
+So. 
+
+Speaker 1
+I'm sure that a free for all conversation is going to be important, especially for coding tasks. So does this task require multiple agents having an open conversation. 
+
+Speaker 2
+For example. But we are talking like a board of the company. Like, this is the board. And then later if we have some tasks like coding and stuff, we would have another kind of system or swarm. That is the worker agents. Yeah, I don't think the programmers are in this diagram. This should be like another diagram of the worker agents because this is high level. Like a board, like a seaboard. This thing we just built is like a seaboard. 
+
+Speaker 1
+So kind of like, well, I'm just leaving at programming team. So programmer, tester, whatever, which for coding tasks we would need to route to here. You've definitely been watching the has framework. When you throw out the word. This is the board. 
+
+Speaker 2
+The supreme oversight board. 
+
+Speaker 1
+Yeah, no, it's a great concept. It's a very well developed concept. So yes, supervisor, moderator board. So these in itself could be a multi agent system because alignment, again, is probably the hardest problem in all of AI. So is this really a single agent question for not the MVP? Okay, we have the evaluator agent, which grabs the relevant chunks for each query. So we need an agent to grab those relevant chunks to grab chunks, period. So that's the extractor. So we need an extractor which will break down a prompt into break down prompt into multiple queries optimized for rag. I think we have something in our hands with you guys. And then, well, the knowledge base will need it, which is not trivial. And then finally, we need contact enrichment, so we need global context. And this is human input. 
+
+Speaker 3
+Guys, I have to bounce. 
+
+Speaker 1
+Okay, we're pretty much done, so thank you for sticking through it. Kuba, great to have you here. 
+
+Speaker 3
+The prompt engineering resources that I told you about. 
+
+Speaker 1
+Yes, thank you for reminding me. Bartek. Kuba asked about some prompt engineering resources to sort of keep learning, keep getting better. I think it'll be good for all of us to sharpen our prompt engineering skills. Could you share some intermediate into advanced resources with Kuba? 
+
+Speaker 2
+I already shared at some point the documentations. 
+
+Speaker 1
+Documentation. Right, right. 
+
+Speaker 2
+And the OpenAI guide. That's definitely for me. This is beginner stuff. So if you talk intermediate, I would recommend reading markdown syntax and getting familiar with all the markdown things can, all the things markdown can do and thinking, because that's actually how before going to latent space, because I'm referring to how I upgraded PFA, because first version of PFA is already the documentation level stuff. But then the next version, like the PFA overseer was about, I was reading the markdown syntax and I was thinking, okay, I have this markdown syntax. I know Markdown is using the prompts. How do I use all those things markdown have? Because Markdown have quite a lot of things you can do with Markdown. So getting familiar with Markdown, I would recommend. Definitely. And then later I would recommend for more advanced stuff. 
+
+Speaker 2
+Getting familiar with the latent space activation. 
+
+Speaker 1
+Okay, cool. Like sparse representation and all that stuff. 
+
+Speaker 2
+Yeah. Also there is actually the latent space activation function written by David Shapiro, so that you can also find it on his GitHub. Also on my GitHub, you can find it's still like not finished, but I've been doing a Vicky for PFA. And in this Vicky, I have a little bit like two kind of little articles about latent space activation from my point of view and from point of view on props engineering. So how to use latent space? What does in writing? Persona for the AI for the sale? You make an agent and you want a Persona, and you want this Persona to be with the latent space activation included. So you can read about this at my GitHub. 
+
+Speaker 1
+Okay, I will share the latent space activation video with Kuba. Definitely. 
+
+Speaker 2
+David Shapiro. Okay, cool. 
+
+Speaker 1
+So, Kuba, I'm sending you two resources to start, and let's evaluate from there if you need, where you feel like you want to go from there, if more into the very specific and advanced Personas, et cetera. 
+
+Speaker 3
+All right, thank you guys, thank you, Batik. 
+
+Speaker 1
+Yeah, I'll see you soon and we'll talk about the personalized outreach system. I went in a bit of a rabbit hole of evaluating which LLM is best at refactoring a whole big project into a proper repo that we can actually maintain. So all these different files and all that stuff. But I will add to you by tomorrow. 
+
+Speaker 3
+All right, no problem going with your stuff. 
+
+Speaker 1
+I'll send you some more documents and we can with a bigger knowledge base. 
+
+Speaker 3
+All right, guys. 
+
+Speaker 2
+Good job, brother. 
+
+Speaker 3
+Yeah. 
+
+Speaker 1
+Prompt engineer. 
+
+Speaker 2
+All right, so we've got like, 1234 agents for the MVP. 
+
+Speaker 1
+Yeah, we have to figure out the use case. There's the answer. Agent one, evaluator, extractor four. 
+
+Speaker 2
+All right, but the problem is that the first agent is a swarm itself. 
+
+Speaker 1
+Sure. It need not be. Remember, you have built an amazing product just by itself, and we're going to make it even better. Dude. 
+
+Speaker 2
+I'm striving to make it like, don't make a mistake, because now, because of the randomness, you cannot control in the GPTs because you cannot even set the temperature. I'm not even talking about the other parameters, but you cannot even set the temperature. So that's why it's so random. And that's why sometimes the prompt is just like, one line. I hate it. 
+
+Speaker 1
+So this is what I'm going to need from you. I need you to pat yourself on the back for creating an amazing product that we are going to put in a whole different category of amazing once it's multiagent. And right now, we really need to focus on creating the bigger product because, again, that's one amazing, but just one component of the whole system. And I am absolutely sure that through these testings, through these. Hey, now create, break down this enriched prompt into multiple queries optimized for rag. You're going to find new things to make better, not from this 8000 character prompt, but how to actually make it into these multiple agents. And then we'll step into that. 
+
+Speaker 1
+So let's give it a little bit more freedom by taking it out of the chat OpenAI context window and limitations and putting it into a new environment where it can be a little more free and we'll see what it does. 
+
+Speaker 2
+Yeah, actually, I already drafted the prompts for, like, context agent. There is like. Wait, there's context agent. There is the PM agent. Like a pmidation agent. 
+
+Speaker 1
+I'm going to write this down. 
+
+Speaker 2
+This is the context. 
+
+Speaker 1
+Context agent. 
+
+Speaker 2
+Then there is the pmidation agent. 
+
+Speaker 1
+Iteration idation. Like ideation and then there is ideation agent. 
+
+Speaker 2
+Yeah. And this ideation agent is like technic choice fusion structure and latent space activation fuse. What? 
+
+Speaker 1
+Latent space and what else? 
+
+Speaker 2
+Technic choice, like a prompt. Technic choice. 
+
+Speaker 1
+Oh yeah. Fuck yeah. I love that. So it'll know if it'll go like tree of thoughts or chain of reasoning. That's cool, man. 
+
+Speaker 2
+That's such a good idea. 
+
+Speaker 1
+I love that. I've had that in my brain for so long. I love that. Okay, awesome. 
+
+Speaker 2
+And it's been on my whiteboard for quite a long time. 
+
+Speaker 1
+That's cool. 
+
+Speaker 2
+And then later is the generation agent. 
+
+Speaker 1
+The what? Generation. 
+
+Speaker 2
+Generation agent. The actual generation of the prompt. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+And that's where I'm at currently. But the ideation PM agent is still work in progress. So I finished the context and I finished the generation because that's what I basically had before. I just had to take that out to the separate prompt. So that's what in my vs code is the current state of the PFA swarm. Later on there will be, obviously after generation there is evaluation and there are the iterator. 
+
+Speaker 1
+Okay. And what we need to do progress. And what we need to do is knowledge. Now remember this, we are checking which agents we've yet to build. And these are going to be the tests of this whole system. 
+
+Speaker 2
+Right. 
+
+Speaker 1
+So we're calling knowledge now. I love this. Okay. Evaluator agent. 
+
+Speaker 2
+Yes. And then iterator agent. 
+
+Speaker 1
+Iterator agent. 
+
+Speaker 2
+Then I have still cloudy talk. 
+
+Speaker 1
+Extractor agent, or we've yet to build. We need to break down a prompt into multiple queries optimized for rag. 
+
+Speaker 2
+Yeah. So that's also to do. Okay, extractorate, because that's not part of the PFA swarm itself, it's just part of the knowledge. 
+
+Speaker 1
+Right, right, exactly. Okay. 
+
+Speaker 2
+And then also I got an idea. This is like a very raw idea. Like after the iterator, if you can see that after the iterator, there is prompt levels. Upgrade, swarm. I'm thinking like upgrading of the prompt will be another swarm upgrade. I still don't have that laid out completely because for V one there will be the iterator agent doing the upgrades. But what I'm thinking later, after iterator mechafuse upgrade, we can have levels of upgrades like level one upgrade markdown, level two upgrade complexity. Level three upgrade latent space activation. 
+
+Speaker 1
+So that is what I would love us to have as a testing framework of the PFA system. Like talking about that. We can integrate here, of course, but as a whole different system. These multi agents and have the testers be kind of like what you showed in promptful but on steroids. Of course. Evaluation and leveling up. So is that what we're doing for MVP? 
+
+Speaker 2
+That's poultry or something. 
+
+Speaker 1
+Okay, so I'm then going to put this in green and it's MVP. 
+
+Speaker 2
+Yeah. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+And then we will have like a testing upgrade swarm for later testing. 
+
+Speaker 1
+Upgradeswarm. And that's going to be V two. Okay. No, the other way around. V two is going to be testing an upgrade swarm with levels E. G. One, markdown two. What would level two be? 
+
+Speaker 2
+Complexity or like details. 
+
+Speaker 1
+Details. Three, accurate context capture. Okay. Anyway. Oh yeah. Actually run on the environment. Actually run the code and we'll figure this one out later. This is not V one, the programming team. 
+
+Speaker 2
+So. 
+
+Speaker 1
+Input we have. So what do we need to do? We need to do the for agents, this is what we need to do. And then for other stuff we need global context. We need knowledge base. 
+
+Speaker 2
+No, I got a beard. Back 1 minute. 
+
+Speaker 1
+Yeah, we need answer agent. And I'm glad we budgeted $800 for a fast rice. This is going to get fun. Make a message bot to catch up on meetings, declaring assignments. You discord. Discord. 
+
+Speaker 2
+Right, amak? 
+
+Speaker 1
+Yeah. Okay, so this is what, let's sum. 
+
+Speaker 2
+Up what prompts we need for those agents. So prepare those prompts for the MVP of the knowledge now. 
+
+Speaker 1
+One sec. And then answer agent. And then for other stuff is the global context, the actual knowledge base which I'm working on. And then the discord bot, webhook. Love it. This is looking so nice. Prompt. 
+
+Speaker 2
+To have four agents. The context enrichment is like 90 or 80% done because I had it done for PFA. So I would just tweak a little bit for the knowledge now. So it's enriching in the transcript case rather than prompting case. Yeah. Later we have the query agent, the rag query agent. 
+
+Speaker 1
+Which is the rag extractor. 
+
+Speaker 2
+Yeah. 
+
+Speaker 1
+Aha. 
+
+Speaker 2
+Then we have evaluation in V one. 
+
+Speaker 1
+The evaluator agent that will actually. So the rag query extractor agent, the rag query agent will create the queries from the prompt and then the evaluator agent will say, these are the best chunks from that. Extract from that cosine similar. 
+
+Speaker 2
+But the iterator agent is for. 
+
+Speaker 1
+Oh, you mentioned that would be V two. Yeah. 
+
+Speaker 2
+But now I'm talking about the knowledge now. So yeah, for the PFA there is an iteration agent. Right. But I'm talking about knowledge now because I'm thinking about the prompts needed for the knowledgenow system. 
+
+Speaker 1
+I'm talking about knowledge now, too. But you had mentioned an iterator. 
+
+Speaker 2
+Oh, it's for PFA swarm. 
+
+Speaker 1
+Okay, PFA swarm. So that would be an iterator because. 
+
+Speaker 2
+I thought like, both of these green cards are for the PFs one, right? 
+
+Speaker 1
+Well, technically, yes, they are, but this is also for knowledge now. So I'm going to put different colors and we're going to call this V two for V two. This is what we're focusing on now. And the other stuff we're focusing on kind of after we have the MVP, not that we can't keep thinking about it, but in terms of output. 
+
+Speaker 2
+Right. So the progress part is actually for the. 
+
+Speaker 1
+Gotcha. Gotcha. Great. So progress, bam, we put here. Great. Thank you for clarifying. And are any of these agents relevant to our MVP, which would be the context agent. Context enrichment agent, which is at 80%. Yeah. 
+
+Speaker 2
+Because for the PFA swarm, it's finished. It's just that I will have to make little different version for the knowledge now. So be more relevant to. 
+
+Speaker 1
+Evaluator. Iterator agent was the other one. That was not that. Then evaluator agent, rag extractor agent, query builder agent, and then we have the answer agent. And then for other stuff that we need to have build is the global context, which is sort of a short system prompt kind of style knowledge base. All of our transcripts. All of our transcripts or detailed summaries of our transcripts. It would probably be the full transcripts. 
+
+Speaker 2
+Or the cleaned transcript. Clean from those weird words. 
+
+Speaker 1
+Yes, cleaned transcript. 
+
+Speaker 2
+And I think we are going. 
+
+Speaker 1
+I have that code. 
+
+Speaker 2
+I think we should be going like one transcript per one use of the knowledge now. Because if you throw all of the transcripts in the one knowledge base, I'm not sure how that's going to go. I mean, you want to extract from one meeting, right? You don't want to extract from every meeting at once. 
+
+Speaker 1
+The whole point is that there is continuity from meeting to meeting. 
+
+Speaker 2
+Yeah, but at one, say, run of the knowledge, now you're extracting from one particular meeting. 
+
+Speaker 3
+Right. 
+
+Speaker 2
+The all meetings is like a global context infrastructure, knowledge base, something like that. In my variant there is the run. It's on a one transcript, and then we have output of that, and that should be saved into the all transcript knowledge base. Not the transcript itself, but the result of the knowledge. Now doing the work, analyzing transcript and then have like summary or something like that. 
+
+Speaker 1
+Okay. I'm not 100% sure. What is the difference? We'll be testing this most likely with a few transcripts. And see what it pulls because there is relevant information for the same question in different days, different meetings. Right. System or knowledge. Now we will limit it because it's a good point that you're bringing. Are you really going to put 100 hours of context of transcript just to grab from a knowledge base? That would be pretty messy and confusing for the rag. 
+
+Speaker 2
+So. 
+
+Speaker 1
+But that is part of why we have the evaluator agent, because it's like, hey, based on the enriched prompt, the rag queries, this chunk that you withdrew, we're talking about AI agents. We're not talking about real estate agents. So this is irrelevant or the other way around. We're talking about a real estate solution. So AI agents doesn't make sense. So the evaluator would figure that out. Good question. Let's test it. Let's get the MVP. Let's test it. We'll figure out what we change and also obviously how we manage our knowledge base, which is going to be garbage in, garbage out. The quality of the data, the underlying data has to be high and we'll do our best to have a solid data quality standard for our MVP and we'll make it better over time. 
+
+Speaker 2
+Yeah. And you see that we are making, let's see, the call ends. The transcripts get rendered automatically or you have to do that yourself. 
+
+Speaker 1
+We will be able to render them. 
+
+Speaker 2
+Automatically and then also we should automatically have them cleaned. 
+
+Speaker 1
+Yes, correct. 
+
+Speaker 2
+And the question is now if we also want them automatically to be pushed into the knowledge. Now. 
+
+Speaker 1
+That is definitely a pending question because that's what the global context is. Oh my God. Global context is. This is what the dev team does, has worked on, is working on. This is the marketing team. This is who composes the marketing team. The upcoming strategy that say videos published, et cetera, et cetera. And that's the global context that, based on what the original query and the enriched query is, will have certain relevance. So we can create what makes sense to me as a gated access of information to guide. I don't know if that's what you meant by global or global meaning every single component, every single transcript is fair. But we'll figure that out at the start. 
+
+Speaker 1
+If we want to enrich a prompt, let's give it some context and then we can dig into all the details and the transcripts and all that stuff. 
+
+Speaker 2
+Yeah, I think it also depends on the use case. I feel like some use cases could be done automatically. Like we automatically render the transcript, automatically clean the transcript and let's say for the, to do we also automatically run it through the knowledge now? But I guess some use cases will be like run manually and some use cases will be run automatically. 
+
+Speaker 1
+Yeah. So I'm going to write dockup considerations, auto run or human check or fully manual, e. G. Modifying the dev team global context document. Because when a new project comes in and we have a new project we're working on a new project, the dev team global context document needs to be updated, but we want to do a human check. That's like, yes, that's how you should update it. Dev team deserves human check. Okay, cool. Okay. You threw out other considerations there. What was it. 
+
+Speaker 2
+I was just saying before about the automation of rendering and cleaning? So I guess that happens automatically all the time. And then we only have differentiation for. 
+
+Speaker 1
+The use case rendering and cleaning. Yeah, auto cleaning, but auto rendering. 
+
+Speaker 2
+And also we can have, how to say, categorizing the transcript into like dev call or marketing call. 
+
+Speaker 1
+We're lucky because Zoom already does that for us. This right now that we're on is a dev meeting. And if you look at the chat. 
+
+Speaker 2
+Oh yeah, I forget. 
+
+Speaker 1
+And you scroll up, all of our chats of every dev meeting are there, including the summaries. So it's pretty cool. 
+
+Speaker 2
+All right. 
+
+Speaker 1
+And just to be funny, I'm going to ask the AI companion, catch me? 
+
+Speaker 2
+Yes, I think that's the end of my idea for today. 
+
+Speaker 1
+Well, that was 2 hours of idea knowledge now. So I'm asking the zoom AI companion to give me an in depth explanation of knowledge now. I'm sorry, but the meeting transcript does not provide enough information to give an in depth explanation of knowledge now. So the rag sucks, but this is. 
+
+Speaker 2
+Like the zoom out of the box transcript analysis, right? 
+
+Speaker 1
+Yes. Okay, I'm going to walk through this real quick and we can close it. So I input a prompt, there's global context about who fasterize is, who the teams are, and who each person is. That context allows the PFA context enrichment agent to fix and enrich the prompt with the context and outputs an enriched prompt. A lot of the word enrich in there. We'll fix that. We'll ask PFA to fix that. That follows into a PFA rag extractor agent, which has full access to the knowledge base. The output of, wait, that goes after the output of this extractor agent is to break down a prompt into multiple queries optimized for rag. Those queries going to the knowledge base, which will be living in pine cone. 
+
+Speaker 1
+And that knowledge base has the most recent Zoom call transcript plus every other transcript we have, it knows skills of each person and what they want to specialize in through the competency matrix. It has knowledge of projects, clients, industry, focus, et cetera. Then comes the evaluator agent because we extracted for each query several relevant based on semantic similarity, based on cosine similarity, several chunks of information. We now need to evaluate which chunks are relevant because if we're talking about real estate agents, AI agents shouldn't be part of the answer that we're integrating, or maybe yes, depending on the automations that we're building for them. So we have an evaluator agent to say, hey, these are the most relevant chunks for each query. This is the score from one to ten for each chunk, and here are the top five chunks. 
+
+Speaker 1
+From there we will have a QA agent that will do a full transcript review. So what chunks were retrieved and then do an evaluation of how well did the evaluator agent do its job. We will integrate an oversight board agent that will be able to route to the most relevant next agent to continue the conversation. So we'll keep track of the conversation. Identify does this task require multiple agents to have an open conversation? What other information might be needed? And it will decide which agent comes next, which might be a self refinement agent to log potential refinements to the system. It might be the programming team or most commonly it will be the merger agent which will take the best chunks from the evaluator agent and merge the best pieces from each chunk to create a full answer for each rag query. 
+
+Speaker 1
+Each individual rag query and the final steps are we have answer formatting agent prompt format no wait, that goes at the beginning. We will have answer formatting agent for hey, what's the actual use case and how we make sure we are effective at answering. And there's a big one here who is asking how can we give them a relevant answer that they care about. The CEO doesn't care about the same thing as the engineering manager. So it'll give the output format to the answer agent. It'll grab all of the relevant information and create a final output. Finally, we will have an evaluation answer evaluation agent which will help us keep track of the accuracy of our system. How close is this to a full, accurate relevant system? 
+
+Speaker 1
+The first use case is going to be the first MVP use case is going to be you can message the bot to catch up on meetings and get clarity on assignments, which is going to be one component of our V one use case which is the bot messages you with your to Dos after the meeting, checks the tasks that you already have assigned. Your deliverables, checks the capacity and then assigns the tasks. It will confirm with you which tasks you actually want and can take on. It will actually help calculate your contributions and you can have a conversation with the bot to get clarity on those assignments and do your best work. That's knowledge now. 
+
+Speaker 2
+Yeah. And also it will attack everybody to make a post on social media. 
+
+Speaker 1
+It will what? 
+
+Speaker 2
+It will attack everybody with a message to write something for the social media. Seriously, I need, like, attackers to attack me every day. 
+
+Speaker 1
+I don't know that attack is the right word, but yes, we need it. 
+
+Speaker 2
+It's more of a peeing, but I don't know. I want this AI to be aggressively making me write a post because otherwise I won't. 
+
+Speaker 1
+This is going to be a huge part of the knowledge base of knowledge. Now don't use the words aggressive and attack. That's funny. We'll cut that out. We'll cut that knowledge now. Cut that last part out. But I'm with you. I'm with you. Let's have something that we're proud to show PFA. You should be proud to show it. The real estate automations, as simple as they will be. We're proud to show it. It's our first client and we're actually delivering something great for them. So let's get on that social media game and let's grind these projects out for now. This is what this project and fastrise needs from you. Bartek working on the agents. Let's get some drafts for these three agents. 
+
+Speaker 2
+Can you send it to me in a chat in a private message? 
+
+Speaker 1
+That's exactly what I was about to do. Awesome. So we need draft prompts for great. 
+
+Speaker 2
+And also context agent, right? 
+
+Speaker 1
+Oh, did I not put that in there? Oh, yeah, you said the context agent was 90%, but yeah, I'll add that in there. It was in a different section. 
+
+Speaker 2
+Yeah, because it's finished for the PFA swarm, but for the transcript, it has to be a little tweaked, I think, because it's kind of little different. Context enrichment in case of transcript analysis and in case of prompt engineering, it's a different thing. 
+
+Speaker 1
+Yeah, makes sense. Okay, cool. 
+
+Speaker 2
+And do you need any help with the real estate agent projects? Maybe Hubert can help you with that. 
+
+Speaker 1
+Thank you. Not for now. Because it would be more lift, it would be more time spent kind of guiding someone through all of the components of number one, the CRM, number two, the API, and then most importantly, what the client wants. And how they want it. So I am going to show, not tell. I'm going to first work on these two free automations that we're making for them. And then I'm going to show Hoobi, for example, and walk him through the final build the output, and then go backwards from there. And we can all work on those. They'll be relatively simple and we all want to make money. So I want to integrate everybody into at least one part of those real estate automations. Yes, awesome. Knowledge. Now. Draft 1 March twelveth 2024. Let that day be remembered. 
+
+Speaker 2
+Yeah, and check out the messages I sent you before this call. I found some transcript. 
+
+Speaker 1
+Oh yes. 
+
+Speaker 2
+And also those videos. We can use them also for this. 
+
+Speaker 1
+Cool, cool. Lovely. I'll check them out in between tomorrow. I'll check them out tomorrow. I'll find some. Bartek, thank you for your. This is. This has been very fun. I'm honored. 
+
+Speaker 2
+Yeah, sure, man. Yeah, happy to work on this one. Seems that it's going to be revolutionizing. 
+
+Speaker 1
+Yeah, absolutely. We can help a lot of people make better lifestyles, better work, better everything. 
+
+Speaker 2
+It. 
+
+Speaker 1
+Take care, brother. I'll see you tomorrow. 
+
+Speaker 2
+Yeah, bye. 

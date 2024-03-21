@@ -1,0 +1,399 @@
+Speaker 1
+Refresh my python knowledge so I can work with that language, I guess. Last few months, I mainly do prompting, so I have to just refresh that python thing. I think I can handle that language. And, and in the same breath, I work with Bartech or some kind of automations. So I think it's good enough for me right now. The question was, how can you help me grow? I think it's no good answer for that because I want to just do the work you do. You understand that I have to just take a task and do it. So right now I do. It's enough. I want to just adapt. I don't have any special request for you. But if you do, I can write you if I know.
+
+Speaker 2
+I might jump into this discussion because I'm sort of taking responsibility for Hubert's growth and I'm also guiding him in this journey. So currently he's focusing on Python. We're also doing this upwork automation. We have the Q one for that. So coming to the idea of making PFA swarm, I advise Cuba to dig into the python, dig into the language chain, dig into the outage system as an example to get familiar with the concepts. And later I think we're going to go on to making PFA swarm in code. That might be also a project we share with everybody. We'll do some that later.
+
+Speaker 3
+That's some fun multi-agent function calling kind of project. So, Bartek, how fluid are you with langchain?
+
+Speaker 2
+I'm quite lazy, so I use GPT every time. Yeah, I'm not that fluent as I was in flutter like one year ago. Now I'm also not that fluent but was fluent. Like I could just think of something and code it up. Now I'm too much in the no codes, too much in prompting, too much actually because I'm not only developing stuff in syllabus, I'm also helping with everything with self-organization. We have a lot of conversations with Pablo about how we frame this business and stuff like that. So I'm stretched out everywhere. Don't have really time to focus on my coding skills. But I think with a little thought and with a little help of AI, I think I can do anything that.
+
+Speaker 3
+A project that is coming more and more vividly as an opportunity for all of us here to collaborate, plus Henry too. So pretty much all of us, pretty much all of the dev team, which is knowledge now. Knowledge now involves lang chain, involves system design, and if we think meta for a second, involves a lot of organization, involves clear tasks, clear objectives, defined success criteria, kind of what a product manager would help an engineering team with. Maybe it's in product manager, maybe traditionally engineering lead, technical lead, whatever you want to call it. But we need process, we need organization, we need clear criteria for what success means. Otherwise, we'll keep going in circles. Inevitably, it's normal. We want to do our best work well. Henry put the initiative at the beginning of faster Eyes, at the very beginning of like let's adopt a scrum framework. It makes sense, it's relatively simple to follow. So what might that look like for faster eyes? And especially as new developers come in because a client brings developers when the money is expected to flow, the developers will flock. Because we all want to do our best work, but we also want to get paid to do our best work. So, Hubi, we don't really have a process that we can onboard you into, and I don't think that's fair to you. I don't think that's fair to us either. I don't think that's fair to the standard that we need to set it fasterize. So over the next few days, share your thoughts. What is a framework that has worked for you in the past? Maybe it's in a job that you had, maybe you learned something in university.
+
+Speaker 2
+At syllabus training, I've been giving guys like Hubert and also Camille, another junior at syllabus, he's quite busy now with his job, so he's kind off for now because he got promoted in his job. So he's very busy.
+
+Speaker 4
+We start getting into more web development projects eventually, and there's one really good web developer and there's other web developers that are still junior. This one really good web developer would be everything would kind of fall on him. The guiding of the other three. And it will still happen in any process because there's somebody that can guide the others. However, there's a big difference between relying on the person that can guide in an organized manner. When objectives are clear when the task is very clear when the success criteria is clear, and when none of that is clear. Kuba, you've done amazing work on the personalized outreach system. You set up a multi-agent system, a multi-prompt, multi-tool system. So it might be v one, but you pulled that off pretty much yourself, and we helped. Bartech, thank you so much for all the help with the prompts. When we're talking the system itself, Kuba, you did incredible work. For example, waiting a whole day after Kuba is done with the upgrades to figure out what is the next step, as opposed to, well, we had a planning session, we know what this next week is going to be, and we know what we call success at the end of these two weeks. 
+
+Speaker 5
+Yeah, I read something about using scrum Agile methodology, having a project backlog to check when you're working on projects.
+
+Speaker 4
+Would you be able to maybe find that blog, maybe find something like it and share it with us and we can give it a read? Finally, I want to be very clear that this should not take away from the work that we're doing. On that note, planning session when can we get together and map out what knowledge now will be? Because Cuba is about to start working on the first prototype. The transcriptions are not perfect. We'll figure out how they can better. 
+
+Speaker 2
+What system?
+
+Speaker 4
+Because I'm using whisper. But there has to be something better. There are no names. Right. So part of the planning session is this is figuring out these details, but actually very important details. Would tomorrow at 01:00 p.m. GMT work? We need to find a time that works for the four of us here.
+
+Speaker 2
+I will be available from 01:30 p.m.
+
+Speaker 4
+Tomorrow.
+
+Speaker 2
+I'm yet to confirm if the call with page will be in that time. Maybe.
+
+Speaker 4
+Okay.
+
+Speaker 2
+130 GMT 01:30 p.m. GMT plus one I will be back home because I'm going to the doctor with my daughter. But I still have to confirm with page because 06:00 a.m. Is kind of tough, especially for the recording.Speaker 4
+06:00 a.m.. 
+
+Speaker 2
+Tomorrow. Yeah, because we had this content call about 06:00 a.m.. Tomorrow. But I'm trying to put that later because 06:00 a.m. Will be hard to get up and hard to record a video. 
+
+Speaker 1
+Yeah. 
+
+Speaker 4
+So just so I understand, you said 130 p. M. GMT plus one is when you could be I'm back home. 
+
+Speaker 2
+I'm back home back to being available. 
+
+Speaker 4
+So at 02:00 p.m. GMT plus one, you would be fine with joining. 
+
+Speaker 2
+I'm trying to schedule that 02:00 p.m. Actually for page. So maybe if we can get. Wait. 03:00 p.m. I have actually recalled 04:00 p.m. 
+
+Speaker 4
+That is already kind of late. That would be my 02:00 a.m. I'm trying to keep sleep time before two. We can do this async. I thought it would be easy and straightforward, but no, we have so many different time zones and things going on. We'll plan this async, but let's meet up tomorrow and we can dig into the system, the real estate automation. There is a heavy load in. Sort of trying to teach what I've learned over the past week, the intricacies of the API, how it works, where it fails. I think I got banned from the system from sending too many requests at the same time. So now I have to go figure that out. There is quite a few intricacies. However, we talked about the areas where Ubartek could really help, which is the prompts. 
+
+Speaker 4
+So I'll be sharing some of the stuff that we need for that system. But it's pretty straightforward when it comes to the phase two of this client, where we actually start getting paid and the complexity of what we do starts increasing a little bit, the integrations and such, then we'll kind of reconvene on that project, and it's like planning session. Who needs to take on which task each phase of the project, et cetera. For now, on the real estate project front, it's looking fluid. It's flowing. We can put some time into knowledge now, which is just going to help all of us. It's going to help all of us. My vision is also knowledgenow, being our pair programmer, because it knows the objectives. Because we had a planning session, right? We have a planning session. 
+
+Speaker 4
+Knowledgenow knows all the details of that planning session, and it knows how to code. So what better buddy for coding the tasks than the guy that is at every meeting paying attention to every single word, making the logic work and filling the gaps? It is not on yukuba to make that work on this first prototype. 
+
+Speaker 2
+I just want to make that very clear. 
+
+Speaker 4
+But that is the vision, and that vision requires planning. So we'll get together tomorrow and plan that out. 
+
+Speaker 2
+I'll be either joining or asking. If you make a call tomorrow, we'll see what Paige say about the content call. We'll try to fit in. 
+
+Speaker 4
+Hey, I'll make it work. I don't care. It needs to be tomorrow. Whatever time it is, I'll make it work. 
+
+Speaker 2
+Yes. 
+
+Speaker 1
+If I am available tomorrow since 06:00 a.m. To even 09:00 p.m. 
+
+Speaker 2
+So all the day. Perfect. 
+
+Speaker 4
+Awesome. That's great to hear. Thank you. Hubert. What's your availability looking like tomorrow? 
+
+Speaker 5
+I'm always available in the morning around 02:00 p.m.. GMT. 
+
+Speaker 4
+Okay, cool. Till 02:00 p.m.. GMT. 
+
+Speaker 2
+Okay. 
+
+Speaker 4
+I'm sure we can figure it out and make it work. Questions? You guys have anything you need clarity on? I'm happy to look at any of the projects. We're setting up that workshop for icebreakers. So I'm going to set up an airtable function in your code. Cuba for the personalized outreach system starts logging all the icebreakers into airtable. 
+
+Speaker 2
+Speaking of outreach, maybe we talk about this upwork system. I just try to bring that up. Would I have it? And we might talk about setting up the upwork group from whoever wants to be in this initiative. 
+
+Speaker 4
+Yeah, that's a fantastic idea, man. Give me 1 second, I'll be right back. 
+
+Speaker 5
+Yeah. Batek? 
+
+Speaker 2
+Yeah? 
+
+Speaker 5
+Have you started developing the opoque arteries system. 
+
+Speaker 2
+Once again? 
+
+Speaker 5
+Have you started developing it? 
+
+Speaker 2
+Have you started building it? The system ophook outreach system where I built that. 
+
+Speaker 5
+Have you started building it? Have you started developing it? 
+
+Speaker 2
+Yeah, I have version one already working. It's on make, just show it in a second to open it. This old stuff. Share the screen? I cannot share the screen until Alayo lets me. We gotta wait. I'll be right back in 1 minute. All right, cool. 
+
+Speaker 3
+Okay, we're good. 
+
+Speaker 1
+In 1 minute. 
+
+Speaker 2
+Okay. Can you let me share the screen? 
+
+Speaker 4
+You're good now? 
+
+Speaker 2
+Oh, I cannot share the whole screen. Right. I have just so many tabs open you cannot imagine and I need to choose one now. All right, here it is. You see a data table now. 
+
+Speaker 4
+Yes. 
+
+Speaker 2
+So in general, this thing goes into airtable and gives the title of the job, a description of the job, reason why it's relevant. Because there is also AI that assess the relevancy of this job in terms of my skills, or it can be agency skills or what the agency doing or whatever. And then this is the V one. I didn't even put much effort into this icebreaker thing, so it's kind of generic. But the plan is to make that also generate the proposal. I have a GPT for that works quite good in generating those proposals. I will have to connect that with the system and later it will already generate the proposals. And maybe later we find out how to automate sending of those proposals too. But on the other hand, I'm not sure about if we wanted that from the start. 
+
+Speaker 2
+From the start we want rather a human to check it out because upwork requires connects to apply for the job. So you need to actually pay a few dollars to apply for the job. So maybe it will better not to automate that fully, but the search is definitely perfect for automation. So what do we have here? Is Rs fit for automation related projects? We're parsing that, going to the GPT, parsing again and checking relevancy if it's relevant. So it's actually a finding the JSON here because the result needs to be true and the result is the reason from here. So it's say like you're having jobs true or false in json format and then it goes a bit of fusion prompting and then the result should be like this. 
+
+Speaker 2
+So when the job is not relevant it goes result false and this is the actual output. I mean this is the problem. But this is how the output looks like. 
+
+Speaker 4
+Like that. 
+
+Speaker 2
+So you go, the result is false. So in here it would just stop in here. Basically this is the right. Cool. How do I go back from here? Yeah, so result is true, then it goes to the router and if not, then it just stopped right there. So let's run it for a second or maybe I'll just go over the prompt here in full. What we have here more. Then we have the reason like this is about and an icebreaker. And those are negative example. 
+
+Speaker 4
+Each of those is an example. Interesting. 
+
+Speaker 2
+This is futures prompting inside of meg.com because you have user assistant user basically simulating the conversation. And then we have results. True. And then there is icebreaker coming up. And this is actually one of the proposals I written by hand, not by hand, but with AI and then review by hand. So let's have that run. I should have that going all around, but saving some tokens. So let's have today and let's have say 3 hours before. So we'll have the freshest stuff going on and then it will just go. As you can see, we got two of them actually. Everyone was relevant, so one wasn't. Eight results, five relevant. It's all appearing over here. 
+
+Speaker 4
+Okay. 
+
+Speaker 2
+And it just should. Right. AI generated comments for LinkedIn post. Interesting. LMA development. Good. Yeah. So that's how it goes. We got a chat bot and then we can have a link for now. It's quite clunky still because it's v one, obviously. Yeah, maybe I should just stop that. We got already tier t results and as you can see those tier t jobs and we have tier t jobs relevant. We didn't have to actually go and look at this and read it ourselves. That's one thing. Another thing. We just basically now going to go to your table and just look at those 13 jobs and then see if they're actually good to apply. 
+
+Speaker 4
+Okay. That's pretty cool, man. 
+
+Speaker 2
+Yeah. And also in the template I was doing it from, there was the get budget regular expression, but it's not working correctly now. I will be working on fixing that. So later you could also have another router and you could have hourly jobs and fixed price jobs separately. But it's still working overhill, adding all the jobs into one place for now. Oh, we got a project with vector database custom GPT. 
+
+Speaker 4
+Would you look at that? 
+
+Speaker 2
+That's interesting. 
+
+Speaker 4
+Would you look at that? 
+
+Speaker 2
+It was 60 minutes ago, man. This is the point of this automation is we get freshest stuff out of. Yeah, they basically want vectorbase connected to custom GPT. I'm not sure if there are GPTs. They mean this could be just an instance of chat GPT API langchain though the price is fixed. They usually put this hourly rate. This could be hourly rate. They sometimes do like this fixed price. 
+
+Speaker 4
+For hourly. 
+
+Speaker 2
+That's definitely hourly rate. Some clients are lazy to click the other option and just write whatever. And to be honest, I'm not sure if I would apply to this. He's already interviewing people. Yeah, sometimes these things happen very fast. 
+
+Speaker 4
+Twelve minutes ago, deserve those. Feel like they're all bots. 
+
+Speaker 2
+Let's look at the other one. Here we have. That's more appropriate price. You ain't going to get much money from upwork. This is just like get a client, get a job, get some quick bucks and that's it. Not, that's it actually, because you can upsell. I think the biggest actually thing in working on upwork would be upselling. We have this decline now in us that's from chatbots for very little money and very simple stuff. But later, now we have project for possibly way more and possibly a few months of working with the client on a retainer basis. Cool. So I'm thinking of it as another funnel for getting bigger clients. Also, while still we can also try to make some bucks on these jobs, we can definitely filter out those $40 jobs, not this $180 jobs. 
+
+Speaker 2
+We could either decide that, okay, this could be client just type hourly job instead, or we could just filter out those type of jobs at all. Like just filter them out. Not even look at those. 
+
+Speaker 1
+Right. 
+
+Speaker 2
+That's yet to be decided. Yeah. 
+
+Speaker 4
+You will be dealing with the famous Ferris NASA. Okay. 
+
+Speaker 2
+I'm trying to find some better job. This is hourly ongoing. Yeah, I think we should make. If there are people who want to do that in fasterized because you can also make agency profile on upwork. Oh no, I think we should make fasterized agency. We will be also making celebrities agency. And also I think everybody who want to be involved should also have their own profile, also looking on their own. And we need to make as big net like phishing as possible because there is not only proposals, also people inviting you for the jobs. So the more profiles we have, the better chance of getting more leads. 
+
+Speaker 4
+Yeah, no, this is a really good point. 
+
+Speaker 2
+Yeah, let's park it for now and maybe on the next gen exec ask people who want to join the initiative. 
+
+Speaker 3
+Yes. 
+
+Speaker 4
+So if we look at those draft proposals, we adjust them. We give it as examples for many shot prompting one end and then on the other end. Each of us have our profile. I already have my profile, Pedro already has her profile, Henry already has his profile. We get profile set up for everybody else. We sort of coalesce into an agency. What else are we really doing? Since now the proposals will be much better because we actually reviewed and gave a bunch of good examples. We all have our profiles, we all give each other recommendation letters. What else would be needed on like an active day by day or week by week basis? 
+
+Speaker 2
+We should have some work history, kind of, let's say all the projects, because my work history on upwork is just all the syllabus projects currently, all the projects we've been doing for past half a year, even if some of them wasn't really delivered fully, if there was something that I make, it was working, I just put it there. 
+
+Speaker 4
+Okay, so maybe we do a workshop together and we just do it in one go. And in that workshop we help each other set up the profiles. Whoever needs to set it up from the beginning. I, for example, need to put in projects, well, the description of the project, and we can help each other make the best descriptions that we can make sure that we all give each other recommendations as opposed to like Async, go create your upwork profile, because it's pretty tedious. The ROI seems to be there, but it's pretty tedious. 
+
+Speaker 2
+Yeah. I think everybody come prepared with their story because there is, how to say, like a framework to achieve the sales goal, to get the client to offer you the job while keeping us close to the truth, but showing you in the best light. So for example, I have a little stretch out on my experience because I've been programming for three years, almost four years, but in my profile there is like, I'm freelancing for three years already, but I'm freelancing for like one year and a half. And everybody should come prepared with the story. I mean, I actually have some little, but I have some experience to show off. For example, I was talking with Hubert. He doesn't have those past things he done before syllabus or maybe before. He was also in a group of my learning groups in the past. 
+
+Speaker 2
+But the reason, what I'm talking about this is, I say, hubert, you need to have your story, like bring your story of how you come to this place where you are developer now and make that believable for your clients. When they will be reading that, they need to believe that, okay, this guy done this and this. So now he's capable of doing my job. So I think, yes, we should maybe do that together, the profiles. But first, everybody should think about this story. Have given really a good thought to make the story believable and make the story defensible. Like if somebody asks about something from that story, the person should, without second of hesitation, just respond, yeah, I did this and this and yeah, because I can do that for my story. 
+
+Speaker 2
+Now everybody else need to craft their story so they can also do the same. 
+
+Speaker 4
+Then Bartek, let's simplify so we can move forward. So let's ask, we'll plan the workshop soon. So we already have two workshops that we need to do next week and then by the week after. So two weeks from now, people come with bullet points of their story and be it a GPT that puts the story together and then we edit it. Or maybe you brought a few paragraphs and we challenge each other to how we can make it better. Let's make sure that I think everybody. 
+
+Speaker 2
+Should start from thinking how you can feel your LinkedIn profile, how you can feel your work experience to make yourself believable, to be the. 
+
+Speaker 4
+Kind of like. 
+
+Speaker 2
+By, I think GPT can handle that. 
+
+Speaker 1
+Sorry to interrupt you, but I think it's GPT agent can handle with make LinkedIn profile. Can or cannot can help. 
+
+Speaker 4
+Okay. 
+
+Speaker 1
+At least advise you. 
+
+Speaker 4
+Yeah, for sure. There is the natural sound of human writing, which GPT, unless you're prompting it really well, won't quite capture, however, a great first draft that then you put your tone on it because you already know your experience. Hey, I worked here. I worked on this project and work on that project for this workshop in two weeks. Let's have people show up with at very least some bullet points, if not having already worked on their LinkedIn profiles, which is also going to be critical for all of us. Regardless of anything, having good LinkedIn profile is important and then we can transfer those elements to upwork. LinkedIn is a platform that people are very familiar with, so the lift from actually updating your LinkedIn is a lot lower than go figure out this new platform and then we just transfer it over. 
+
+Speaker 4
+So let's do that. It's like, hey, bring your story and go into your LinkedIn and update whatever you want to update. Yeah, cool. So let me write that downwork workshop in two weeks. Link, update at least one thing in your link. 
+
+Speaker 2
+Cool. 
+
+Speaker 4
+We'll take it like that. Bring your story even in bullet points and update at least one thing in your LinkedIn. 
+
+Speaker 1
+Seems cool. 
+
+Speaker 4
+Cool. 
+
+Speaker 2
+Yes. 
+
+Speaker 4
+Let's see. Thinking. Awesome. Thank you for that effort, man. It looks like a really cool system. 
+
+Speaker 2
+Yeah, we'll continue working on that. I think we would have multiple versions running, for example, for agency and for particular people because I think we also should map, I don't know about how it's going with the competency matrix, but I think we should definitely, at least developers that want to do the upwork thing, we should map out all the skills we have and kind of make the profiles of each one of us, specialize in something, and then all of the group cover all of the stuff that we want to do. But the profile should be specialized. 
+
+Speaker 4
+These are all things that feel like great ideas for workshops that we do together, synchronize. So we're on the same page. We all understand the same criteria of level of experience. For example, competency matrix, maybe even in breakout rooms. 
+
+Speaker 2
+I think more of like going deeper, like the particular tools. 
+
+Speaker 4
+Yeah. 
+
+Speaker 2
+Because people making the job or searching for a freelancer might be looking for a specific tool. And if you get a freelancer that say, I specialize in this tool. 
+
+Speaker 4
+Yeah. 
+
+Speaker 2
+Then you're going to take this one. 
+
+Speaker 4
+So we have the air table. 
+
+Speaker 2
+We. 
+
+Speaker 4
+Have the competency matrix to then say like, oh, this person, like this person should apply for the job. 
+
+Speaker 2
+Yeah. Oh, that's cool, man. 
+
+Speaker 4
+Okay. I love how this is coming together. A lot of work to be done, but we have the right tools, we have the right people. Bartek, if your client says, hey, let's start tomorrow, update us. Your time availability is very important that we know so we know when to rely on you because we want to rely on you because you're somebody that is reliable and you have many skills and many ideas and a lot of vision that all of us are going to benefit from. And hopefully it goes the other way too. So if availability changes at all, please let us know. 
+
+Speaker 2
+All right. 
+
+Speaker 4
+And we'll get together tomorrow and plan knowledge now. And yeah, there's definitely work to be done. Hooby, I would say within the next 24 hours before we meet, get some lang chain brushed up on and get ready for a small prototype. 
+
+Speaker 1
+Yeah, I'm still training with that. I think I can handle it in few days. 
+
+Speaker 2
+Perfect. 
+
+Speaker 4
+Yeah, a few days sounds great. When I say small product. 
+
+Speaker 1
+I can try since tomorrow, but I. 
+
+Speaker 4
+Can promise that tomorrow is a planning session. Yeah, exactly. So tomorrow's planning session. You're going to have time. We're not going to put you in a time pressure. We'll also put a deadline, a reasonable deadline. So there's something that you're working towards. But just know we want to make this work for you. Tomorrow, it's knowledge now, next week, it might be another project, or it might be the next version of what you worked on. Whatever helps build these two skills that you mentioned. I want to work on Python and Langchain, and we have some cool projects to help you build those skills. 
+
+Speaker 1
+Seems fine for me. Really good. 
+
+Speaker 2
+Thanks. 
+
+Speaker 4
+Yeah. 
+
+Speaker 2
+For today, I think I advise you to go over the project of outage system. And as I mentioned, I don't know if you started that, but as I mentioned before, you can just copy the cells, just don't copy the API. The API key to the chat, and have to explain every line of the code, what it does here, what it does there. And if you go over this whole automation we have for the outreach system, I think you'll get things tomorrow. All right. 
+
+Speaker 4
+Yeah, I think that's a great idea. 
+
+Speaker 2
+Sort. 
+
+Speaker 4
+Getting an understanding of the step by step of the outreach system. Great suggestion, Bartek. I'm going to drop in the discord and tag you with Hoobi. There's a GitHub, and there's also a Google Colab. I tagged you on the Google Colab. A lot more digestible. It's piece by piece, cell by cell. The GitHub is 600 lines of code, so it can be a lot to even look at. It definitely was for me. The Google Colab is two lines of code. Three lines of code, two lines of code. So it's a lot easier to follow. 
+
+Speaker 1
+Okay, I will check. 
+
+Speaker 2
+Yeah. 
+
+Speaker 4
+If you need any clarity, we're here. Text us. Text the group chat. And let's keep moving forward. 
+
+Speaker 2
+It. Sure. Think. 
+
+Speaker 4
+Cheers, y'all. See you soon. 
+
+Speaker 1
+See you soon. Bye. 

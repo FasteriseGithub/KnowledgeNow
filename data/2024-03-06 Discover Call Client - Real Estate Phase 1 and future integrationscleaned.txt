@@ -1,0 +1,306 @@
+Speaker 1
+Guys come together to make this happen. So my goal is to give you all these ideas and you guys are to implement it. 
+
+Speaker 2
+I'll be recording this so we make sure we capture absolutely everything. We're also taking notes. 
+
+Speaker 2
+And we can all have access to the recording. Okay, so you mentioned action plans. Listing them. Listing them with you and David and.
+
+Speaker 4
+Yeah. So Mary Gold, gifting. Are there any other external companies that you're working with to send out gifts or notes or cards? 
+
+Speaker 1
+Sandra has two etsy accounts that we're working with so we can link up with her to get those accounts to kind know, trigger that.
+
+Speaker 5
+More like action plans. There's like people who had previous app intakes. We'll change all of them to leads and then create an action plan to send out emails to see, I guess, if they're in the market for purchasing or still interested. I guess we could do that with the pre approved as well, just to change their stage so it'll automatically trigger those action plans. I guess with the past clients just making sure that we have the correct closing date. And also you wanted to track birthday, so if you wanted to send something for a birthday, we can.
+
+Speaker 1
+Birthdays are a good for, I think really we'll just do realtor birthdays as far as just a gift being sent.
+
+Speaker 5
+You can send the recordings of the Zoom calls afterwards. Perfect. Thank you.
+
+Speaker 1
+So I think a key thing too is what I will do for all of you guys is I will list out this action plan because there's going to be a bunch of them, right? There's going to be like a credit repair one, an open house one, a realtor one, a just closed one. So I will list them all out and then we'll all work together to create these action plans.
+
+Speaker 1
+We're just going over basically how all three of them, I guess four of them, Paige and Lejo, you guys are one, how all of them are going together. There you are. To create the action plans and follow up offs.
+
+Speaker 1
+The approval is coming in April. I'll try to push it a little bit earlier. And David, that's an update for you too. To get our emails talking with movement has to go through and approve everything. So we're waiting on that. But in the meantime, we really can set up all of these action plans and everything.
+
+Speaker 2
+A note in there that we've talked with some experts on this. Let me simplify. We figured out privacy of data and making sure that data never leaves wherever we put it, that no company can ever read it, and that it leaves even the US physically, that the data never leaves the US. And we're talking with someone to figure out the details. But we got confirmation possible. That is very doable.
+
+Speaker 2
+Right. So that would be out of our control. What it is in our control is, say, email gets received. What do we do with that email? And maybe deserves setting a task or a Google calendar appointment for a pre approval that we would make sure that no private data or no data at all ever leaves our control. No other whatever. It's integrated with follow up boss. That would be based on their.
+
+Speaker 1
+Perfect, perfect. Ok. And I think we can also start as a little simple step of when a client gets imported into follow up boss, as a under contract client, they have a close date, and that close date should essentially go in follow up boss. But then it should go on my calendar or Kim's calendar, depending whose client it is. So that's like a simple thing that we need done, right, Kim?
+
+Speaker 4
+And that will be tagged in follow up boss. As far as who owns that client, my separate data.
+
+Speaker 1
+But everything we're talking about and doing we're both going to use. And that's when Sandra, I don't know if she can hear us or not, but she will create. Here's this email template. She'll add our signature with that email template.
+
+Speaker 1
+The other question I had, and this is, I guess, to anyone, is there a way? And this also might be a movement question. KK, when we get an application coming into blend, how do we get it to automatically go over to follow up.
+
+Speaker 2
+Kim. So, you know, whenever we say integration, we mean one app talking to another. Zapier facilitates one app talking to the other apps. So email to blend to follow up boss would be that communication. I don't see initially why it wouldn't be doable. I haven't used blend, so we can dig into that as well.
+
+Speaker 1
+That's the way it's going to have to go, just because of how Blen is working through movement at the moment.
+
+Speaker 3
+Mortgage director and PCL are the same platform. Blend is a different platform. So when an application comes in, for your clarity, it goes into our blend system. It has to be humanly touched to move it over to our PCL system or mortgage director, which is where we work out of and where everything gets done.
+
+Speaker 1
+I think that's really the main idea here, is just to start to create these action plans and make them work.
+
+Speaker 4
+And the other thing that we chatted about was looking at. I know right now, the email to Google calendar is tricky because of. We're waiting on approval for follow up boss. But the text to Google Calendar is what we've been working on. So you receive a text and either maybe it's like, hey, we need this pre approval, blah blah. Okay, I'll send the pre approval letter tomorrow. That would trigger confirmation of a task that then goes to follow up boss. Because follow up boss can talk to Google Calendar. So it creates event in the Google calendar.
+
+Speaker 1
+It can also talk to Outlook, right?
+
+Speaker 5
+Yeah. Once you connect your accounts.
+
+Speaker 4
+Like that automated that's also been working on? And the thought process is that whatever you're messaging, there's probably going to be a confirmation like either yes or no. So meet with you at 05:30 p.m. That confirmation would trigger the automation because what you don't want is all these weird calendar events getting created that aren't actually real or confirmed.
+
+Speaker 2
+So text confirmation, a follow up boss task gets created and then a Google calendar event gets created. What that looks like in practice is, hey, can we hop on a call tomorrow at 03:00 p.m.. Yes, you Ben. So task gets created, Google calendar event gets created, and these are the details. These details is what on the AI side we implement. Right. So can you extract every detail that it's important. Hey, we got you now. Okay, wonderful.Speaker 2
+Discuss pre approval for Amy. Finally, when do we not need a trigger? And these are very important to be very thorough on. Got the pre approval letter for Carl. Thanks. Woohoo. You got it. No action, no action needed. Where AI captures this. Messages, confirmation of receipts, there's no action to trigger. And in this case, so happy Jen settled. Great work. Thank you. Messages, congratulatory statement. That's no action triggered. 
+
+Speaker 3
+So then the name Jane Keys. So let's say Greg says, hey, I want to meet you at the bar. It's personal. If he's not in my follow up, boss, that's not as a name, that's not going to be registering. Just trying to figure out how we maneuver through that. 
+
+Speaker 2
+Yeah, definitely maneuverable. Let's look at the cases. Maybe there are some names, maybe it's people in the family and we can tag those to be don't do anything if these people send a message, that is very doable. 
+
+Speaker 3
+Okay. 
+
+Speaker 2
+And looking at some other cases, because these are some that we talked about, but there are only a few cases here. So getting some examples from you guys of, oh, here's an example of a meeting somewhere or meeting for a certain event. This would need a confirmation or this trigger for an event. This would not. Getting some of those examples is going to make this as robust as possible. 
+
+Speaker 3
+Got it. So you're going to put the rules behind the scenes based on what we're giving you? 
+
+Speaker 2
+Yes. 
+
+Speaker 1
+Here's a good example. Literally today I received a client. She emailed in to get pre approved. I said, awesome, sounds good. I asked her, are you available for a call today or tomorrow to discuss goals and plans for next home? And she emailed me back. Thanks, Devin. Is 530 this evening too late for you? And I emailed her back. I said, 530 works great. So would that 530 get triggered to follow up? Boss, for a task, it would have to go in there, and then it would go to my calendar saying, I have a call with. Would it pick up the client's name as well? Because it's from Megan Landy. 
+
+Speaker 3
+Okay. 
+
+Speaker 2
+Yep. It would pick up the task. The time. There was a time sort of discussion there. It would pick up the right time. This is about giving it the right examples so it can generalize. 
+
+Speaker 3
+Go ahead. I'm sorry. Go ahead. 
+
+Speaker 2
+Yeah. So if we give that example, and then we make up one variation of that example, another discussion of, hey, not this time. Not that time. There's a sort of a back and forth, and then there's a confirmation. We're showing the system. Hey, here are some examples. Now, when a new one comes in, you know how to deal with it. 
+
+Speaker 3
+Got it. So we got one today, again, came from Brooke at Eagle title. It was a picture of an invitation beneath it, the link. I hit on the link and I had to go through and accept it with my name. And that's on my text. Yes. To Marilyn day. It has the date and time. Will it pick stuff like that up? I can forward that text on to you. So you see what I'm talking about? 
+
+Speaker 2
+Yeah. 
+
+Speaker 4
+Are the date and time in the link as well or just shown on the. 
+
+Speaker 3
+Checking onto you right now? Age. This doesn't happen a lot, but it does happen. Why don't I have your phone? I have your phone number. Pa. There it is. Okay. This is the first text I got. Then right after that, she sent me this next text. I'm sending it to you again to page, board, message. 
+
+Speaker 1
+Interesting. Usually with invites like this, there's already an ad to calendar. And this one didn't have it though. 
+
+Speaker 4
+Okay. 
+
+Speaker 3
+So I just sent them both. 
+
+Speaker 1
+This is a one off. 
+
+Speaker 3
+It's a one off. But if I have a link to go accept an invitation, will it pick it up? I went into that link and I filled out my name and my email address and said, yes, I will attend. 
+
+Speaker 1
+I think that would be hard to do because it always has to be run through the same invite platform, which that is not always the case. 
+
+Speaker 2
+Okay, that's a good point. However, if you confirmed in the message, I'll be add, set, event at this time on this date, then we would pick it up in that way. Trick the system. 
+
+Speaker 4
+Tricking the system. 
+
+Speaker 3
+So I can just answer back to her, yes, I'll be there. And then fill in my link. 
+
+Speaker 1
+Not necessarily though, because that's a picture that came through. It looks like this. 
+
+Speaker 3
+I sent it to her. 
+
+Speaker 2
+I see if it was. Yes. I'll be at the happy hour or whatever you call the event. I'll be at the networking event on Tuesday 19th, 04:00 p.m. Then we would capture that. 
+
+Speaker 3
+And that's fair as long as we know that. And so if we act correctly, it's going to do what we need it to do. So that's a good. Yes, I will be there on February 6. Okay. So that makes sense. Okay. I love it. 
+
+Speaker 2
+Yeah. 
+
+Speaker 1
+So I think we got a lot of good things rolling. I got like four more minutes. Is there any other hit points that you guys think we need to do? Know anything? 
+
+Speaker 2
+Yes, we talked and we can do this async. We can do this off the call, but we talked about quite a few different processes that you were very interested in. 
+
+Speaker 1
+Yes. 
+
+Speaker 2
+Prioritizing them and I'll send them back to you of everything we talked about prioritizing them as what would be the best time investment. The best return on investment would help us go back to our team and then analyze with the developers how much time would it take to integrate these. And then we come back to you with this is the time invested to ROI. And then we can figure out a phase two. These action plans and tasks to Google Calendar is what we call a phase one. And then phase two is these social media tools is new things we want to add on top of follow up as we're stepping into some more sophisticated stuff. 
+
+Speaker 1
+Yeah, like the lead generation. We were kind of talking about the lead generation. 
+
+Speaker 2
+Yes. 
+
+Speaker 3
+So we can talk about probably priority. No, I got you. 
+
+Speaker 4
+Yeah, I want the leads and whenever it's possible so that we can start beta testing the text to follow up boss to Google Calendar. We can have access to one of your follow up boss accounts. 
+
+Speaker 1
+Easy. 
+
+Speaker 2
+We created our own. We created our own to test and mess it up as much as we. So then when it's ready and tested, we'll start integrating to your account. Just getting access now is going to get us a better view of what the current action plans look like, what the templates look like, all that stuff. 
+
+Speaker 3
+Perfect. 
+
+Speaker 1
+I can text you my info to go in there. 
+
+Speaker 3
+Perfect. 
+
+Speaker 2
+Anything else? 
+
+Speaker 1
+All right. 
+
+Speaker 4
+Yeah, I think for us it's just we're going to get that integration, fine tune it, test it, and then we'll let you know when we're ready to start using your follow up boss account. And then we'll tune for the action plan list. And the details around that. So then we can start looking into the integrations between Mary Gold gifting and the Etsy accounts. 
+
+Speaker 3
+Yeah. Awesome. 
+
+Speaker 1
+And I will get that action plan, let's say this time next week by so it might before. 
+
+Speaker 2
+Okay, cool. Well, we already. So we're ready to keep going. David, what would be the best way for us to stay in touch? And we can touch on follow up boss stuff. 
+
+Speaker 5
+You can phone, email, anything. 
+
+Speaker 2
+Cool. Then we can probably text. 
+
+Speaker 4
+Yeah, I've gotten the email from the event. 
+
+Speaker 2
+Great. 
+
+Speaker 3
+Perfect. 
+
+Speaker 2
+Awesome. 
+
+Speaker 3
+You have David's information and stuff. 
+
+Speaker 1
+He just put it in the. 
+
+Speaker 3
+It. Okay. 
+
+Speaker 2
+At another if we'd love to see what you're doing with social media, understand it and help in any way. 
+
+Speaker 6
+Still, are you a fan of the KD lending team? 
+
+Speaker 3
+Right now? 
+
+Speaker 4
+I'm following. I'm a follower. 
+
+Speaker 1
+Okay. 
+
+Speaker 6
+So yeah, we are building it up so as we have more events and mean Devon, she shared the, what is it called? Help me. Yeah, I've been doing a couple of things there. So I have a few things that are. We just started. We just started on. 
+
+Speaker 3
+Great. 
+
+Speaker 2
+Great to hear. Well, thank you guys for your time. Thank you, Devin, for all the energy and creativity. Thank you. 
+
+Speaker 1
+Absolutely. 
+
+Speaker 3
+He's my taskmaster. 
+
+Speaker 1
+No, I think with all of the brains here, we can really put all of this to flow. I think we all have some homework to do and get this drawing board to life. 
+
+Speaker 4
+Yeah. Love it. 
+
+Speaker 2
+Absolutely. 
+
+Speaker 3
+And we are pushing internally to get movement moving. Yeah, moving. Exactly. 
+
+Speaker 2
+Hoopman. Moving. 
+
+Speaker 3
+I like that. 
+
+Speaker 2
+Thank you. 
+
+Speaker 1
+Thank you, everyone. We'll talk soon. 
+
+Speaker 3
+Okay, thank you. Bye. 

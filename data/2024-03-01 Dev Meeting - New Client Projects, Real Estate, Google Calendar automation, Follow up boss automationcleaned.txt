@@ -1,0 +1,1071 @@
+Speaker 3
+We are incorporated in the US for now and at some point somewhere else. We're a Delaware LLC. We also opened a bank account so we can start actually charging for our work. Yesterday we got together with Paige and one of her cousins, and they do real estate. They do mortgage lending, specifically at the beginning and at the end of the real estate process of buying a home. That's where they come in, and we had a great meeting going over everything they want to implement. As of right now, more ideas will come. The initial deal, and we'll get this drafted up so we can all sign it. Actual legal document. We're going to start with two minor automations. Major to them, minor to programmers. They're simple enough. We just have to find the right services for it and try them out on our own and by next Wednesday, have something to share with them.
+
+Speaker 4
+Is it a paid opportunity?
+
+Speaker 3
+This is going to become a paid opportunity. These first couple of automations, man, the amount of referrals that are going to come through this one person is pretty absurd. It works pretty symbiotically where she wants her team to be more productive. This is not a real estate agent versus real estate agent. It's more of if everybody's more productive, everybody wins, which is great. The first couple of automations we're doing for free, they're simple enough. We're expecting referrals. And the third automation onward, we are charging for retainer and per project.
+
+Speaker 3
+Project number one, very straightforward text message. Make a calendar event. Hey, let's meet tomorrow at 03:00 p.m. At the cafe. Bam. This gets triggered. Google calendar event gets created. They use text messages like SMS. A text message would also in some cases, in most cases that Google calendar even needs to get created. Also, a task in their CRM would also need to happen. Their CRM is called follow up boss. We're going to sort of try it out and try it out for ourselves. We have a bunch of lead lists, so we're going to do that process ourselves, get familiarized with the platform, and essentially start doing the thing that they want to do for ourselves.
+
+Speaker 4
+Do we have logins to their follow up boss?
+
+Speaker 3
+We're going to create an account ourselves. We will get access, just not today. If you guys feel like that's something that we need to have by Monday to actually do the process right, I'm happy to ask. And we can go from there.
+
+Speaker 3
+This is a free client with huge potential. So whatever investment needs to get done, be it time or money, I'm pretty sure that you can create an account and follow a boss for free. For example, when it comes to analysis, they know what they want. So when it comes to analysis, yes, let's make sure we can dive deep. But we barely understand the real estate process at this point.
+
+Speaker 3
+I looked into the follow up boss API and it looks great, man. It looks very well documented. You can do anything and everything. We're getting very lucky with this. They want to do the same thing for emails, but not yet because their company, their big agency, needs to approve the integration of sending emails somewhere else. So this is on standby for emails. This is a go for text messages. Moving on. Action plans. So within follow up boss, action plans will not only be emails in their business and how they are running their business. Physical things are a big way that they show appreciation. So some small gifts, like call it a fruit basket or a small bottle of champagne for closing a deal, for example.Speaker 3
+An action plan would automate who needs to receive the thank you email for coming and what happens after, and they would automatically be set into that flow. So classic CRM stuff, as we say. Hey, these 30 people came, these 30 new leads came to the open house. We would also tag them. And again, the API allows you to do all of this. We would tag them with open House February so they can keep track of it. And also we can keep track of it programmatically. This is one of the big things they want to do with follow up boss, is action plans. And then there's something that we are going to do that a lot of future referrals are going to want and need because a lot of her realtors that she's connected to don't even use a CRM. And she explained two statistics. 
+
+Speaker 3
+Number one, realtors start, say, branching out into hiring people and would be interested or actually can afford outside services once they hit about $5 million in sales. It's a random figure right now, so don't worry about the actual 5 million. However, it is also causality that if you're not using a CRM, being successful as a real estate agent is very hard. So this migration allows for real estate agents who are still managing their leads and spreadsheets to unlock one of the tools that will help them become successful in that business. 
+
+Speaker 1
+Yeah. 
+
+Speaker 3
+So this is hardly for future uses, for future clients, for future referrals. However, this is a great first step for us to get very familiar with the API and with the actual CRM. 
+
+Speaker 4
+Yeah, I think what's interesting about the CRMs compared to spreadsheets is one to the client, it might not look much, but the capabilities it would give us or them. For example, just triggering stuff off a CRM instead of like having. You're not going to trigger stuff off a spreadsheet, right? 
+
+Speaker 3
+Yeah, good point. You have a ceiling of what you can do. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+Those are the three main things, three main flows let's call them. However, we talked for like 2 hours in chunk so this is all the notes we took, all the different things they wanted to do. I'm going to very quickly go over them and then we're going to move on. I want us to look at the API and just answer any questions that you guys have. So text and emails trigger a calendar event with a reminder. Let's look into reminder later. Follow above. Action plans automations task person with a certain task, meaning create task for person with certain tasks. This may not only be one person, this could be their social media manager, this could be their email marketer. So create a task for this person. 
+
+Speaker 1
+With a certain task. 
+
+Speaker 5
+Then there's follow ups and touch bases. We talked about gifts, sometimes they send something and they have a service for this. So us triggering an automation where it's like hey, once a quarter. So start of the quarter, the automation sends an email to the gift company with details of all people to send gifts to. Just going to move on. This is not what is important right now. I just want you guys to see all that we talked about and all the ideas that this person gave us that they want to implement. Handwritten card, that's another service that they use. They want it to be triggered automatically so they don't actually have to go to the website and say hey, it's this person and this is the email and that's the email and this is the card, whatever. 
+
+Speaker 1
+So automate this. 
+
+Speaker 5
+And then things like further realtors meeting up once a quarter. For example, hey let's have lunch next week. And that's a simple text, very simple things that we can do. Migration to follow up boss will move leads from spreadsheets to follow up boss. Social media automations. The main one is integrations to be able to post once and post everywhere. Obviously if it's a video or if it's a text, post might not go to TikTok, right? But essentially post once, post everywhere relative. 
+
+Speaker 1
+To the type of post. 
+
+Speaker 5
+And then there are some future ones. This is where the retainer comes in. She has expressed a lot of desire to implement different AI tools that help with productivity. For example, Opus pro grabs a video and creates a bunch of shorts out of it. I see Henry smiling. Yeah, we've been trying it for some of our meetings the last few days. We actually bought the full subscription and man it's fucking sick. It's so good. And we showed it to her and she's like, yes, this is something that I want. Can you do this for me? It's like, sure, we can do this for you. This is not really what we do. But their social media person doesn't know this tool. So when we're talking retainer, this actually has a purpose, which is new tools are coming out. 
+
+Speaker 5
+How can we help you improve your productivity consistently over time? And that's what the retainer is for. Sometimes it was fuzzy to me, like, hey, why are you charging a retainer for a chat bot? Sure, maintenance and stuff. But does that mean the chatbot is going to break at any point? It might. Okay, so it feels like you're telling me you're selling me this great thing, but then that it's going to break. And the value of the retainer was fuzzy. To me. This feels like great value to help their business continue to grow. And social media is huge in real estate. And then again, post retainer, create posts with my style, with canva, this is kind of what she. 
+
+Speaker 2
+Goes to, the retainer feasibility. You can also say, and it's the truth, is the shabbo going to break? Yeah, it can. Because every time open AIMX update prompts that you written before might not work again and prompts written six months ago will probably not work as good as the day of writing it. So, yeah, you can communicate to the clients like this every time open MX update, everything change, basically. 
+
+Speaker 4
+Yeah. My problem with that is the perceived value goes down if they're constantly thinking. So I think that's just a gray area to avoid. But to go down the route of, we'll continuously look out for new tools and be trying to implement. 
+
+Speaker 2
+Yeah, but you're not saying it will break and you actually washing hands because you're putting it all on OpenAI and you teach them that this technology looks like this is a big player that gives us all the capabilities in here, and every time they make an update, things might break and it's just the way it is and just frame it as an educational value rather than you explaining yourself. 
+
+Speaker 4
+Yeah, I agree. But I also think there's kind of an edge to them not knowing and us being getting them on educating that much would take a lot of time. I don't know. 
+
+Speaker 5
+Well, they're definitely early adopters also, they think they're first to finding about AI tools and it's been a year and a half. We are so well positioned. It's ridiculous how well positioned we are that they think they're first. So I love the intellectual debate of retainer and how to show the value and kind of washing your hands because yes, it is not our fault, but we can fix it. So that's going to come up inevitably, maybe not with this client, but in the future. So thank you for your input bartek, knowing that there are things outside of us that are changing and you need someone very qualified to be able to adapt to the change. So your chat bar keeps improving, not deteriorating over time. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+Moving on. Email automations. This is for the near medium future because they now depend on a corporation to approve having their emails being read by an outside service. And there's sensitive information like where do I live? I'm looking to buy this house. This is how much money I have, this is how much I got approved for very sensitive information. So we need to treat it carefully, but for the simpler stuff that doesn't really require us taking information out of their email, but us putting information in is newsletters. Right now she has newsletters that are done mostly manually, but they don't even have the name personalization. It's just a newsletter that goes out to everybody. So at the very least we can help with that and we're going to be able to help with other stuff. 
+
+Speaker 5
+But we didn't really dig into what the perfect newsletter would be. But would this relate to a CRM automation of knowing who to send the newsletter to? How can we help improve CTA for the reading the email to actually leave somewhere or ask for feedback from the newsletter? Hey, what would you like to know about the state of real estate this year? I said state a lot of times, so this is for later. But newsletters is one thing that they're interested in. And then comes the bigger conversation of privacy for the future. Let's say the corporation does approve the use case of having the emails being read by AnSa service. That's not going to look like, yeah, just send them to OpenAI and they can train with those emails because there is private sensitive data in there. So how do we ensure privacy? 
+
+Speaker 5
+One way is actually going through the fine tuning process that OpenAI has available where anything that gets trained or any I believe I have to confirm this, but any inputs or outputs are not used so are not trained on. I have to confirm that. However, today and always local models will be the big privacy thing running on our server. Running on their server, whatever. But local models would be the winner here. We're talking about a much higher price tag here. 
+
+Speaker 2
+Because I'm assuming it's like a big corporation, right? 
+
+Speaker 5
+It's a big corporation. And they are a smaller company within that corporation. I'm not sure what the exact business legal relationship is, but yes, they work inside of this corporation. They probably pay fees or whatever. And what this corporation allows them to do is sign the mortgages because it's not coming out of these people bank accounts when they're like, yeah, you're approved for $500,000 home. It's not their bank account that it comes out of, it's the bigger corporation that is sort of under signing that approval for a loan. All right. 
+
+Speaker 2
+Because I'm thinking like corporation most of the time are standing on the Microsoft. So we could try to make an azure instance of GPT four. 
+
+Speaker 5
+That's a wonderful idea. We already have Azure set up. Let's look into that. I don't think that's the priority, but yes, let's definitely look into it because sooner or later we need to know what the fuck we're talking about. Okay, wonderful. 
+
+Speaker 2
+Do they do, I mean the mortgage probably don't do that because I have this automation for generating the real estate listing like description stuff. They're doing something like this or not? 
+
+Speaker 5
+That's a great question. Great observation too. The mortgage lenders, no, but they have about 40 real estate agents in the team and those agents would want to do that. And most of the agents are not going to overlap in districts. So within, at least in the US, a city is not really a city, it's a collection of districts. So there is the center of the city and you might call the whole collection of districts the same name as San Francisco, but there's a lot of districts around. Real estate agents essentially belong to a district, to a certain district. So most of these real estate agents don't overlap, are not in competition with each other, which is wonderful. And when it comes to, hey, we came up with this service for creating great listings, listing descriptions. Here it is. 
+
+Speaker 5
+This is how much it costs and they can all use it. This is how much it costs per. 
+
+Speaker 2
+User, for example, or also automate the content generation. Similar way also to the real estate realtors, basically because we've been doing one realtor in the beginning and we already have this priority map and we have few ideas for things in there. So maybe we can touch on that later on. We have call with Pavo, he probably wants to bring that up. And I actually have to bounce because we have the next meeting about an hour, so I'll have to bounce off and then we can continue this conversation on another call later. 
+
+Speaker 5
+Okay. Do you have to leave right now? 
+
+Speaker 2
+Like five minutes. 
+
+Speaker 5
+Okay, five minutes is great. I just want to go over this real quickly and see if any of you have used any of these services before or programmed with any of these services before. Tulio. 
+
+Speaker 4
+Yeah, some knowledge. 
+
+Speaker 1
+Great. 
+
+Speaker 5
+Bartek, you said yes or no. 
+
+Speaker 2
+We've been playing around a little bit with make, but nothing serious. It's more of like dummy project. I don't know. But you remember doing something with Tulio or it was Camille doing that. Once again, you remember early projects with make? We've been doing you and Camille and then one of you. I don't remember which one was doing something with Twilio, but I don't think we have the. 
+
+Speaker 5
+It was. 
+
+Speaker 4
+Twilio. Twilio is more SMS. But the main thing is the regulations with SMS that you'll want to regulate. I'll need a read up on the US stuff. 
+
+Speaker 5
+US tends to be lax with those. Yeah, yeah, I know. In other countries has issues. Okay, moving on. Open phone. If it sounds familiar to that, I will get the name of this and probably not, but we'll just need to connect to it or send an email. Opus pro, anybody? 
+
+Speaker 4
+Yeah, I've done my research on it. I think it's pretty easy. Yeah, I've heard about it and. Well, I found it and stuff. 
+
+Speaker 5
+Yeah. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+Yes. This is more of an automation. This is more cataloging. Who's familiar? Zapier. Who has done at least two automations with Zapier. 
+
+Speaker 2
+We are make fanboys. 
+
+Speaker 1
+Okay, cool. 
+
+Speaker 5
+Bartech, Hubie. 
+
+Speaker 4
+I prefer make as well. It tends to be cheaper. It's only certain things you want to use Zapier over make for. If it's the Apia might connect with follow up. Better than make. That's the only reason I choose. 
+
+Speaker 5
+Great. That is really good information. Okay, cool. 
+
+Speaker 1
+Zapier if necessary. Cool. 
+
+Speaker 5
+Lovely. And then connecting to text messages will be. Yeah, we'll figure that out. Probably that kind of Twilly. So we have to look into. Okay, let me ask that question with Tulio. Am I able to read messages or just send. 
+
+Speaker 4
+Yeah, because you can read the messages. I'd have to check. I think you can use the API so that you can send the incoming message somewhere. So that then tells me, oh, you can read the message, if that makes sense. 
+
+Speaker 5
+Okay, wonderful. So, Henry, if you can look those details into those details of Tulio, what's the use case? 
+
+Speaker 6
+Sorry for reading. 
+
+Speaker 5
+Yeah, great question. So the use case is going to be this. 
+
+Speaker 4
+Is there a task to complete? 
+
+Speaker 5
+Let me simplify for now. Is there an appointment to set. 
+
+Speaker 1
+Booked? 
+
+Speaker 4
+Yeah. Okay. And how does it know whether to book one or not? Is it reading the message? And in the message it says, hey, we should catch up next week, and then it knows. Or is it. The AI is deciding it would be most valuable to connect up next week. 
+
+Speaker 5
+The AI would not be deciding if it's valuable to connect. It will just read the messages. Lunch next week? Yes. Wednesday at 03:00 p.m. Add wherever. 
+
+Speaker 1
+Great. 
+
+Speaker 5
+Wednesday at 03:00 p.m. Add wherever would trigger now creating a calendar event. So we need a service that simply can read that message, and then we'll have. Honestly, in my mind comes an assistant. 
+
+Speaker 1
+That just reads the message. 
+
+Speaker 4
+What might have to happen is fuchsia. 
+
+Speaker 5
+Prompting would probably be good enough, but we'll see. 
+
+Speaker 4
+Yeah, I'm thinking we might have to redirect the messages to a new phone number and then have them read from there, if that makes sense. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+Yeah, great. That sounds plausible. Let me write that down here. Redirect messages. Price, because she gets a lot of texts. So let's look into what the cost of that is and how if we would then include that into the price or the price of the retainer. Okay, so just if you can look at those two details regarding Tulio, would we need to redirect messages and what would the price range be for that? 
+
+Speaker 6
+Okay, you can add me to. 
+
+Speaker 5
+Yeah, that's right. Awesome. 
+
+Speaker 1
+Thank you, Kuba. 
+
+Speaker 5
+Now I'm going to look into follow up boss and look into adding a bunch of people, a bunch of leads inside of follow up boss so we can start doing things with it. One question. We also already kind of have two referrals, so that's good. One that needs to set up follow up boss and do the migration of leads. And one that already uses follow up boss and wants the next level, the automation. So. 
+
+Speaker 1
+Yay. 
+
+Speaker 5
+This is exciting, you guys. What questions can I answer before we part into Kuba wanted to look into icebreakers and such, but what questions can I answer right now. 
+
+Speaker 2
+I think I don't have a question for now. I think we need to see the thing. So I was thinking we can also just send all messages through Twilio to make and then have just open AI call and filter from there. 
+
+Speaker 5
+Yeah, that would definitely be one effective approach. 
+
+Speaker 2
+But on the other side, if she's sending so much text messages that are not all of them is relevant, then we would have a lot of operations on make, which might be quite costly. I mean, not that much. You just need to probably have some higher grade of subscription. But we'll see how that goes later. 
+
+Speaker 1
+Great. 
+
+Speaker 2
+That's why I wanted to go into this in detail. 
+
+Speaker 5
+She might get rather than talking messages an hour for about 10 hours a day, it's about 100 messages a day. I would be surprised if it was less. Okay, we'll look into it. 
+
+Speaker 1
+Good. 
+
+Speaker 5
+Awareness. 
+
+Speaker 2
+I'm thinking also about, for example, there could be a situation where she sends a message or two messages and AI basically have to read them two as a one thread to understand the context. For example, one message states a day and another message says the hour. So I'm thinking that could be a risk in there that just API calling makes will just read one message and be out of context. Kind of. I'm thinking mitigating that could be. And also mitigating the cost. Could be if she just. That will require some future automation. Because I was thinking if she can make screenshot and then we can set automation to send that to Gptvision, make she makes screenshot when she have the meeting in those texts. So we omitting all the not meeting. 
+
+Speaker 5
+Texts that point we're looking at her pictures. And I don't think that. Let's keep the ideas going. Let's definitely keep the ideas going. If there's a way to compile last four messages, for example, from a certain person. So let's look into Tulio first, and then we'll go through branches of risks and solutions. Yeah, cool. So, Henry and Kuba, look into Tulio. I'll look into. 
+
+Speaker 1
+Follow up boss. 
+
+Speaker 5
+And for now, Kuba, let's keep going on the outreach. I'll stick around and we can talk about it. And Bartech, what does your time look like today and the next few days? I know we're talking in an hour, but what does your time look like today? 
+
+Speaker 2
+Already fully booked till. 
+
+Speaker 5
+Till. I meant like Monday and Tuesday more. 
+
+Speaker 1
+Let me see that. 
+
+Speaker 2
+I got some calls in Tuesday and Wednesday. Besides that, I'm quite free. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+So we'll get to work on Monday on some of the details. And we can actually get a prototype probably just straight up Monday. So we have follow up boss. You guys, this is really cool. Yeah, I'm glad you find it cool. Paige and I are moving to the other side of the world tomorrow, so we'll be around on Monday for all the meetings and whatever. So fortunately, we're traveling through the weekend. However, were evaluating what times would work best for you because we won't have anybody in the Americas. 
+
+Speaker 4
+In fact, I've got a last minute update as well, basically my dad's now got a job, but he's not starting until next month, so he wanted to go do something. So I'm actually flying to Thailand on Monday, dude. Which also means we're in the same time zone. 
+
+Speaker 5
+That's awesome. 
+
+Speaker 4
+I think it's 4 hours difference between Singapore to Sydney. So that will work for us a lot better. 
+
+Speaker 5
+How long are you staying in? How long are you traveling for? 
+
+Speaker 4
+Maybe two and a half weeks. 
+
+Speaker 2
+Okay, I got about. 
+
+Speaker 5
+I'll share some questions and we can figure out probably some better times that work for people, but anyway, we'll figure that out. That part out. 
+
+Speaker 4
+It also does mean I'm probably going to be, I will make it, I will bring my laptop and I will work, but I will probably be about a bit and then. Yeah, today is really my last day to work on this before Wednesday, probably. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+Okay, awesome. 
+
+Speaker 1
+Great. 
+
+Speaker 5
+So let's. Okay, we'll come back to that in a second. 
+
+Speaker 1
+Henry. 
+
+Speaker 5
+Kuba. How you doing, my brother? 
+
+Speaker 6
+Great, man. How are you doing, bro? 
+
+Speaker 5
+Yeah, as you can see, I'm doing fantastic. Curious, what's the update on the relevance integration into the script? 
+
+Speaker 6
+Yeah, it works. Currently the project is going in another direction. So I figure out that landgraph would be like the best right now. So we need to recreate everything with long graph because we need like a router. Because when a query comes in, we need like an LLM as a router for the question so it can direct the question to the right agent. Do you understand what I'm trying to say? Yeah, it can work in a loop. So that's what I'm trying to figure out at the moment. I tried out the relevance API and it works well. But the only problem right now is the email prompt. It is like taking too much of token credit. The course is very high when I tried the prompt template, so I need to address that first. 
+
+Speaker 5
+Okay, so you're talking about. Okay, let me share screen and you can show me which portion you're talking about. Okay, you mean for like email draft? 
+
+Speaker 6
+Yes. 
+
+Speaker 1
+Breakers. 
+
+Speaker 5
+And then. 
+
+Speaker 6
+Here those prompt templates. 
+
+Speaker 1
+Okay. 
+
+Speaker 6
+Do you use Langsmith? I have not. Longsmith is just like for debugging and checking token cost. So when I checked, this is costing like about almost a dollar. So we need to refine the prompt to make it better. 
+
+Speaker 5
+Wait, so only this is costing a dollar is what you're saying? 
+
+Speaker 6
+Yeah, almost a dollar. 
+
+Speaker 1
+Okay, cool. 
+
+Speaker 4
+Is that with the output as well? 
+
+Speaker 6
+Yeah. 
+
+Speaker 4
+Okay. 
+
+Speaker 1
+Cool. This is for last month. Can you just show me last month please? Show me last month. There we go. 
+
+Speaker 5
+So these were like four or five runs of that event, of that script is what you're saying? 
+
+Speaker 6
+Yeah. 
+
+Speaker 1
+Okay. 
+
+Speaker 6
+Can you go to Langsmith? Just log into longsmith. I'm using my API. I need to share my screen. 
+
+Speaker 1
+Give me a minute. Okay? Yeah, man, this is cool. Okay, click message it. Nice. Kuba's training from his computer. That's cool. 
+
+Speaker 6
+Can I give access to share my screen? 
+
+Speaker 5
+Yes. 
+
+Speaker 1
+There you go. 
+
+Speaker 6
+I see my screen now. 
+
+Speaker 5
+No, not yet. 
+
+Speaker 1
+It's loading. 
+
+Speaker 5
+Yeah. 
+
+Speaker 1
+Okay. Yes. 
+
+Speaker 6
+So this is what I'm talking about. So, so I can see the agents that, I can see all my workflow here. So for that draft and email, see the crust of the token? 
+
+Speaker 5
+32,000 tokens from what? 
+
+Speaker 6
+Sometimes I guess it's just the agents misbehaving sometimes spin off. 
+
+Speaker 4
+Can you see what percent of the tokens are the output? What percent of the tokens are the. 
+
+Speaker 6
+Prompt? 
+
+Speaker 5
+Well, we have the prompt, so. Oh, but it has like the question input and then the agent scratch pad and then the summarized. We're going to optimize the knowledge base. 
+
+Speaker 1
+Because that's not very effective. Oh, nice. 
+
+Speaker 6
+Look. 
+
+Speaker 1
+Okay. Yes. 
+
+Speaker 6
+This is the output of the. 
+
+Speaker 5
+Where's the email though? 
+
+Speaker 6
+Okay, I'm sorry. This was like the question that you asked. So this is the amount of tokens for each of it. So for the email output, think it should be somewhere around here, not this. 
+
+Speaker 1
+It. Okay, so. 
+
+Speaker 5
+For that one prompt, which is the number, is it the 1800 amount of tokens it consumed? 
+
+Speaker 6
+Yeah. Okay. When you are using an agent, it's breaking the tax step by step, from the beginning, from here. For me, this is the input, my inputs was dropped. An email using like a summarized version of our knowledge list. 
+
+Speaker 5
+Yes. 
+
+Speaker 6
+This is the output down here. Let me try to. 
+
+Speaker 5
+So 1300 tokens is what the input was. 
+
+Speaker 6
+Yeah. 
+
+Speaker 5
+And then the whole step by step of breaking down the action, input observation and running the step by step of the lang chain, then that in total was 32,000. Is that what we're saying here? 
+
+Speaker 6
+Yeah, that's what I mean. 
+
+Speaker 5
+Does that include like icebreakers and all that stuff? Or is this purely just that one step of drafting the email? 
+
+Speaker 6
+Just the only step of using our summarized breakers that we created. Okay, so what we're using now is the prompt, the icebreaker, the output from the icebreakers and summarized version of our knowledge base. 
+
+Speaker 5
+And what you're proposing for minimizing token usage is changing to land graph? 
+
+Speaker 1
+No. 
+
+Speaker 6
+Land graph is just like routing questions. When an impute is sent to an eleven. It's routed to the right agent. You don't need perform loop with the tools. You just need to just give it the input. It knows the tools that it's going to use because of reasoning. Got you. So long. Graph is just a better way to run agents. Like making it more autonomous. Something like thereabouts. We need to fix this prompt to be more effective and to minimize the cost of the tokens. 
+
+Speaker 1
+Yes, we definitely do. Okay, school. 
+
+Speaker 6
+It's cool. I'm thinking of something. I'll try it out and get back to you. Just like giving you updates. 
+
+Speaker 5
+Sounds good. I do really want us to prioritize making sure that. Well, let me just double check and backtrack a second. I'm looking at the icebreakers. We have five icebreakers. Professionally relevant, interest based adaptive communication style. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+Timely and relevant. Icebreaker. Suggestive of collaboration. 
+
+Speaker 1
+Icebreaker. 
+
+Speaker 5
+So the icebreaker seems to be writing not a whole email, but it is going for the congratulations on the release of whatever. It's an impressive and collaborative effort. Could you elaborate on how this data set could revolutionize PD learning and multimodal perception? We might want to start choosing a real estate agent to ask more relevant questions to what we're actually going to do. But could we set up a time. 
+
+Speaker 1
+To discuss this further? 
+
+Speaker 5
+Okay, now comes the portion that we talked about. I'm going to share screen real quick. 
+
+Speaker 2
+Hey, guys, I have to bounce now. 
+
+Speaker 1
+Okay, sounds good. 
+
+Speaker 5
+We'll see you later, Huey. Now comes this portion of introducing the human. We have some icebreakers. We'll run it a few times with different people. We'll collect those icebreakers and then actually evaluate. So I'll get together with Zach and we can look at it. We can set up some time and actually go through a bunch of icebreakers. It feels to me that if we're going to do this in an organized, systematic manner, we're going to need airtable. So uploading these to the airtable base that we created so we can actually look at them one by one and have notes of what we would change. I'm thinking aloud here. 
+
+Speaker 1
+Human. Here. Upload icebreakers to airtable. 
+
+Speaker 5
+And we can have a table of icebreakers. And then we can fine tune starting from the icebreakers. The concern that you bring up for tokens is a super valid concern. And we have the options of changing the model. We also have the option of changing the prompt to make it smaller so that at every step that it gets processed, it's not consuming a multiplicative amount of tokens. That might come through. Optimizing the knowledge base first, kind of like creating the summary of the knowledge base first, because the knowledge base tells the whole story and we don't need the whole story, we just need like objectively, this is how we're involved. This is our offer, this is what we offer, and this is the ideal customer profile that we're going for. 
+
+Speaker 1
+So knowledge. 
+
+Speaker 5
+Base summary should only contain kind of like ICP. 
+
+Speaker 1
+Our offer. 
+
+Speaker 5
+And kind of ethos of the organization. Amplify the human and this could be just a whole summary. We might give it a little more, but let's start there. So we'll create a summary of the knowledge base and that will, number one, help with reducing token usage and not having the model have to go through so much information. 
+
+Speaker 1
+It will just confuse it. 
+
+Speaker 5
+What other thoughts come to mind? 
+
+Speaker 6
+So I'm thinking of refining the prompt. 
+
+Speaker 1
+Okay. 
+
+Speaker 6
+Email prompt. Thinking of refining it then. 
+
+Speaker 5
+And is that shortening? 
+
+Speaker 6
+I can't see shortening. I think creating it from the beginning, but I'm still going to be implementing some things from PFE from this one that we're using. Yeah, really like building it from scratch. So I'll try out a lot of iterations and see what works out well. 
+
+Speaker 1
+Okay, sounds good. 
+
+Speaker 5
+I think I'm going to look at this icebreaker prompt and probably change a few things. Not much. 
+
+Speaker 1
+I think this is pretty straightforward and effective. 
+
+Speaker 5
+We just need to go test it with our actual ideal customer profile, real estate agents, and we're working on that. 
+
+Speaker 1
+With the sales team. 
+
+Speaker 5
+There also came the other question of like, hey, what framework of email do we use? So we'll be integrating that as well. Maybe that's something that helps guide this a bit more of like, hey, here is the framework. 
+
+Speaker 1
+Prompt. 
+
+Speaker 5
+Okay, Kuba, can we make sure that this gets uploaded to the GitHub? 
+
+Speaker 6
+Yeah, sure. 
+
+Speaker 5
+We can create a repository. I'll create a repository. 
+
+Speaker 1
+And I didn't know they had this. 
+
+Speaker 5
+Anyway, I'm getting distracted. So we have personalized outreach system. I'm adding you guys in here. 
+
+Speaker 1
+By going to security it settings collaborators rate, and we have. 
+
+Speaker 5
+Rate of for members. 
+
+Speaker 1
+And. 
+
+Speaker 5
+Can you guys see if. 
+
+Speaker 1
+You can get here? 
+
+Speaker 4
+Yeah, I'm in the GitHub. 
+
+Speaker 1
+Cool. 
+
+Speaker 4
+Where exactly you define? 
+
+Speaker 5
+Oh, just personalized outreach system, if you can see it. 
+
+Speaker 4
+Yeah. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+And Kuba, you too. 
+
+Speaker 6
+Oh, yes, I'm coming. 
+
+Speaker 5
+Awesome, awesome. So that's where we're going to update everything. So if you could start with this initial commit and then we'll go forward, there's definitely some to do. 
+
+Speaker 4
+Kuba, what's your GitHub username? 
+
+Speaker 6
+Kuba. K u b. Let me send my k u b. Oh really? 
+
+Speaker 5
+Just simple, man. 
+
+Speaker 1
+Upload icebreakers to airtable. How do I invisible optimize email draft token usage? 
+
+Speaker 4
+Okay, wait, I'm going to remove Ahmed because we only have four seats. 
+
+Speaker 5
+Oh, I see. Yep, yep. 
+
+Speaker 1
+Yeah, great. And deleted what I wrote. 
+
+Speaker 4
+Have you heard from Ahmed? 
+
+Speaker 5
+Yeah, I did. 
+
+Speaker 6
+Okay. 
+
+Speaker 4
+I also nan messaged me last night. 
+
+Speaker 1
+Oh cool. 
+
+Speaker 4
+Saying he's fine. 
+
+Speaker 5
+So yeah, he just made it back to France. 
+
+Speaker 1
+He messaged me too. Okay, awesome. Optimize token usage on email draft. Okay. 
+
+Speaker 4
+Wait, can you drop your email address to the GitHub in the chat to your GitHub account? 
+
+Speaker 1
+$30 for a million tokens. 
+
+Speaker 5
+So that's $0.03 for 1000 tokens for. 
+
+Speaker 1
+Output, $0.01 for 1000 tokens. Okay, so yes, we definitely want to be using this. However, if we're talking GPT four. Oh, what? 
+
+Speaker 5
+GPT four turbo. Oh bro, we got to be using GBD four turbo. Are we not like half the cost. 
+
+Speaker 4
+A third of the cost, yeah. 
+
+Speaker 5
+And then 3.5 turbo. 
+
+Speaker 4
+Yeah, they're making them cheaper as well. 
+
+Speaker 5
+It's crazy, it's absurd sense. 
+
+Speaker 6
+It's in your chart. 
+
+Speaker 4
+Yes, I found you. 
+
+Speaker 1
+Cool. So I'm just going to go update the model real quick. 
+
+Speaker 4
+I didn't realize you weren't using the turbo. 
+
+Speaker 1
+I would have said something, sorry, but we found out now and that's what's important. 
+
+Speaker 4
+All right, I sent you an invitation, it might be in your email. 
+
+Speaker 1
+All right. 
+
+Speaker 5
+And this is the organization called fasterized GitHub. 
+
+Speaker 1
+Yeah. Cool. So GPT four preview. Preview. 
+
+Speaker 5
+Kuba, if I run this whole thing, then you would be able to look at that same analysis of token cost. Yeah. 
+
+Speaker 6
+Sure. 
+
+Speaker 1
+Okay, cool. 
+
+Speaker 6
+I added you as like a collaborator. 
+
+Speaker 1
+Yes, awesome. Yes. I'm going to connect and then run all it. Okay, let's see what happens. 
+
+Speaker 5
+So this will be slow. That's something that we'll have to work with. And it's fine because this is not time limited. Fortunately, as we prepare leads to send emails for a campaign, we have time to prepare them. Even just running it overnight is good enough. So don't be too concerned about that part and we will optimize over time. 
+
+Speaker 6
+All right, cool. 
+
+Speaker 5
+And yeah, the other thing is LinkedIn profile URLs. Most of the time we'll have it. Not always. So it's great that you left that in there. 
+
+Speaker 1
+We'll keep using it. 
+
+Speaker 6
+Yeah, I was about to ask about that, I saw your comments about it. 
+
+Speaker 1
+Oh yeah. 
+
+Speaker 6
+I didn't get what you're trying to say. 
+
+Speaker 1
+Okay. 
+
+Speaker 5
+Which one? 
+
+Speaker 6
+This one or this one about the LinkedIn URL? 
+
+Speaker 5
+Oh yeah. So for some of our lead lists, the LinkedIn URL will already be available. So this step where we're doing the serp for finding the. No, it's not Serp. Where we're doing the search of the LinkedIn URL. This step would need to be skipped because we already have the LinkedIn URL. So how does this flow change when we don't actually need to do this step? 
+
+Speaker 6
+Sorry to close your. So this is where long graph comes in. 
+
+Speaker 5
+Okay. 
+
+Speaker 6
+We use like an LLm as like a router instead of like. Okay. In a case where we have only the LinkedIn URL, the LLM router knows that. Okay, it's not going to be directed to this agent. Instead we're going straight to this kind of, yeah, we're not meant to use this agent. Do you understand? Like the router agent, we're going to create routing for each question. So you know that. Okay, skipping this agent, we are going. 
+
+Speaker 1
+To. 
+
+Speaker 6
+The right agents that are useful. Do you understand? 
+
+Speaker 5
+Yes, I do. I understand. I guess my question is, as of right now and for the near future, the critic will be set in different places. Right here. There's another critic here, there's another critic here, and there's probably one loop that happens. However, it's mostly sequential. In fact, this loop is just a sequence where we put the email writer here and then the email gets sent. So since it's sequential and the LinkedIn profile, whether we have a LinkedIn profile or not is pretty binary, it comes from a variable. Would we really need a whole agent, a whole routing agent to decide what step comes next? Or can we just do, hey, if this variable is filled in this lead list, in this spreadsheet in the CSV, then do this step. If not, then do that step. Is there another purpose to the routing agent? 
+
+Speaker 6
+No, that works too. At least that works. It makes sense. Much easier. 
+
+Speaker 1
+Okay. 
+
+Speaker 5
+In my ideal view, what you said, yes, it applies. There's a critic that will, whatever, do an assessment of the icebreakers and then say, hey, you know what, let's go back to the icebreakers step because none of these are good. Ideally that's something that happens. For now, for a V one, let's keep it sequential, let's keep it code, and in a way minimizing the amount of agents that we're using even as we're using like ten different agents. Okay, so I'm with you on the application. Let's keep it simple for now. Let's keep it programmatic. And as soon as I can, I will give you a CSV of what that actually looks like, of what those leads actually look like, and when that LinkedIn profile column, that data is there or it's not. Yes, this is a LinkedIn URL or it's empty. 
+
+Speaker 5
+If it's empty, then run this step. 
+
+Speaker 1
+Yeah, run this step. 
+
+Speaker 5
+So we'll get around to that. For now. What you're doing here is wonderful. And we will decide. 
+
+Speaker 1
+Before next step. Check if the leads CSV contains a LinkedIn profile URL. If it doesn't, skip next step. If it does. 
+
+Speaker 5
+If it does, make LinkedIn profile URL. Make LinkedIn profile URL equal to whatever data frame which has the same name. 
+
+Speaker 1
+LinkedIn profile URL. Okay, cool. 
+
+Speaker 5
+And as we're looping through the people in this data frame, in the CSV, we can actually play with the variables inside and all that stuff and we'll integrate the instantly API later. Yeah, anyway, I think we're on the same page about that. Anything else to note? Anything else I should look at here? 
+
+Speaker 6
+I think that should be all for now. 
+
+Speaker 1
+Okay, I'm going to try running this one more time. Run after sample data. 
+
+Speaker 5
+And we are also not right now you're comfortable? If you're comfortable with Google Colab, that's great. Let's just make sure we have a version of it in the GitHub and we are going to transition to, unless you can have. Yeah, yeah. Save a copy to GitHub. 
+
+Speaker 1
+Okay, great. 
+
+Speaker 5
+As long as we're clicking on that. So good. Just can't see the organization here, which is weird. 
+
+Speaker 1
+I can't see faster ICE. Why not? Because it's not public. Is that why? Because it's not public. But I can see it here. Okay. 
+
+Speaker 5
+Anyway, that's a me thing. 
+
+Speaker 6
+We can move it to visual studio code or something. 
+
+Speaker 5
+My point is, whatever you're comfortable coding is fine as long as we have an updated version of it in GitHub every time. And I can just be using visual studio that I feel comfortable with and I can be running it there so it works. 
+
+Speaker 6
+I just actually built it out using collaboration. I'll move it over to visual studio code, then I can just pull in from the repo. 
+
+Speaker 1
+Sounds good. 
+
+Speaker 6
+Yeah. 
+
+Speaker 5
+And just going to change the. 
+
+Speaker 1
+Name too, just so we're same page, massive purse. Let me run the rest of this. Just want to have you here while I run this. Oh, I have another meeting. Okay, cool. Beautiful. 
+
+Speaker 5
+Very readable recent posts. Great. 
+
+Speaker 1
+Oh, it's still running. Okay. To assess Yannicku's relevance and potential alignment. 
+
+Speaker 5
+With our company's strategic goals in the AI sector, his expertise, experience and interest. 
+
+Speaker 1
+Against the backdrop of our company AI. 
+
+Speaker 5
+Sector, your role is carefully review information of the person. 
+
+Speaker 1
+Assess how significant person is in artificial intelligence. 
+
+Speaker 5
+Okay, I'll work on tuning that prompt. 
+
+Speaker 1
+Just so it runs smoother, but it's good. And down here we put a step part of the to do list. 
+
+Speaker 5
+Then we talked about. 
+
+Speaker 1
+Optimized qualifier prompt. I also looked at uploading to airtable for human review. Sync with GitHub latest version accessible to everyone. Lovely. Okay, great. 
+
+Speaker 5
+Thank you guys. 
+
+Speaker 1
+Checking this, checking this. Ran scrape LinkedIn profile. 
+
+Speaker 5
+LinkedIn data. 
+
+Speaker 6
+No, that should be deleted. This is for like when I was using this proxy call. 
+
+Speaker 5
+Yes, that's right. 
+
+Speaker 6
+So I'm going to delete it. That's why I moved everything down. 
+
+Speaker 1
+Yeah. 
+
+Speaker 5
+Okay. And then it finished. Okay, if you can just upload a version that includes this, maybe with a. 
+
+Speaker 1
+Comment. 
+
+Speaker 5
+I want us to have different available options. And this worked. It worked. So having that code somewhere in the. 
+
+Speaker 1
+Code base is just going to be. 
+
+Speaker 5
+A good idea overall. 
+
+Speaker 1
+Okay. 
+
+Speaker 5
+The email draft agent stopped due to iteration limit or time limit. Do you know what that's about? 
+
+Speaker 6
+Yeah, that was when I was running the email. Do you just run this one now? 
+
+Speaker 5
+Yeah, I just run it just now. 
+
+Speaker 6
+Okay, let me see it. I need to break down the email into a smaller section. Did you the input of the mail, did you run the email block? 
+
+Speaker 1
+Yes. 
+
+Speaker 6
+Okay, scroll down please. Let me see. Just stopped you. 
+
+Speaker 1
+John Doe. Weird. 
+
+Speaker 5
+Okay, I have to go to a meeting. I'll leave you with that. 
+
+Speaker 6
+Why is he writing John Doe? 
+
+Speaker 4
+John Doe's a. 
+
+Speaker 1
+Yeah. 
+
+Speaker 6
+Yeah. 
+
+Speaker 5
+I don't know why that changed though. 
+
+Speaker 1
+When would it have changed, John? It's the only time it shows up. 
+
+Speaker 4
+Unless the LLM model automatically names it. 
+
+Speaker 5
+Yeah, maybe if you can look into that on your side. 
+
+Speaker 1
+Cuba? 
+
+Speaker 6
+Yeah, I'll check it out. 
+
+Speaker 5
+Yeah, great. Wonderful. Any questions that come up, clarification please hit me up and we can make. 
+
+Speaker 1
+Sure we have it done. 
+
+Speaker 5
+But these are the to do. If there's any confusion at all, we can talk about it. 
+
+Speaker 1
+Check iteration limit. 
+
+Speaker 5
+Error on critic and check John Doe instead of Jan Lecoon. I believe it's on icebreakers. No, on email drive. 
+
+Speaker 1
+Cool. 
+
+Speaker 5
+You guys, let's have a great rest of your day. 
+
+Speaker 4
+Yeah. Alejo, did you want to talk about the Thailand thing. I know you said something. 
+
+Speaker 5
+Yes, I do. And I have a meeting with Bartek and Powell. Sorry for. Sorry that I kept you here. Let's talk about it later. Essentially, what I'm saying is, you're with your dad. Obviously enjoy your time. And as things speed up, we'll also make sure that we give you very specific, clear tasks. Okay. So you can organize yourself. 
+
+Speaker 4
+That's it, then? That's fine. Yeah. No, I totally get it. 
+
+Speaker 1
+Cool. 
+
+Speaker 4
+Thank you. Thanks for everything. 
+
+Speaker 5
+Appreciate it. Yeah, my pleasure. It's time to accelerate. Let's fucking do this. All right. 
+
+Speaker 4
+Peace out, man. 
+
+Speaker 5
+Paige, let's meet in a different link. I'll send it to you. Bye. 

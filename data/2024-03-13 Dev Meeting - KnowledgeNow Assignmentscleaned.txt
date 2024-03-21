@@ -1,0 +1,933 @@
+Speaker 3
+So quick updates. I needed to DS code now. 
+
+Speaker 3
+So I moved it to vs code. Now I'm dealing with arrange my code. Can I share my screen? 
+
+Speaker 4
+Yeah, I checked that video. I think the idea is great, but I have to check it in action. 
+
+Speaker 3
+So I found a way to view, like I can view the prototype in anaconda environment. 
+
+Speaker 3
+I found a way to build the prototype for testing in visual studio code with an Akonda. Then I can arrange the code, structure it in a way that you can understand, like breaking it into chunks. 
+
+Speaker 3
+That'S where I am right now. 
+
+Speaker 3
+Okay, so right now this is my prompt. I created a py file for all my prompts. Then this is going to be like all the functions. First of all, the first function I'm going to do is load a file. Then the second one is to split the file into trunks. Then the third function is to create an embedding with OpenAI. 
+
+Speaker 3
+Yeah, that's either I think two or so. That's it. 
+
+Speaker 3
+Yeah, I'm still figuring it out. So I can push it to the GitHub if. 
+
+Speaker 2
+Yeah, let's do it. If you could just push it to a dev branch and so we can actually keep track of everybody's branches. Whenever we have something that's working, we'll push it to main. For now, let's keep it in a dev branch. Cuba branch. 
+
+Speaker 2
+A follow up, boss. I've been working on the API. 
+
+Speaker 2
+So I got two big wins today. 
+
+Speaker 2
+It's all integrated into one uni box. 
+
+Speaker 2
+Doing through the API. And that's actually what I did through the API. Going back to the actual code. 
+
+Speaker 2
+So with that context, what we have. 
+
+Speaker 2
+Them by the last sent text because. 
+
+Speaker 2
+What way around this we can find and if we can't find a way around it, then we'll just implement something different. 
+
+Speaker 2
+But to get the money in, we'll need to have this productionized in a way that everything is getting triggered in an automatic way. 
+
+Speaker 1
+Custom function to assistant. 
+
+Speaker 2
+That's one we also need to do. 
+
+Speaker 1
+Custom function to assistant. We need to do trigger chat when text message gets received. We also need to do unblock privacy mask. 
+
+Speaker 5
+Prompt. Versioning is very helpful. And this is actually hard lesson learned, because in the first project of celebrities, we didn't do that. You know, what was the error that was coming from not doing this, not prop versioning? It was that I had at some point outputs that were good enough. We just wanted to make them little more perfect for the client because he still had some things to say about this. And then next iteration was worse, and I couldn't go back because I didn't have the prompts from before.Speaker 2
+That's unfortunate. 
+
+Speaker 5
+You learn on your mistakes, and I will remember this for the rest of my life. 
+
+Speaker 2
+My God, that sucks. But thank you for bringing that lesson in. There are some things to change, because. 
+
+Speaker 1
+It was actually claude that grabbed these. 
+
+Speaker 2
+600 lines of code. 
+
+Speaker 1
+No, not that one. Yeah, this one. And made it into. 
+
+Speaker 2
+It took a while. It took a lot of like, forcing. 
+
+Speaker 1
+Him to do stuff, but it worked like charmish. It worked like 80%. Details, details. 
+
+Speaker 2
+The flow is pretty much the same. There's some stuff to change. I'm getting some errors. And this Kuba, I will rely on. 
+
+Speaker 1
+You because it's errors like where are. 
+
+Speaker 2
+Yeah, prompts missing required variables, tool names. 
+
+Speaker 1
+Tools and agent scratchpad. But I see these getting called. Right? Where is it? The tools, message placeholders. 
+
+Speaker 2
+And I don't know if that is. 
+
+Speaker 1
+Those tools, but that kind of stuff, I'm going to need to rely on you. 
+
+Speaker 2
+So let's get together tomorrow and we can walk through this whole repo together. 
+
+Speaker 1
+And. 
+
+Speaker 2
+This is Claude's interpretation, right. So we can modify whatever we want. And I'll just do some tweaks, like getting the right LinkedIn scraper in and whatever. 
+
+Speaker 1
+So that's where we're at. Cool. 
+
+Speaker 2
+And we'll get us up and running. 
+
+Speaker 1
+As soon as possible. Awesome. 
+
+Speaker 2
+Bartech, we said were going to. 
+
+Speaker 1
+Start keeping track of in a more like, organized manner. So let me pull up the to do list. We can look at it together. We have this notion very soon we will give access to everybody, so we. 
+
+Speaker 2
+Can keep track of everything together. 
+
+Speaker 1
+And I'm going to go filter by dev. 
+
+Speaker 2
+And we have all the dev projects. 
+
+Speaker 1
+Here, so knowledge now. 
+
+Speaker 2
+Bartech, how are the agents doing? Did you get a chance to start. 
+
+Speaker 1
+Drafting any of these prompts? 
+
+Speaker 5
+Actually, I was about to do it today. Cool. I still haven't had time just to start this. 
+
+Speaker 2
+Oh, yeah, it's morning for you guys. That's right. 
+
+Speaker 1
+Yeah. Cool. 
+
+Speaker 5
+Yeah. But I think we still need to have the structure of the lank chain. So it's still going to be probably a few days right before we can even start using those prompts. That's why I wasn't so much in a hurry yesterday to have it by the morning. 
+
+Speaker 2
+Totally. I hear what you're saying. We are going to the MVP is definitely going to use blank chain and we want certain tools. 
+
+Speaker 1
+Right. 
+
+Speaker 2
+But in reality, as we looked at this MVP, most of this list is just text based rather than tool based. So let's walk through it together one more time. I have a prompt. We have the global context, which is going to be like, hey, this is fasterized. This is the dev team, this is the marketing team, et cetera, like a two pager. And we're going to enrich context from that document. So is there a vector database connected at this point where. With Langchain for sure, but it doesn't need Langchain to start testing that prompt. 
+
+Speaker 1
+Right? 
+
+Speaker 2
+It's just kind of PFA. So I'm working on this global context document. We will need a draft for the agent and then we'll go the next step. As obviously Kuba just showed, he's working on the pine cone integration on the chat and we'll keep integrating one agent after the other. But there is a relative urgency on getting drafts for each of these agents so we can test them. So we can start testing them. 
+
+Speaker 5
+All right, I should have the contact before end of this meeting. The contact prompt. 
+
+Speaker 1
+Cool. 
+
+Speaker 2
+Sounds good. Sounds good. 
+
+Speaker 1
+Awesome. 
+
+Speaker 5
+I am super curious about repo on my account or on the faster? 
+
+Speaker 2
+Let's keep it on the faster so we can all contribute and Kuba can put his. I don't know if you joined the meeting by when we said it, but yeah, he's going to keep a branch of his code that is kind of his branch, and keep your branch of the code in the same repo but your branch. So let me go do that and let me just create a new repo right now, unless we have one already. 
+
+Speaker 1
+Let's see. 
+
+Speaker 2
+Okay, I'm going to create one now. 
+
+Speaker 1
+Yeah. 
+
+Speaker 2
+We keep debating whether there's a space or not in between knowledge and now the hard technical problems. There's also a conversation of building in public, which we've been trying to hone in on. And we're going to keep this public for now as alignment of who vasterize is, which we want to keep doing transparency and we want to keep sharing this happy to open because the prompts. 
+
+Speaker 5
+In there going to be also partly PFI prompts. Maybe we have a separate repo for the prompts alone. 
+
+Speaker 2
+No separate repo. Let's keep it all in one. In that case, let's do then I'm going to keep it closed for now. And whenever we find a way to protect what we need to protect while still giving people access to leveraging the amazing things that we're doing. Also, how we find other great devs is by sharing. 
+
+Speaker 1
+Right? 
+
+Speaker 2
+So let me now figure out how. 
+
+Speaker 1
+To change. 
+
+Speaker 2
+The. 
+
+Speaker 1
+Know. 
+
+Speaker 5
+Like, for example, the first version of PFA. I'm happy to share the prompts to the public, but the latest version I would rather keep in our private space. And the context prompt will be basically repurposed from the PFA. Context prompt will have around 10% difference. So that will be publishing PFA latest advancements. 
+
+Speaker 2
+I know that you have taken that approach with PFA, and I want to respect how you want to do it on that end, and we'll figure out how that philosophy fits with the rest of the project, because. Yeah, you have a good point. We don't necessarily need to be sharing the latest prompts. The system, even as a whole, works very well, right? 
+
+Speaker 1
+At least in theory. 
+
+Speaker 2
+So even with mediocre prompts, we could get good output. 
+
+Speaker 1
+Why is this not working? 
+
+Speaker 5
+And also, I think in terms of knowledge now being our flagship product. 
+
+Speaker 1
+I'm. 
+
+Speaker 5
+Not sure if we should just give it away like that. I mean, I get your point. I get your point, but still, we want to make money on this, and do we want somebody else to be making money on this without us knowing? That's something to consider, definitely. 
+
+Speaker 2
+One of the questions, is the market big enough? How much is stable diffusion? 
+
+Speaker 1
+Fully. Mmm. I wonder how much. 
+
+Speaker 2
+They're at $44 million with pretty much everything open source. And then they have, obviously, the specialization for enterprise. One is not exclusive from the other. This is somebody. This is a company that is doing what we want to do in a different approach. Probably better that we can do it right now, and they're doing well. Most likely. The market is so big that it matters so much less who's better and who's first, and it matters a lot more who can find the customers. So let's continue talking about this. I think that these are all constructive conversations. I just made the repo private, and we can figure out how we can help bring this amazing technology to people and also gain income from enterprises. Thank you for bringing up these conversations, Bartek. 
+
+Speaker 5
+I just have one question. That this rewind thing you showed they are open source? 
+
+Speaker 2
+No, they're closed. Yeah. I don't know. They don't have a GitHub. 
+
+Speaker 1
+But it. 
+
+Speaker 2
+Was an example of a company that's doing something similar, and they're taking the closed source approach. I do believe that having a thousand stars on GitHub will beat good marketing every single time, because with the engineers that attracts and the sort of industry acknowledgement, oh, how did stable diffusion even come to get famous? It was through the engineers, not through the marketing. 
+
+Speaker 1
+Right. 
+
+Speaker 2
+But it's interesting. We can debate about this for years. I'm going to pause here. I just want to make sure that everybody can see this. I just want to make sure that if everybody goes to the GitHub, the fasterized GitHub, and everybody would have access to create a pull request or create their own branch. I'm going to post the link, and. 
+
+Speaker 1
+You guys me know. 
+
+Speaker 2
+Permissions, and. 
+
+Speaker 1
+I think I'm gonna also delete this fast drive. Okay, never mind. Yeah, there we go. Side project. There you go. 
+
+Speaker 2
+Now that's not going to be annoying. And we can rename our GitHub actually faster. 
+
+Speaker 1
+ICE. 
+
+Speaker 2
+Cuba, you're in here. We have limited. 
+
+Speaker 1
+Oh, but I can get enterprise. I have enterprise. 
+
+Speaker 2
+Okay, I'll figure that out on my end. 
+
+Speaker 1
+Range. I thought I had on organization. Okay, I'll figure this out later. 
+
+Speaker 2
+Everybody has access. 
+
+Speaker 1
+Yeah. 
+
+Speaker 5
+Or no, I have the error 404. The page is not existent. 
+
+Speaker 2
+It's because the repo is private. 
+
+Speaker 5
+You have to send me invitation to the email. 
+
+Speaker 2
+Yeah, the problem is that we have the four seats. Outside collaborators, maybe. 
+
+Speaker 1
+Okay, let's do something. Let's change this. 
+
+Speaker 2
+To convert to outside collaborator. 
+
+Speaker 1
+Organization from all teams. And if they don't have any private. 
+
+Speaker 2
+Repositories in the organization, their seed will be reclaimed. 
+
+Speaker 1
+Great. 
+
+Speaker 2
+So now I invite a member, Bartech. How do I find you in, I. 
+
+Speaker 5
+Send you in the chat, my name on the GitHub. Actually, I don't sure what the email I have in there. 
+
+Speaker 1
+Okay. Yay. 
+
+Speaker 2
+So Kua, you're in there. I'm going to add you in here. Hoobie, too. 
+
+Speaker 4
+Sorry for waiting. I have to change my password because my account is locked. 
+
+Speaker 2
+Okay. Yeah, because the two fa, they changed that. You need two factor authentication. 
+
+Speaker 1
+I don't know if that's why invite somebody else. 
+
+Speaker 3
+Okay, well, what did you call the name of that company? 
+
+Speaker 2
+Sorry, would you get closer to the mic? 
+
+Speaker 3
+I said, what did you call the name of that company? Building something similar. The name of the company. 
+
+Speaker 2
+I didn't rewind. 
+
+Speaker 5
+We have the GitHub copilot. Copilot or I shouldn't request that. 
+
+Speaker 2
+I am going to get us GitHub Copilot. I think I can, through the Microsoft founders hub, that might be able to give us GitHub Enterprise and GitHub Copilot, hopefully GitHub Copilot as. 
+
+Speaker 5
+I request, because it's prompting me to request GitHub Copilot or not. 
+
+Speaker 2
+As long as you don't sign up for anything, then yeah, do a request and maybe I can see some more information. 
+
+Speaker 5
+All right. 
+
+Speaker 2
+Yeah, add people, collaborators, and what's your email, hooby? 
+
+Speaker 4
+I sent you on the chat? 1 second. Okay, here you go. I have error 40 four and I'm login. 
+
+Speaker 1
+Okay, 1 second. Can I add a collaborator? 
+
+Speaker 2
+Yeah, if we keep this private, then you won't be able to see it. Let's. 
+
+Speaker 1
+How do we do that? 
+
+Speaker 2
+I'm going to look into founders hub tomorrow, so let me add that as. 
+
+Speaker 1
+A to do list. We can go from there. 
+
+Speaker 2
+GitHub Enterprise, because I think it's up to ten seats. 
+
+Speaker 1
+And copilot. Okay, cool. I'll check it out tomorrow. 
+
+Speaker 2
+Let's move on. Artek, you're going to be working on the prompts. Kuba. 
+
+Speaker 5
+Yeah, I'm already doing that at the moment. 
+
+Speaker 1
+Awesome. 
+
+Speaker 2
+Kuba, you are working on the initial integration for Pine cone and for the initial queries where we can ask a prompt and pine cone will be queried. 
+
+Speaker 3
+Yeah, about it. Prompt config. 
+
+Speaker 2
+Sorry, say it again. 
+
+Speaker 3
+Where we can prompt. 
+
+Speaker 2
+Did I get you the resources? Did you check out the resources? You're asking about prompt engineering? 
+
+Speaker 3
+Okay, yeah. 
+
+Speaker 2
+Okay. 
+
+Speaker 3
+What I'm saying is in the initial, I showed you an initial code where I'm just like querying it without no prompt at all. Right. Now I've added a prompt templates to the code where we can write our prompts. 
+
+Speaker 1
+Oh. 
+
+Speaker 2
+What is it that you would like? An initial system prompt for the LLM. 
+
+Speaker 1
+Or. 
+
+Speaker 3
+Let me share my screen. 
+
+Speaker 2
+Yeah, sorry, sometimes I have trouble hearing with your mic. Well, it. 
+
+Speaker 3
+Yesterday was without prompt. We are just praying this where we can direct. 
+
+Speaker 2
+Yeah. 
+
+Speaker 3
+This is it before. Now we're just giving it like context and our tooling, but now we can give it more instructions, like using this template, like creating like a system prompt. 
+
+Speaker 2
+Yes. So this is, I'm missing exactly what it is that you're asking that let's have a system prompt for this portion. 
+
+Speaker 3
+Okay, what I'm saying is, you said you're talking about the initial integration. I'm talking about what I've added to the initial integration. Like I've added a constant. 
+
+Speaker 2
+Sorry, dude, it's the mic. I hear static. 
+
+Speaker 3
+The version I demoed without this prompt templates. What I'm saying now is I've added this prompt templates, we can add the system prompt. This context is just like the embeddings from vector database. Then we can query. We can add our question. This is just like the user query. 
+
+Speaker 2
+Yeah. 
+
+Speaker 3
+To get our. 
+
+Speaker 2
+Okay, great. Could we try running it right now? 
+
+Speaker 3
+Well, scripting the baby different. I can put my phone here. What do you want to ask? 
+
+Speaker 2
+I forgot what this means. Oh, yeah. Explain the real estate automation. 
+
+Speaker 5
+Right. Guys, do we need to talk about something more? Because maybe you should focus on the prompts, like sitting quiet and then just do my thing with the prompt. 
+
+Speaker 2
+Yes, one thing more. So if you can give me three minutes and I'll let you go. 
+
+Speaker 5
+Right. 
+
+Speaker 1
+Oh, weird. 
+
+Speaker 2
+It keeps doing that. And that's the new key. 
+
+Speaker 1
+O, T and C. Yep. Yeah. 
+
+Speaker 2
+Strange. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+Well, Bartek, I guess my only question to you is you have clarity on the system, how it's working together? Yes. Bartek, let me send you the transcript of our call from yesterday. And if you're having trouble with giving clarity to PFA about which portions, how the rag query extractor is going to work, whatever, you can also leverage that. So I'll send you those documents if that's useful. And honestly, I've got. Let's. 
+
+Speaker 5
+Yeah, I think we got clarity, but that might be useful to give clarity to the PFA, though. 
+
+Speaker 2
+Yeah, I agree. I'll send you the documents and if you can. Maybe it's taking pictures of the figma, maybe it's one big picture, something that would allow an LLM to give kind of a step by thorough, step by step of the details of the system, which is kind of what we want knowledge now to do. 
+
+Speaker 1
+Right. 
+
+Speaker 2
+All the works are there. We need to figure out how to get all that good information out. And Claude might be really good for that because for JGBT, a lot of things get lost in the middle. 
+
+Speaker 5
+Yeah. I also heard good stuff about cloud, though. I don't have access personally to this, though. Pavel have access on his perplexity. But that's private perplexity, not a company one. So we had to. 
+
+Speaker 2
+I will figure that out then I will make sure that you have access to Claude. Maybe it's a fasterized account. We'll figure it. 
+
+Speaker 1
+We? 
+
+Speaker 5
+Yeah, let's get to the company account. We also thinking about it between me and Pavel and the celebrities, but yeah, we are kind of tough on the money right now. 
+
+Speaker 2
+Yeah, honestly. Same here. We're deep in the negative, but we're doing anything to make this work. 
+
+Speaker 5
+Yeah. 
+
+Speaker 3
+Cool. 
+
+Speaker 1
+Hey, guys. Hey, Henry. Hey. 
+
+Speaker 6
+I thought I'd hop in. No worries. 
+
+Speaker 2
+Cuba is in the middle of a live demo. And as any live demo, it breaks when you don't want it to break, but it's all good. It's all love. Kuma, are you passing the API key when you're initializing the OpenAI client? I think that might be one of the things, but anyway, Henry, how are you doing, man? Tell us a little bit about your trip. 
+
+Speaker 6
+I'm doing good. I'm in Thailand with my dad, so I'm struggling to find time to work, but I miss it, to be honest. And Thailand's great. I've been scuba diving. Yeah, really good. 
+
+Speaker 2
+It's good to have you here and see your face, man. 
+
+Speaker 1
+Yeah. 
+
+Speaker 6
+And when I said travel bug, I didn't mean I'm ill. I meant I just want to travel more. 
+
+Speaker 2
+Henry didn't actually get a stomach virus. He just meant he wanted to travel more. 
+
+Speaker 1
+We were so. 
+
+Speaker 2
+Like, Southeast Asia is notorious for that. So we're at the tail end of the meeting. Bartek was just about to jump off. He's working on some prompts for knowledge now. I want to walk hooby a little bit through the system. So while you're here, man, if you can stop sharing screen and let's definitely meet up tomorrow and we'll work on the personalized outreach. We'll work on this pine cone thing, and we'll get things running. Thanks for the progress, brother. 
+
+Speaker 5
+All right, already, the repo, I made some folders, two initial commits. So I'm just going to bounce off and have my focus time on the prompt. 
+
+Speaker 2
+Perfect. Awesome. Stay there, Steve. Artek. 
+
+Speaker 3
+All right. 
+
+Speaker 2
+So were thinking for. 
+
+Speaker 1
+A use case for an MVP. 
+
+Speaker 2
+Did you get to see the video. 
+
+Speaker 1
+Henry, that five minute. 
+
+Speaker 6
+No, I haven't got around to. 
+
+Speaker 2
+Cool, cool. No worries. I get more chances to explain this. 
+
+Speaker 1
+And become more eloquent at explaining it. So knowledge now access all your data, all your knowledge of every source in an accessible, real time way. 
+
+Speaker 2
+And one of the use cases that were thinking for ourselves is being able to message the bot to catch up on meetings, to get clarity on assignments, to brainstorm together, all that usual stuff. This component messages the bot to catch. 
+
+Speaker 1
+Up on meetings and get clarity, is. 
+
+Speaker 2
+Going to be part of a bigger. 
+
+Speaker 1
+Component, a bigger V one, which is about everybody having clarity, everybody being able. 
+
+Speaker 2
+To essentially a project manager assistant or. 
+
+Speaker 1
+A scrum master assistant that can help each of us and all of us as a team, be as productive, as efficient, as creative as possible as we're working on stuff. 
+
+Speaker 2
+So when you ask this, you know, I missed half of this meeting. 
+
+Speaker 1
+Bartek now has to leave, and he. 
+
+Speaker 2
+Wants to catch up on what happened. 
+
+Speaker 1
+On the rest of the meeting. So he messages knowledge now and we're. 
+
+Speaker 2
+Going to go backwards with the system. What happens on the second to last. 
+
+Speaker 1
+Step before the answer. So when the LLM chat GBT, whoever actually creates the answer, we want to evaluate the answer. 
+
+Speaker 2
+How close is this to a full, accurate, relevant answer? Because it has access to all the transcripts, it has access to every project. 
+
+Speaker 1
+What we're actually trying to do at faster ICE where our clients are, so. 
+
+Speaker 2
+It can assess, evaluate how good the. 
+
+Speaker 1
+Answer is before it actually sends it back. So to evaluate the answer, we need answer. 
+
+Speaker 2
+That's answer agent, and this is obviously a multi agent system. When Bartek is saying that he needs to go work on the prompts, is the prompts for each of these agents. This answer for what we're going to work on what my tasks are, and hey, let's brainstorm on how we're going. 
+
+Speaker 1
+To work on them together. Needs some format and in this MVP. 
+
+Speaker 2
+We'Re going to kind of ignore that because we know what the format is. 
+
+Speaker 1
+It'S a to do list. 
+
+Speaker 2
+The tasks are assigned to this person because I am Alejo, these are my. 
+
+Speaker 1
+Tasks, and we keep going backwards, but I'm going to pause here because all that information we extract through rag and. 
+
+Speaker 2
+Kuba, what he's working on right now. 
+
+Speaker 1
+Is activating the pine cone, uploading these. 
+
+Speaker 2
+Documents and then creating efficient querying of the vector database. 
+
+Speaker 1
+So we're going to have this big component here. 
+
+Speaker 2
+This big component here is essentially saying. 
+
+Speaker 1
+Hey, what are the relevant chunks from. 
+
+Speaker 2
+The vector database in our meetings? To answer the question in this case the to DOS, what are the to DOS? 
+
+Speaker 1
+Could you give me clarity on how. 
+
+Speaker 2
+These to DOS work with the whole project? 
+
+Speaker 1
+Well, we query the vector database, we. 
+
+Speaker 2
+Evaluate how good those chunks that were retrieved actually are. 
+
+Speaker 1
+Because querying vector databases sometimes tricky. 
+
+Speaker 2
+We need to evaluate that. 
+
+Speaker 1
+When we say real estate agent, the. 
+
+Speaker 2
+System doesn't confuse real estate agent with an AI agent, which is what we're. 
+
+Speaker 1
+Building for knowledge now. 
+
+Speaker 2
+So evaluate how good are the outputs. 
+
+Speaker 1
+From the vector database. 
+
+Speaker 2
+That's for testing. 
+
+Speaker 1
+We're going to glance over the supervisor. 
+
+Speaker 2
+So we're going to now merge all that relevant data from the vector database, all that enhanced context, we're going to merge it. Merge it into what? 
+
+Speaker 1
+Well, merge it into the answer formatting agent. So the answer agent can actually answer the query. 
+
+Speaker 2
+In order to know what exactly we're asking the vector database, which again is. 
+
+Speaker 1
+Sometimes tough to have the right queries in the right way. For the vector database, we need to have a rag extractor agent which will. 
+
+Speaker 2
+Break down an initial prompt, in this. 
+
+Speaker 1
+Case the to DOS, into multiple queries that are optimized for rAd. 
+
+Speaker 2
+So some queries that might be optimized or might be derived from a to do list for you, Henry, would be. 
+
+Speaker 1
+Well, what is the project about? 
+
+Speaker 2
+Would be one query for the vector database. 
+
+Speaker 1
+What is knowledge now about? 
+
+Speaker 2
+A second useful query for the vector database might be what has already been. 
+
+Speaker 1
+Done and what is left to do. 
+
+Speaker 2
+Another good query is what is each person's assignments? 
+
+Speaker 1
+All of those questions will feed into this evaluator agent. 
+
+Speaker 2
+All those chunks, all those answers to each of those questions. 
+
+Speaker 1
+Now we have a bunch of chunks. 
+
+Speaker 2
+And we just say these are useful. 
+
+Speaker 1
+These are not useful. 
+
+Speaker 2
+And before we can ask the vector. 
+
+Speaker 1
+Database. 
+
+Speaker 2
+Before we can ask the vector. 
+
+Speaker 1
+Database the right questions, we need to. 
+
+Speaker 2
+Make sure that the prompt that the. 
+
+Speaker 1
+Initial prompt that this hey, give me a to do list is actually enriched. So now we get to the very. 
+
+Speaker 2
+From the back we got to the. 
+
+Speaker 1
+Very start, which is you ask what are my to do lists for this next step of the project that will get enriched with global context about who faster ICE is, who each team is, what projects we're working on. PFA will enrich the prompt. 
+
+Speaker 2
+We'll derive different rag optimized queries. We'll prompt the knowledge base several will prompt the vector database several times. 
+
+Speaker 1
+We're going to glance over those ones, we're going to merge all those answers. 
+
+Speaker 2
+From the vector database into the most. 
+
+Speaker 1
+Useful ones into one full answer that then we're going to format and then we're going to deliver the answer to you through for now, a discord chat box. 
+
+Speaker 2
+So now you have, these are your. 
+
+Speaker 1
+To dos, Henry, and this is the. 
+
+Speaker 2
+Context of the project. This is how it's relevant to the project. 
+
+Speaker 1
+And that's going to be our MVP. 
+
+Speaker 2
+Okay, I can explain that ten times better, but it's a big complicated system. 
+
+Speaker 6
+I kind of get the gist of it, but I'm also shattered. 
+
+Speaker 2
+I've been up for I bet you cool hoobi, what clarity can we provide on how these components are working or what the objectives are? 
+
+Speaker 4
+Yeah, I think I understand it pretty clear, but I have some troubles with figuring out how to integrate it with each steps. 
+
+Speaker 2
+Yeah, definitely. That's part of the complicated stuff. I think we all have questions about that. 
+
+Speaker 1
+Yeah. 
+
+Speaker 4
+I think connecting it with make could be difficult. So I think. No, no idea yet, sorry. 
+
+Speaker 2
+Okay, no worries. It's all questions here, all questions that we're being curious about and navigating to potential answers. Have you played around with PFA much? 
+
+Speaker 4
+Yeah, but you mean the newest PFA? 
+
+Speaker 2
+No, I'm just PFA in general. 
+
+Speaker 4
+I'm working with Bartek since October, so I have tried every version of PFA which was released except the newest one. I think last version was good enough for me. I'm going to try the new one, but let's see if it is good enough for me. 
+
+Speaker 1
+Okay. 
+
+Speaker 4
+But yes, we work with many versions of PFA. 
+
+Speaker 1
+Cool. That's great. 
+
+Speaker 2
+That's a great place to start. So you're kind of already ahead. I just sent you an invitation to this figma board and the challenge for you for tomorrow. Now we have to leave because we have the outreach meeting. We're starting an email campaign for real estate tomorrow, so I have to leave. But the challenge for you, Hoobie, is going to be to, in one sentence, say we're building knowledge now, and express what it is in your own words, in simple words. And then you're literally going to copy paste each of these boxes one by one into chajibtin, into the PFA GPT. 
+
+Speaker 2
+You're going to just copy paste one by one and you're going to have a conversation with it, see what it comes up with so it can give you clarity of what it thinks this whole system is, which I would hypothesize that it would do a pretty good job at. It might fail. It might be like complete gibberish, because these are just words that we put together in these little stickers, so might not be clear enough, but I'm all about tangible and practical, so let's start that way. You're familiar with PFA. You're not very familiar with this system, so let's create a bridge from what you know to what you don't know yet. Is the assignment clear? 
+
+Speaker 1
+Okay. 
+
+Speaker 4
+And you want me to make PFA explain what knowledge now is? 
+
+Speaker 2
+Yeah. 
+
+Speaker 4
+That's all? 
+
+Speaker 2
+Yes. Let's start there. Message me when that's done and I'll have another challenge for you. For now, I think we might all be surprised as to how well PFA captures it. 
+
+Speaker 4
+Okay, sounds pretty clear. Understood. 
+
+Speaker 2
+We're going to level that up. There's going to be some questions for rag. There's going to be some questions about what a good prompt for each agent might be, how agents will communicate with each other. So we're going to level it up. That's not like the full assignment, right. But for now, that's your challenge. 
+
+Speaker 4
+Okay sounds good. But you said you sent me an invitation for that board. 
+
+Speaker 2
+Yes. 
+
+Speaker 4
+I can see that on my email. You're sure you didn't Ubi that's correct. That's correct. 
+
+Speaker 2
+Then I am sending you the link on discord Kuba. When you get that API issue fixed let me know if it doesn't get fixed. But when you get that fixed could you connect with Hubi and walk him through from the start walk him through that initial rag because Hubi's also trying to get better at rag and I'm sure he'll have some questions and we all want to get better at explaining things and we all want to get better at understanding things so if you guys can connect at some point today that would be wonderful. 
+
+Speaker 3
+All right, cool. Ubi, what number are you going to be today? 
+
+Speaker 4
+Sorry Ubi, it yeah I hear you. 
+
+Speaker 3
+I can be feel like 08:00 p.m. GmC today. 

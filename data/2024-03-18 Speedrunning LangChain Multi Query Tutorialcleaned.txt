@@ -1,0 +1,8 @@
+Speaker 1
+Today I'm speed running through making multi queries for rag on Langchain. We're going to start quite simple, following the tutorial. For installs, we're using pine cone, langchain data sets, OpenAI, and tick token using the AI archive. For the document prep, we'll set up the documents data. Each doc is an object of type document with the page content being the chunk and the metadata being the title, source ID, Chunk ID, and then the actual chunk text.
+
+Speaker 1
+Embedding vector data and setting up a vector database is next. Then we're going to have a query with lang chain, which is starting with the structure. Adding the generation rag, we build a multi-power retrieval augmentation chain. Training everything with a sequential training case. Then custom multi-query there. Throwaway key and we're playing with embeddings. Model name is Ada text embedding data two model name. For the serverless spec, it's going to be equal to serverless spec in there. 
+
+Speaker 1
+If the index name is not in existing indexes, we create the index. The index name will have dimensions equal to the ADA two dimensions, which is 1536 metric. Dot product spec is going to be equal to spec while the index name status is not ready, we wait. Once the index is ready, we can call it in time. This concludes part one where we successfully created the index.

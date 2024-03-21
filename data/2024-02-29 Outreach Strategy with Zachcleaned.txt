@@ -1,0 +1,205 @@
+Speaker 1
+To allow her to integrate her movement email with the system, she's using the system to manage her activities. She emphasized the need for system automation to free up her time for interactions with real estate agents and clients. For client retention and loyalty, she aims for monthly touchpoints with every realtor and quarterly gift distributions. They use a company for assembling gifts based on triggers from their CRM database.
+
+Speaker 1
+The system also supports sending out thank you notes and handwritten cards through another service, but it's not integrated into their primary system.
+
+Speaker 1
+Realtors typically associate with an agency, and mortgage lenders with a financial company, but beyond that, they operate independently, sourcing leads often from realtors. Therefore, maintaining positive relationships with realtors is crucial for business.
+
+Speaker 1
+The goal is to set up action plans in their CRM for each client or person, categorized by their role or process stage, to trigger external actions like sending gifts, thank you messages, or scheduling appointments through API calls. She highlighted that some professionals still rely on outdated tools like Excel instead of CRMs.
+
+Speaker 2
+Consultation services could modernize their systems, transferring data from Excel and categorizing it, alongside setting up automations. This process, once initially established, becomes significantly quicker and more efficient with each subsequent setup.
+
+Speaker 3
+The iterative process of setup and testing allows for refinement and improvements.
+
+Speaker 2
+Building integrations and identifying services for desired functionalities is the next step. This includes setting up text to calendar services and CRM automations, with a focus on delivering tangible products to enhance client engagement. Offering initial integrations for free benefits from potential referrals and leads to further opportunities for continuous services on a retainer basis.
+
+Speaker 1
+Mentions personal connections involved in the business, including his cousin struggling with outsourced services like social media and data organization. A meeting is scheduled to discuss data organization and marketing strategies.
+
+Speaker 3
+Emphasizes learning from existing manual processes to improve and automate them, enhancing efficiency and productivity.
+
+Speaker 1
+Discusses the age and technology adoption rates of his cousin and aunt, indicating different needs and approaches required for each.
+
+Speaker 3
+Highlights the importance of identifying individuals' willingness to learn and adapt to new technologies, ensuring efforts are directed towards clients receptive to modernization and efficiency.
+
+
+
+Speaker 2
+If you don't have a CRM, it's causality. If you don't have a CRM, you just don't make it that big. Okay. 
+
+Speaker 3
+So I did a little bit of reading between the lines, and Paige, correct me if I'm far off here, but from what I know and what I've asked people about in real estate, there's usually about 5% commission on any given sale. So at 5 million, that's kind of roughly two hundred and fifty K a year. Now, do you mean annual basis or do you mean over their real estate career? 
+
+Speaker 2
+No, annual. 
+
+Speaker 1
+So this would be. I think the 5 million is not their take home, but the 5 million in sales. 
+
+Speaker 2
+Yes. 
+
+Speaker 1
+Right. 
+
+Speaker 2
+So if you're doing the 5% of that, which is their commission, and then that's only revenue. You have to think about how much the company takes, who they work with. Do they have the leverage in the relationships with 13 other people in the real estate process, or do the other 13 people have the leverage over them? So then you start cutting. So at 5 million, they're making at least six figures for sure. Around six figures. 
+
+Speaker 3
+My thought process was trying to again, kind of narrow down target demographic. Where is an income level of someone that we might be talking to? And that's kind of what I was thinking about. 
+
+Speaker 2
+Yeah, definitely some other issues, compliance, because they're all part of another company, then they don't really want that data going, disappearing into somewhere else. I know how to fix that, which is fine tuning a chatbt model. However, what that doesn't fix is the engineers inside of the company seeing, hey, from our agent's computer, there's text being sent to OpenAI Chagibt. Oh, there's a hundred messages or a thousand messages to chat GPT, what's going on there? And it might be out of compliance. Even if the data is secure, even if OpenAI can never really see or train on that data, which is obviously the big, there's so much data about customers in there. So what do you do with that? Yeah, there's two solutions to that. 
+
+Speaker 2
+The easy one is fine tuning a model, the hard one, but most compliant, is creating and installing a model ourselves. But that goes over $10,000 in price. It's what we want to do. That's the long term we need to build reputation. Anyway, we have the people to build it to. Unfortunately, none. He knows people. Anyway, he texted me back in France. Oh, local models chat GPT, but in your computer, which is fully compliant with any privacy because it never sends any data. 
+
+Speaker 3
+That. So a third thing that can be in tandem with those two options is kind of take inspiration from Henry, honestly, which is trying to climb the ladder as soon as possible. So when we get in, do we have the ability to then maybe after a few months have a conversation with someone up the ladder to say, hey, this worked really well for one of your agents or one of your brokers, would you be willing to do a small scale trial at whatever, 100% at the time? And then we have an agreement, a documented legal agreement that says, hey, this. 
+
+Speaker 2
+Is what we're doing, we can do. 
+
+Speaker 3
+It on a larger scale with you. 
+
+Speaker 2
+Obviously, I think that's the goal, but. 
+
+Speaker 3
+Then that gives us higher credibility to go to other brands and say, hey, this is what we did for Barry Jenkins or Aston or whatever. 
+
+Speaker 2
+Yes. And it is compliance hell in there. She's been trying to fight. She's the top of her ladder, of the mortgage lending ladder, and she's like going through hell trying just to connect emails with follow up Boss. Just to connect her emails to follow up boss, which I don't think they're going to approve because follow up boss just got bought by Zillow. But she did say, hey, if they don't approve this, we might be ready to walk out. That's how much they like follow up. 
+
+Speaker 4
+She has the leverage. 
+
+Speaker 2
+She does have the leverage. 
+
+Speaker 4
+They paid her and my aunt pretty sizable signing bonuses for them to switch mortgage companies like shut the fuck up within the last six months. 
+
+Speaker 2
+This is all, this is new? 
+
+Speaker 1
+Yeah. 
+
+Speaker 4
+She's working for a brand new company and they've been trying to poach the two of them for a little while. So she does have, so she has leverage and her mom, my aunt is the branch leader or whatever in Annapolis, Baltimore, whatever. 
+
+Speaker 5
+Interesting. 
+
+Speaker 4
+It is, it is a bigger movement. I think it's based actually in Charlote. So it is a bit corporate in that way. It's not just them. They have branches at least around the east coast. I don't know how far it extends, but. 
+
+Speaker 1
+She said otherwise. 
+
+Speaker 4
+The company uses Salesforce, which she doesn't want to use because she doesn't want Salesforce having her data. And she's like, for what we use it for, it's too much. You're not needing to switch between large accounts, right. It's clients, it's realtors. It's like having the automations and she's like, yeah, if they tell me no, then me and my mom will go somewhere else. So they have the pool to do something like that. 
+
+Speaker 2
+Good. 
+
+Speaker 5
+What's interesting to me is that. 
+
+Speaker 2
+And I don't mean this in a negative. 
+
+Speaker 5
+Way, but it does kind of feel like you just described what could be a ceiling. 
+
+Speaker 2
+Oh yeah. It feels like a ceiling to me. With anything we move forward with, let's assume that is not where we're headed, where we're not convincing. This probably multibillion dollar in revenue mortgage lending company that we have the solutions to all the problems because they wouldn't pass anything that I don't think she's going to even going to get approved to follow a boss. But we'll see anything anyway as we move forward. We're thinking of networks of people, not companies. Fortunately, as a real estate agent you can make a lot of money. So even through individual people being part of agencies, there is money to be made. I. 
+
+Speaker 5
+Into a firm and I just went and got my real estate license. 
+
+Speaker 3
+And is making a ton of money. 
+
+Speaker 2
+Cool. 
+
+Speaker 3
+I'm definitely going to reach out to him in the next few weeks once. 
+
+Speaker 2
+You guys start to get. Once we have a demo or two. 
+
+Speaker 3
+Exactly. 
+
+Speaker 2
+Yeah. Great idea. 
+
+Speaker 5
+Oh, let's go. 
+
+Speaker 2
+Yeah. Oh, my God. He was connected to everyone. Dude, this guy that we met in college who is killing it in real estate in New York City. 
+
+Speaker 1
+Oh, yo, that's awesome. 
+
+Speaker 2
+It couldn't hear that. Computers on the other side of the room. 
+
+Speaker 5
+Yeah, connections at our reach. 
+
+Speaker 2
+Cool, man. 
+
+Speaker 5
+That's cool. 
+
+Speaker 2
+Oh, we need to start setting up emails for. Finish developing our ICP and start sending emails. It has to be simple, it has to be straightforward. Everything that you said about your emails is great. Sort to the point, here's the offer, yes or no, and narrow it down as much as possible through that narrowing down. And you multiply that by, say, 200, 300,000 emails. We're going to find our customers. But I keep finding out that the more general the email reads, the less people will identify with it. Yeah. 
+
+Speaker 5
+I added a fourth lead sequence. I added the fourth d sequence. Analytics. Look, okay, no replies on the. My open rate is pretty close to what your data is, 2% compared to zero for the other. 
+
+Speaker 2
+Oh, because you added a link. Okay, was that for a follow up email or for the initial email? 
+
+Speaker 5
+I believe that was an initial email, yes. 
+
+Speaker 2
+We actually cannot do that. That is how emails end up in spam when it's not only text. Okay. And I wanted to let the campaign finish and then see what the result of that was to see about how bad the other spam rate ended up being. Wouldn't be bound. It would be. But would we know if it. Yeah, we don't want to do that actually. But you got a 2% click rate. That's really good to know. 
+
+Speaker 5
+Yeah, it's something. Every campaign is different, so when we look at the data, we'll really know. But this email has only been sent 100 times. 
+
+Speaker 2
+I saw that. I saw that. So you're looking at the emails right now? Yeah. Okay, I'm jumping in there. There are a couple of notes. Can we turn that one off and create a new one which is the same, but every word is the same but without a link. And I want to test that one. 
+
+Speaker 3
+So you want me to ABCD, you want an e or do you want me to just pull the links? 
+
+Speaker 2
+Yes, E. That is the same as D. We turn off d just so the analytics don't get messed up. 
+
+Speaker 3
+I see what you're saying. Yes, I got you. 
+
+Speaker 2
+Cool. Well, as of right now, there's a clear loser on open rate, which is the first email with a fucking. What was it? Sequences. I can't believe I'm doing this. 
+
+Speaker 3
+I. Yeah, I hope that he takes as a learning opportunity. I'm going to be honest, the few interactions that I've had with Jorg, both via text and over video, it's a bit. 

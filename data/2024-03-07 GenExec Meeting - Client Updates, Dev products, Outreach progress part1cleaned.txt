@@ -1,0 +1,333 @@
+Speaker 1
+Today's question is, what is your favorite childhood game?
+
+Speaker 2
+For me, it's a game we played in middle school and high school called cuadros. It's like squares, and we would play with a ball, hitting it in your square and then into the next one.
+
+Speaker 3
+It depends on the age, right? It changes over from more physical and playing on the field to computer games.
+
+Speaker 5
+I have played basketball in a few tournaments and was quite good in it, even won an MVP trophy and one victory.
+
+Speaker 1
+We do like to start these meetings with a connection because the most important thing here are you, all the human. Our overarching vision and mission is to amplify the human, to find the parts where being human really matters, and then figure out how to automate and efficientize all the other boring, tedious things so that we can amplify our human aspects. We have some new members to welcome: Kuba, Zach, who's driving right now, but he's with us, and Hubert.
+
+Speaker 5
+I have a proposition when we come to that topic. We should get more people for content creation and editors. We're doing great stuff in here, but nobody knows.
+
+Speaker 1
+I agree. I have a friend who lives in Indonesia and Bali who does incredible video editing work. Alejo and I are going to set up a meeting with him in the next week to talk about bringing him on board.
+
+Speaker 5
+We could reach out to some people in social media that would maybe like to join us and help with the content.
+
+Speaker 1
+As part of our new member onboarding process, we have a one month onboarding trial period. After that point, we get together here in these meetings and we vote. Today, Zach is up for a vote to officially join.
+
+Speaker 2
+We want to keep the vote as simple but expressive as possible. It will either be yes, or here's my concern about this person.
+
+Speaker 1
+Updates from our end about our first client that we've recently closed. Alejo and I had a meeting with our client, her name is Devin, and another mortgage lender who is her mom. They use the CRM platform Follow up Boss to manage all of their clients. The first automation that we're setting up is a presentation to give a little visual of what we're doing. Devin's goal in 2024 is to get systems running efficiently, so that on the client touch point side, she doesn't have to do anything. Part of how she facilitates relationships with realtors is by sending out gift baskets quarterly to all the realtors in her network. One of the future automations that we'll be setting up will be automating that whole process.Speaker 2
+And if you do have a canvas subscription, let's save you some money. Jump on this one. Even if it's for personal stuff, we want to save as much money from people as possible. 
+
+Speaker 1
+Yeah, so we have a little roadmap overview. Executive summary this is the phase one objectives is touch free appointment setting between text messages, follow up boss and Google Calendar and then optimize the action plans which are the internal automations that you can set up within the CRM and to automate the action plan set up for new leads which would look like you go to an open house, people sign in and then you can take a picture of that sign in sheet and it automatically transfers into the CRM follow up boss little visual. What the automation will look like is a text message comes in and there's some kinds of confirmation that yes, this task will get done or this event will get done which triggers a task in follow up boss and then will create an event in the Google calendar. 
+
+Speaker 1
+So some of the use cases that we showed look like this. So Jane sends a message, hey, can we hop on a call at 03:00 p.m.? Tomorrow? Yes, you then that's the confirmation activates the trigger to create the task. And in this use case it's going to capture the name of the contact, the date, the time, what the task is, and then the phone number, and then it will send that over to Google Calendar. Second use case would be, hey, you want to meet at Ingrano, which is a bakery, later at two. So we're going to meet in person at this place at two. Yes to you. Then that's the confirmation. We have a trigger to create the task. 
+
+Speaker 1
+In this case, it's going to capture the name, the date, the time and the location, and then that will get transferred over to Google calendar. Some other use cases that they get a lot are about pre approval letters and parts of the mortgage process, which so far in what we phased out for this client, we haven't even touched the nitty gritty of the mortgage lending process. What we're starting with is all about client management and client relationships. So there's definitely a lot of room to grow. Joe Locke needs the pre approval confirmation. Okay, I'll send the pre approval letter tomorrow. That activates the trigger to set the task. This time it's going to capture the name of the client. So this person, Joe Locke, the date we've organized to preset the time tonight, 09:00 a.m. For tasks. 
+
+Speaker 1
+So they just show up in her follow up bosses, her task list, and then it also creates the task in Google Calendar. Can you call Amy today to discuss pre approval? Sure. I'll give her a call this afternoon. So it's going to activate the trigger for the task and follow up boss, capture the name, the date, the time and the task, and that will then go over to Google Calendar. And then these are situations where a trigger wouldn't be activated because we don't want the client to end up with a slew of random events in their Google calendar. So in this case, someone might send a text that says, got the pre approval letter for Carl. Thanks. Woohoo. You got it. There's no action to trigger. 
+
+Speaker 1
+And the logic is that this message is a confirmation of a receipt, not a task to be created or not an event. So we're capturing tasks and events. Second example. So happy Jen settled. Great work. Thank you. There's no action to trigger, so it doesn't go because the message is a congratulatory statement. And then the second part of the action plans optimization is going to be, I don't have the next part of this will have a visual. But Devin's follow up boss person is responsible for manually inputting her 1300 plus clients into her database right now. And he's setting up the internal action plans, which are no code it's all already built into follow up boss. Where we come in is once we get the action plans that they've set up, every person will have an action plan and every person will be tagged. 
+
+Speaker 1
+So a realtor will have a Realtor tag. A first time home buyer will have a first time home buyer tag, and there will be several categories. So it hits third quarter. There's an automation that externally, an automation triggers to then externally send all of the realtors in the database to send their contact information over to another business that they're already working with, that then puts the gift baskets together and sends them out so she doesn't have to do anything. And that happens every quarter. Another example is we get a closing date. So let's say the closing date is March 31. Once that closing date gets set in the calendar, there's a trigger in the action plan that says okay, that means by March 6 a letter and this needs to get sent out for this client's close date. 
+
+Speaker 1
+And we need to create this task in our Google calendar with the close date. And then from there we're looking at working with her social media person to optimize their social media and marketing process. So we'll be looking at different tools to help automate reels. We've been using Opus pro lately. There's a bunch out there, but to really make her job easier and increase the quality of the content that she's generating, we're waiting on confirmation from they work for movement mortgage. So movement mortgage currently does not use follow up boss as their CRM, but they're pending approval to integrate. Once we get the integration, then we'll be looking at a lot of email and follow up boss integrations as well as the external integrations and then we go from there. So stay tuned. Moving along. There we go. 
+
+Speaker 1
+So that's where we're at with our client update. I know the dev team is working hard to set up the text to Google Calendar automation and we'll keep you posted on that. Questions? Comments? Thoughts? Cool. We've also got some other projects that we're working on. So let's see. I know York, are you with us? York has been working on setting up an automated outreach system. Can you share an update on what you've been doing with that? 
+
+Speaker 2
+Yeah. 
+
+Speaker 5
+Hey guys. 
+
+Speaker 4
+Everyone. So first of all, I think we set up a nimal campaign like a week ago. The results aren't the best, but our goal here was to first learn from us and have experience. Then of course on the next campaign that should be on next Tuesday we are going to have this data to improve our emails and I've been getting on the calls with Zach and we are trying our best to make this work. So overall we are trying to. 
+
+Speaker 5
+Leverage. 
+
+Speaker 4
+Email campaigns to get clients. 
+
+Speaker 1
+Awesome. Thanks for the update, Jorg. I know you and Zach are going to make some magic happen and already from the few calls that we've had, we've been meeting about outreach during some of our cold calling. Zach has had some really incredible feedback and feed forward as our sort of go to salesperson in the room. So please use him as a resource. He has a lot of valuable insights to share and I'm super excited to see how this campaign goes. On the outreach note, I know Kuba has also been working with the dev team on an automated outreach system. Kuba, will you share a little bit about what you're doing? 
+
+Speaker 4
+Hi guys. So we are building like a personalized outreach system where we script LinkedIn information about a prospect and use that to create a personalized email based on information about the person. So we're still building and still in progress. We have v one ready just iterating with the phone to make it better. So to get better quality email. 
+
+Speaker 1
+That's awesome. 
+
+Speaker 2
+And on that note, two upcoming workshops are going to be. The first one is getting together your exact everybody that wants to join, everybody that has an idea to how we could do outreach, write emails and craft an offer, essentially regard vitp together and craft some emails, some variations of emails that we can go and test. So together, kind of individually, together, we put our best effort, our best idea to, hey, I think that this is the best way to phrase who we are. We talk about amplifying the human. How do we put it in actual text in an email? So Jorg, you've been mentioning coming across as a person, as a human, which is what we are. And we also want to get to the point where we can outreach to as many people in the world as possible. 
+
+Speaker 2
+And through this, what will become incredible examples for a different automated system where we can scale, where faster I can scale. We're doing a second workshop where we're figuring out first, what are some hooks or icebreakers that could be optimal. So the system, the V one, is going to put out some hooks based on this person's profile. These are two possible hooks for the beginning of the email. Great. Well, what's good about them, what's bad about them? We simplify. What's good about one thing that's good about them, one thing that's bad about each example. And again, great training data for us to scale up. So thank you for all of your efforts. All of you individually specifically, that have been doing any kind of outreach, that have been helping, have been throwing ideas. 
+
+Speaker 2
+It's all coming together into these different layers and we'll keep going and we'll set up these workshops in the coming week to put our brains together. 
+
+Speaker 1
+Thanks, Alejo. And you've also been working on building a knowledge based system. So what's the update? 
+
+Speaker 2
+What is the see, let's see. It is actually running right now. It's been running the last about 30 minutes, creating transcripts of all of our calls since a month ago, since the beginning of February. And it's creating these transcripts. It's also creating transcripts without the timestamps. Different ways that we can use this data, create summaries. What will be the most effective way to have this data? Let me rephrase that. What will be the most effective way to create a knowledge base off of this data? We've thought about summaries. We've thought about, just give it the full transcript. We've thought about give it both. 
+
+Speaker 2
+And Kuba is taking on the making, it's taking on the actual doing, and I'm trying to set him up for success as much as possible, but he is the one that knows these chains of agents Lang chain very well and not going to put any expectations. I just want you to do your best work and I'm glad that you showed interest in this. So we're moving forward with the knowledge based system. The first thing that we needed to do is have all the transcripts of the call. We'll figure out what step we know what step two is now. Create a summary, create bullet points, create what is the action plan from this call? When we're talking about the Google calendar automation, there's a step by step that we talked about in the call. Can we get this system to retrieve that step by step? 
+
+Speaker 2
+That is our first goal. Can we get this system to retrieve the step by step that we talk in the development call? And step zero is actually fixing this because now it keeps getting confused with faster rice and all different types of variations, like faster rice, like cooking rice faster, or faster ICE, like watching something faster. We'll get around to it, no worries. But that's part of what we have to show. Example is like, it's not this word, it's that word. Anyway. So we're moving forward. 
+
+Speaker 3
+We're moving forward. 
+
+Speaker 2
+And the knowledge base, as they've said before, which we're calling knowledge now. It's sort of the V one name for it. Knowledge now is not only something that's going to help us like multiply productivity, not ever have to ask again, hey, what were the tasks that I had to do that we talked about in that call and become a partner of each of us within faster. 
+
+Speaker 3
+Right. 
+
+Speaker 2
+Not only is it going to become that, but for each of our customers, when they're ready to upgrade, when they're ready to level up their systems. Because this text message to google calendar, that's great. It's going to save devin and kim so much time. But that's not where he stops. What is the level up? And what is the level up to? The level up. How can we get to integrate knowledge now with their systems so they can upgrade their systems? Very exciting stuff. 
+
+Speaker 1
+Yeah, I'm excited for that. There's a lot of capabilities and ways that this can be super valuable to companies. 
+
+Speaker 2
+And. Sorry, bartech, we've yet to get together and also keep talking technicals over this, what is potentially a rack system. So let's get together, you, kuba and me, and we can throw ideas, discuss, challenge each other, and come up with the best thing for this next version. 
+
+Speaker 5
+Yeah, my brain actually stopped three minutes ago and I'm still thinking about the knowledge base structure that would best for this. 
+
+Speaker 2
+Love it. And if we had the knowledge now, right now, you could be like, hey, what did we say in those three minutes that I missed while I was thinking? And it would know the answer. 
+
+Speaker 5
+Yeah. Also, I dropped some comments into your notion when you showed me the notion. You saw those comments. 
+
+Speaker 2
+I did. I actually went over them today. Thank you so much. 
+
+Speaker 5
+Yeah, very good suggestions. 
+
+Speaker 2
+Civil was a great example to kind of look up to. 
+
+Speaker 5
+Yeah. And we also have, I mean, in this example you showed now, I think the first thing I noticed lacking was who was speaking this line. 
+
+Speaker 2
+So it might not be whisper, it might be integrated directly to zoom. We'll figure that out. 
+
+Speaker 5
+Yeah. And to extract information. I think categorizing definitely, like having this is that call. This is about this and this. We want this and that. 
+
+Speaker 2
+Yes, that is definitely the path that we're going. These sort of gates of information and metadata of what is relevant. Yes, no. 
+
+Speaker 1
+And speaking of, Bartech, who is very much in the eat while I'm working, work, sleep, repeat mode, has been building an amazing product called PFA, aka prompt factory assistant, and he just shared the newest version in the Discord channel. Bartek. I'm going to pass it to you. So you can just give a summary of what it is and the latest updates you've made to it. So everyone's on board because we got to get in there and play with it. 
+
+Speaker 5
+Yep, definitely. I make some changes to the user experience mostly that's what the focus of this version was, to get the TFA latent space, which I was trying to tie together for past month, and I just get worse outputs every time I change something. So I first think last week I decided to change just 5% of the prompt, but this is not enough. The outputs was still worse. So then I think, okay, maybe 1%. Yeah, but then I couldn't find that 1% where I should put the change, and it actually came up to around 3% of the change. And I think that this is the good version we're using for lead magnets. So using by business people who don't really know how to prompt. So this version is to guide them through the process, like handholding. 
+
+Speaker 5
+Now I'm doing this, now I'm doing that, and that's basically explaining the process. Yeah, I saw the outputs are quite good. There could be some little downsides sometimes in compared to the previous version because the UAX is making cluster, obviously, but we need that for this version. So I'm happy to get some feedback from this if the outputs are good for you guys, and more feedback on the UX. If this UX is good, think from the user experience of the business person who doesn't know prompting, doesn't know much about AI. Does the target for this version love it? 
+
+Speaker 1
+Yeah. Thank you for sharing. If you go to the prompt Factory channel under Project Bartech posted it recently and once you get in and use it, please share your feedback with Bartech. With the team, we're building up our own testimonials and use cases so that we can put it out in the world and share the amazingness of PFA. I've built a couple GPTs using PFA and it's made the whole prompting process so much faster and very high quality. So if you haven't gotten a chance, check it out and let us know how it's working for you and what you're using it for, because that data is extremely helpful for continuing to iterate even though it's already outstanding. The perfectionist tendencies kick in and we just keep making it better and better. 
+
+Speaker 5
+Yeah, but may I post a message to our transcript analyzer to have a timestamp of this exact minute so later we can rewind two minutes and then we have one video for the YouTube. 
+
+Speaker 1
+Yeah, we just. 
+
+Speaker 5
+Perfect. 
+
+Speaker 1
+Exactly. 
+
+Speaker 5
+Will that timestamp be saved automatically or it's better if we actually. 
+
+Speaker 2
+Okay, so knowledge now save this timestamp. It's a transcript, it's a word, it's a keyword. Knowledge now save. Moving on. 
+
+Speaker 5
+Added new function to the GPT. Now in the top left corner you can post feedback to the creator. So now you have two options. Either you send me the chat like before we had to make, or now you can actually use the new function and write some message to my email directly. But still, it's best to share something on top, like the screenshots or maybe video or whatever, but nothing too much. If that's what you don't have time for, then text will be just enough and we'll try to bleak something out of that. 
+
+Speaker 1
+Perfect. Yeah, that's good to know. Yeah, that's what's keeping us busy these days. So we'll be posting updates for the next development stand ups as well as working session and we're going to be getting reach alignment team meeting in here soon, so stay tuned for those updates. What we will also be starting next week as a soft launch is called podcast Hour, the beginning of the fasterized podcast where we're going to hop on Zoom for an hour and pick a topic. Maybe it's a project that you're working on or something you're really psyched about and just generate some conversation from there. That gives us a lot of marketing material. To number one, put out shorts, reels, whatever it might be, and then also take longer clips to start building out our podcast. 
+
+Speaker 1
+Also a great opportunity to practice public speaking and voicing what it is you're doing and putting it into words because it's definitely helpful to have that practice when you're in a situation at a networking event and you have to give an elevator pitch about what you're doing, which learning the hard way. So speaking of networking events, an update that Alejo and I are excited to share is that we had the opportunity to attend a session on generative AI real world use cases. I have some pictures to share because there's a lot of really great stuff here. We found this event on Meetup and let me share my screen. It was kind of nice to remember what a real office might look like. 
+
+Speaker 1
+So this was posted by domain, which I would compare to the american version of Zillow, a huge platform for house listings in Australia, and they're currently beta testing a version of it where it looks like chat GPT you write into it like you would write into chat. GPT. Hey, this is what I'm looking for. And it uses the robust knowledge base that they already have to give really instant and accurate results for what people are looking for. So that was a picture of the office and there were three speakers. No, I didn't mean to stop sharing. Okay. I wanted to share this because it made me laugh. And also, I think, is a good reminder. Can everyone see this picture? 
+
+Speaker 1
+So this guy, his name was Vince, and this little chat bubble is supposed to represent the chat bot, which he put into perspective and was a really big paradigm shift. At least when I entered the AI agency space, it seemed like chat bot solutions. That was it. We got to create the chat bot. And the way he looks at it, that's 1% with this 99% of potential and opportunity that isn't chat bots, that isn't sexy and might be more boring, but fits into this high value boring category, which I found is a really useful framework as we're thinking about innovative solutions to meet clients needs and really streamline their systems, supercharge their systems to amplify the human. This was also something he shared, which was from, okay, so this is from Jason Alejo, you can jump in and talk about that. 
+
+Speaker 1
+Jason is the lead of product and design. 
+
+Speaker 2
+Yeah, he's the product and design lead for relevance. Relevance AI. And we found this event the day we arrived to Australia. And we're looking at the speakers and I'm like, wait, Jason from relevance AI? That's crazy. Turns out that he built their business development representative, and if you haven't played with it is freaking awesome. The personalized outreach system is very akin to what they built. We want low level control over what happens in that system. But essentially what we're going to test this personalized outreach system against is Ben the business development? Yeah, he is a very enlightening conversation. And this business development representative, salesperson, agent came from a passion project of his, and after hitting thousands and thousands of people on his YouTube channel, he started getting a lot of requests for sponsorships. We can sponsor you consultations, all kinds of requests. 
+
+Speaker 2
+And he couldn't keep up in his email, so he created essentially a chajibt integration to create drafts to answer those emails. So gave a bunch of examples of how he's answered those emails in the past, the stuff we already know. So good examples, good training data, now repeat for these new emails. And then he leveled that up into an agent that can do a bunch of different things, one super agent. But then he realized where it's really at is one agent that can number one, delegate to the right other agents, and that each agent has its own very specific task that it's good at. So many agents working together ended up being what made this really cool, very useful and very natural sales agent that is now live on relevance. 
+
+Speaker 2
+So we'll get around to testing it too and to get a feel for how good it is and how we want to do it on our end. Or we might find we don't need the personalized outreach system. Let's use this. I believe that low level control, at least mid level control over this kind of system and being able to adapt it to customers that might want the same system is a lot more valuable than just like this works. So let's just use it so things here in the long term. Anyway, the point is you can make a 5000 character prompt or you can make ten agents with 500 characters that are extremely good and extremely clear on what they have to do. Meaning Bartek, let's make that swarm, man. Let's make it happen. Whatever is needed from here, let's make it happen. 
+
+Speaker 5
+Yeah, I'm thinking about it. To write PFA in wasn't because the PFA swarm is kind of built now, but still user have to mention another GPT from the. Yeah, so it's better to make actual swarm and I think I'm going there. I just want to make a little proof of concept in the GPT. So I'm already having prompts all set up and then we can just put that into the agenda system. 
+
+Speaker 2
+Cool. 
+
+Speaker 5
+That's one thing I have now. Two things. First, relevance AI. Do we have like company account over there? 
+
+Speaker 2
+Actually just about the subscription. So yes we do. 
+
+Speaker 5
+All right, so let's connect about that later because I have some idea actually for also content automation, but let's park it for later. Can you go back two pictures in the app to this previous slide you were showing? Do you have this presentation? Maybe. I think this is great for content. This is great to put it on LinkedIn and just write some message about it. And that's great image. It's simple, but it's fucking awesome. 
+
+Speaker 1
+Yeah, I'll drop the whole thing in the discord. He kindly emailed it out to everyone if we filled out his little survey. 
+
+Speaker 5
+Yeah, we can a, make a post about it, B, make a video about it. You remember page when he told me that you sometimes put some educational shit on the background and we can put that on the background just like this guy here. You can just show. 
+
+Speaker 1
+Yeah, 100%. Yeah, I think it's great. And as someone who at least started off with a lot of fear around AI and care very deeply about the human element and ethics, ensuring that we have ethics in mind, the speaker, I think, provided a lot of paradigm shifts that gave me hope or maybe transform some of my fears that I have to wrestle with alongside of my hype around the possibilities with AI. And it was really cool. 
+
+Speaker 5
+And actually coming from here, we have one case study from our very first client at Sylabris that we are actually where to make a chatbot for him. But then after doing business analysis, we find another idea and totally reframed the whole development. And the chatbot was actually like a five priority or something like that. And first we had some internal integrations and automations. And that's a great story to accompany with this previous slide. 
+
+Speaker 1
+Yeah, total validation. And he had a lot of really insightful framings. He was talking about scale here and how we might be starting now with enhancing an existing feature with AI. And as we scale moving into creating a new feature that is no longer possible without AI there, that then scales higher up into a service offering that's no longer possible without AI, thus unlocking a whole new level of relevance in the market. 
+
+Speaker 3
+You saw this couple of slides that I have shared yesterday with some, we'll call it the methodology that we use and show on sales decks with celebrities. And it's perfectly aligned. I love this line. So it just makes us more assured that there is a slide that we call that you can either go with, optimize, accelerate, or transform. We use these three phrases. So those are basically the same concept that you might either try to just speed up your business, that it works like. 
+
+Speaker 2
+Sorry, Powell, you're breaking up too much. 
+
+Speaker 3
+Create some more value, like adding. 
+
+Speaker 1
+Yeah, Paolo, you can't hear propositions and boosting. 
+
+Speaker 3
+Some value propositions for existing products, for existing services, or create an entirely new business find product. 
+
+Speaker 2
+And. 
+
+Speaker 1
+Yeah, hello. Yeah. Oh, there's the lag. 
+
+Speaker 2
+There's the lag. 
+
+Speaker 3
+Just wanted to refer to the slide that I shared yesterday and we might integrate that with what Jason just. 
+
+Speaker 2
+Yeah, yeah, so that was actually Vincent that shared that. Another great speaker. And Jason did this presentation and actually recorded all of it. 
+
+Speaker 5
+So. 
+
+Speaker 2
+You guys can go watch it. This is how he started doing the system. He shows this whole process of how relevance now has its own business development agents that did all of this. Those are all sales meetings. Meetings. Parting purely from that agent. So very exciting stuff. And hopefully ours will look the same. And he has a YouTube channel. He did a Q and A. I will upload this and it'll be accessible to all of you. It's only 30 minutes and it's just pure value the whole time. It's great. 
+
+Speaker 5
+Yeah. 
+
+Speaker 3
+Can you hear me a little bit better now maybe. Oh, that's great. I just wanted to say, guys, sorry for my shitty connection. Yeah, I got some glitch so I don't want to comment too much at this moment. Just wanted to mention yesterday's slides that I shared to you a page and let's reconnect about it maybe because I see a lot of similarities between. 
+
+Speaker 2
+What. 
+
+Speaker 3
+Is the methodology that we've been developing internally within celebrities and wanted to share it with fastrays as well. With the slide that you have just showed us. Sorry for my shitty connection. 
+
+Speaker 1
+All good? Yeah, we'll definitely set up a meeting to connect more about that. Great. And I just realized the Vince has his own GPT. Of course he does. My custom GPT agent trained on my boring versus sexy framework to help you develop initial use cases quickly. 
+
+Speaker 2
+That's awesome. 
+
+Speaker 5
+GPT for use cases? 
+
+Speaker 1
+Yeah, based on framework. 
+
+Speaker 5
+I've done that like two months ago, something like that. Why? I didn't share it with anybody. 
+
+Speaker 2
+Yeah, I know. Why didn't you? GPT based on that framework of. 
+
+Speaker 1
+Based on the boring versus sexy. 
+
+Speaker 2
+Boring. Sexy. 
+
+Speaker 5
+Based on any framework. I just make like a GPT that if you write your role in the company, like I don't know, invoice manager or whatever, it gives you like five ideas for automation or how you can use AI to amplify your job. 
+
+Speaker 2
+I love that. Man. There's so much we have to connect with and knowledge now we really have to pledge out the whole thing. We're 1 hour now and want to give a challenge to every single person. Fast rise, including the people that are not here now, they will get this challenge too, which is in the next week. Find an event, meetup, eventbrite, they're out there in the next week. Go to an event. Maybe it's related to AI, maybe it's related to programming, maybe some other interest that you have. There is unspeakable value to being in those events. How do you unlock that value will be very much up to you. Maybe it's an insight that a presenter does shares. Maybe it's the person that you networked with that was sitting next to you. And if you're like me, the ten people you network with. 
+
+Speaker 2
+Because I can't stop saying hi to people mean just one insight, one network, unspeakable value. That's your challenge. That's our challenge. 
+
+Speaker 1
+We've got another one lined up tomorrow, so we'll come back with updates next week. And there is no dev working session tomorrow. Or is there a dev stand up tomorrow? 
+
+Speaker 2
+There is a dev session. Dev stand up right now. We did kind of give the updates, but let's get together. We'll keep it short. 
+
+Speaker 1
+Okay, well, thank you for joining us. 
+
+Speaker 2
+We can stay on here. 
+
+Speaker 1
+Okay, I'm going to wait. Oops, I just stopped and started the summary. 

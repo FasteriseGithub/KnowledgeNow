@@ -1,0 +1,348 @@
+Speaker 1
+Let's give a minute to see if Bartek comes. Okay, so I did something that was quite concerning, if not a little distracting from what I wanted to show you what exactly I wanted to show you guys today, but guiding in that way. I created a sidemap of all the documentation.
+
+Speaker 1
+Let me share all my screens because I created a sitemap from all the documentation. All the documentation as soon as I find it from follow up Boss, which is what we're mainly going to be using in every automation that we do. This is what we're going to use. There you go. There's Bartech connecting to audio forever. Okay, so there's about 200 pages here and it's very digestible, honestly. This is one whole page of documentation. And this is for calls, for example, you can record calls. Man, I keep finding things that is actually really cool. And the one we care about right now is events, tasks. There we go. So tasks, we want to create a new task with some details.
+
+Speaker 1
+And the details are going to be, hey, it's with this person ID, and we want a due date. And we want a due date time. And with just a person ID and a due date time, we can create a task in follow up boss and also in Google Calendar. So backtrack a couple steps and show you what the CRM actually looks like. So, hey, Bartek, good to have you here, man. We're just starting out and I figured I would start with step one as opposed to step seven. So this is follow up boss. It's been quite, actually quite fun to explore. It's very intuitive. This is just where you have all your people. For a real estate agent, you can divide them into essentially a few core groups, which is people that have already bought a house through you.
+
+Speaker 1
+Meaning like close people who are currently in the process of buying a house and people who are only cold, that are called cold leads. So we want to keep, real estate agents want to keep track of each group and within each group. For example, somebody buying a house, somebody might just be looking at some stuff, but also there could be another person who already got their mortgage pre approved, meaning if they found a house tomorrow, they would be able to say, I want this, and they will already be approved for how much money they can actually spend, whatever.
+
+Speaker 1
+Specifically for a real estate agent, there's going to me, since you see a lot of groups, not just three, you want to have automations that help you with contacting all these people for the clients that we're working with, that we have one here, they have 1300, and it's not even everybody that they're going to upload into the CRM yet. So say 1500 leads of different types that we want to do different things with certain tasks, certain, hey, message this person next week or have lunch with that person next week. So we want to set up tasks that help our real estate agents to keep track of everything they have to do to make the most sales that they can. And what we know is that good customer service leads to good sales. And this is a very tight relationship.
+
+Speaker 1
+This is totally a relationship game. So you have to nurture your relationship with the lead. So going through, just speeding through the other areas of follow up boss, there's an inbox which can include email, it can also include text, and it can also include voicemail. This text part is what we're interested in right now. There are some services that can help you read text and do something with them. Texting Betty is one of those services. Quite expensive, but number one. Well, anyway, quite expensive, but it seems very effective. It's notable that Polo bosses has CRM that was specifically made for real estate agents. And now they have apps from the community that the community made that are specific for these use cases. So these apps tend to be good, tend to be reliable.
+
+Speaker 1
+I've only tested one so far and we'll see how we actually end up designing this automation. But what we want is something along those lines. I did a test of creating a task manually. This is the task and it said kind of whatever. I set the time for today, 09:40 a.m. Eastern time and then in the calendar, it's synced with my Google calendar. And that's exactly what we want to. So let me show, actually, I showed this last time and we can actually simplify this into a text message. Text message. It's already integrated into follow up boss. So that's great news. That follow up boss can read your messages. We want to create a task based on the content of that message.
+
+Speaker 1
+So capture some keywords, for example, like the word appointment or the word booked, and we'll think about the technicals, we'll think about the nuances in a second. And then calendar, create a task at certain time, certain topic. It's looking like this. We can delete altogether because that calendar task creation is already synced up. So that's really good news. That's what this is looking like right now. And before I jump into the next thing I want to show you guys, what questions can I answer? Does the CRM make sense? What questions can I answer?
+
+Speaker 3
+Can you go back to the Figma board?
+
+Speaker 1
+Yes.
+
+Speaker 3
+All right. Can you just re explain this V one again? It's not really clear.
+
+Speaker 1
+No problem. Thank you. So let me show you an example. What do we want out of what does the client want? What the client wants is that if they're sending a text, say this is on your phone, it'll also get recorded on their platform, which is really good because that means that we can, through the API, go read these messages. So we're wondering, Tulio open phone, what service we're going to use? We can just use the native text platform that is connected to the text on your phone. And I say, hey, let's meet for lunch tomorrow at 05:00 p.m. And I send that text, say that, let's say Dan Corkill is my real estate agent.
+
+Speaker 1
+So we're making this automation for Dan Corkill, meaning that he receives this message and what's going to happen next is a task is going to get created in the CRM. So we need to, number one, be able to read these messages through the API. Number two, evaluate whether there is an appointment to be set or in this case there's lunch tomorrow at 05:00 p.m. So with some either very simple keyword finding, maybe we get into assistance, maybe some simple NLP we have to capture. Oh, an appointment needs to be set. In this case, it's lunch at tomorrow at 05:00 a.m. With Dan. After that, after we evaluate, yes, an appointment needs to be set we're going to create what's called a task within the CRM. A task can be, hey, call this person.
+
+Speaker 1
+It can also be, okay, in this case, we can see it here. It can be following up, calling them, texting them, showing them a house, or sending them a thank you message. These are all different types of tasks that we want to do. There are two more here that aren't included that the client wants custom, essentially custom actions for which is sending a gift, a physical gift. And the other one is, yeah, actual, like meeting up for lunch. So it would be a task that says meet up for lunch. Once this task gets created, in this case at this time, automatically, Google calendar is already synced up to follow up boss. So if I go to the calendar, I can see this task that I created through a task manually, I can see it connected here.
+
+Speaker 1
+So it already synced up to their Google Calendar and that's what the client wants from the text messages. From the text messages. Is there an appointment to set, yes or no? In this case, yes, it's lunch. Tomorrow at 05:00 p.m. We want through the API to create a task that says lunch. The topic is lunch and the time is tomorrow at 05:00 p.m. And that will automatically set a Google calendar event for that person as well. So at the end of it, we call it success. When a task got created on follow up Boss and an event got created in Google Calendar, what other clarity can provide.
+
+Speaker 3
+Yeah, I understand.
+
+Speaker 1
+Thank you. Cool. So it's actually pretty straightforward when it comes. If we're talking like the complexity of automations and integrating different systems, follow up boss is very friendly, at least what I've seen so far. We'll actually get into how they integrate everything and failure states, but we'll get there when we get there. What was important to me is for you guys to have the right tools to start. And since this is a relatively straightforward use case, I'm coding this first version. The other thing we want to do is from a spreadsheet, from a CSV, we want to add contact into follow up boss. So you see how I have only, if I go to my people, I have only one contact and it's actually pretty sad. It's the default contact.
+
+Speaker 1
+It's like Palm and MySpace being your first friend, but I have 1300 contacts, or I guess the client has 1300 contacts. We want to upload all of them, meaning we want to migrate from them, dealing with their leads through a spreadsheet, which is actually, how about half of real estate agents do manage their leads. It's just names and numbers on a spreadsheet, which is crazy in the era of CRMs you can do so much, why wouldn't you have it here? Well, one of the big use cases for the referrals we get through our clients are real estate agents who don't even have a CRM set up. Helping them set it up is part of what our job is going to be. Part of that job is migrating the leads in the CSV to follow up boss. That's going to be the second one.
+
+Speaker 1
+Well, but are we really going to go through all this documentation and a usual programmer will tell you yes, of course. And it's actually really well documented. Or you can take the route I like to take, which is shortcuts. And I created ridiculous. I created a sitemap for all the documentation in follow up bosses, about 200 different pages, very well documented, but still 200 pages. And with that sitemap, which is every single URL of these references of this API, I then scraped with relevance, I then scraped all of the information within it and I created a knowledge base which says for this URL, no, can I make this bigger? There you go, for this URL, what does the website say? And just scraped everything.Speaker 1
+So delete an email template. There are some discussions that people have had in the group. It's like hey, how do I do this? How do I do that? So that's great because now our very own follow up boss, GPT automation assistant shout out to prompt factory for helping with the creation of the system prompt. Now the assistant has access to these API documentation, which is wonderful because the first thing was hey, how, once it loads, yeah, how can I go about creating, please create an automation for task creation from a text message, leveraging the API, including setting up the connection. So the connection to the API and it just goes step by step now. So this is great, this is wonderful. So this is what I mean, that the level of sophistication that we're hitting right now is relatively low. 
+
+Speaker 1
+I did all this in about 2 hours. We actually have to make it work, which is the fun part. We have to, for example, once you've identified a message that requires action, oh well, that's not a trivial task. We have to figure out how to parse the incoming text message and obviously assistant, or just honestly might be an embedding, whatever. This is the basic chat GPT version of it, which is parse the message, and if there are these words in that text message, then return true. Okay, great. Let me go to the notebook. I don't know why I'm showing it on chat GPT. I just wanted to show you this is working just fine. We'll just be cool. Yeah. So we're working on the first automation Jorg, where the real estate agent gets a text message. 
+
+Speaker 1
+We identify whether there's an appointment to set or a task to be done. And then we create a task and an event calendar for the real estate agent to keep track of it. The main pain point, that's something I skipped. The main pain point of this agent was not being able to keep track of all the tasks and all the appointments that they had and really not having the habit of creating Google calendar events in the first place or using Google calendar in the first place. So this is what that chat GPT conversation looks like in code. It's simply, sorry, no, this is for migration. I'm going to backtrack a second. We'll actually make it run. We'll upload our leads that we have, they're actually real estate agents, ironically, into the follow up boss CRM. 
+
+Speaker 1
+And then it's say for the message, hey, can we schedule an appointment for next Wednesday at 10:00 a.m. For this person ID? And then we call this a follow up appointment. These are all things that we would get through the API. Hey, who is this person that is sending this text message? I'm going to pause here. What if we gather all the positive outcomes of the PFA for social media posts? Yo. Yes. In the chat, Bartex says, what if we gather all the positive outcomes of the PFA for social media posts, show for prompting prowess or video them, which is kind of what we're doing right now. We're saying like, hey, look what we did with PFA. It was fast. 
+
+Speaker 1
+Yeah, so the reason I want to pause right now, sometimes I got a little fast and I just want to make sure that everyone's with me in case there's questions. The next step is actually making this work. We have the code, let's connect to the CRM. I have the API key. And we make it work. We need some ideas for how to parse incoming texts when the migration. We can organize this a little bit. And then we have set up tasks from text message. We need some ideas for how to parse, say the sentence, meet, add, whatever, eater restaurant next week, next Monday at 05:00 p.m. We need to be able to create a task of a bad message. What's the thing? Well, it hasn't been confirmed. We just received the message. 
+
+Speaker 1
+One of the nuances that we'll have to deal with is the client actually answers yes, then set up the task so we can't set up the task prematurely or else it will be a mess. Like, well, what if it changed to the restaurant? What if it's not Monday by Tuesday? One that's number one. And example one is meta, which is multiple messages. Sample one is what happens if there are multiple messages. Example two, triggers for the automation. Sure, we can even create a sophisticated assistant, but what happens if the task, which actually the first example that she gave us is ready for, let's say prospect X is ready for pre approval. And pre approval refers to a mortgage. Very quickly. A mortgage is how much money will you be. 
+
+Speaker 1
+A pre approval is how much money will you be allowed to spend once you decide on a house. So based on the money you're allowed to spend is which houses you are able to even see. So the real estate agent needs this information to then know, oh, I can show them this house, oh no, that house is too expensive. They're not approved for that price. And this is also a task. This is a task that might not have a date and a time or even a very clear oh, I'm meeting with a person. But it is a task that needs to get done. Task that needs to get done. And she gave us a default, which is the default date and time is 09:00 a.m. The next day. Okay, wonderful, great. So we have two examples here. 
+
+Speaker 1
+Number one, what if it's multiple messages that require parsing and require making decisions, require guiding an agent, whatever we might implement to say, oh, there's a task to be done here, but there hasn't been any confirmation. So is there a task to be done? Is there confirmation? And this task may or may not be an appointment. Is it even a task that needs confirmation? Meeting up with someone needs confirmation. Just hey, we have to check. This document doesn't need confirmation. It's just something that we need to create a task for that will go in their calendar. 09:00 a.m. The next day. This can be a lot. There are going to be other examples. 
+
+Speaker 1
+So let's pause here again, and I'd love to hear some ideas as to what might be a good approach, NLP approach, agents approach, or basic keyword search that we can come up with. Has anybody worked on something similar to this before? 
+
+Speaker 2
+I think we need to have AI for that. Definitely. Because what if they say no or want to reschedule or something? I've got to go finish packing and then I'm flying. Is there anything else you want to show me? Tell me. 
+
+Speaker 1
+Yes. So I'll be sharing this with you guys, this GPT with you and you can go play, you can go ask you questions. The main thing that we're trying to solve right now, the migration I think is going to be relatively straightforward. The main thing that we want to solve right now is setting up tasks from text message. So with the API and I'll share this conversation with you guys too. Creator update. No, this is the other one. Full automation create task in follow up boss. And it has the steps, the description we would need. As it says here, you might need to adjust the payload according to your specific requirements. We need a time and a date, right. We know what the default is so it's here. We need a due date, et cetera. That's for text message. 
+
+Speaker 1
+So to do just 1 second, Henry. To do actually test output from the GPT, set up an assistant, let's call it assistant API and we might have other uses for it down the line. Set up an assistant API for text message parsing and automation trigger. Figure out what that looks like in prompt. And else, what else? Once we create the task, the Google calendar event should be created automatically. That's something we're going to test. Yes. One last thing. So two minutes. Action plans. Action plans are going to be series of tasks that will be triggered automatically. So there's an open house? An open house is. 
+
+Speaker 1
+I'm a realtor and I want people to come see this new house that I want to sell and I'll set up a day where people can come and I can give the tour of the house to the 30 people that show up as opposed to doing 30 individual tours, which is no. So open houses are for, that are for. Hey, there's a new house here people might be interested in. It's beautiful. It's decent price. Let's show it. I'm back. Yeah. Okay, cool. Yeah. Screen. I think I said the words I wanted to say. The difference between action plans and tasks is that tasks we're gonna set up, they're gonna get triggered from text messages and action plans are already going to be set up once a lead comes into the CRM. 
+
+Speaker 1
+So new person went to the open house, their email gets put in, they get in the CRM and they'll receive automatic messages emails, reminders, events based on the action plans that we're going to set up on the back end and we'll get to action plans. I want us to get familiarized with the API and we'll also get the actual action plans from our clients, Devin. So that is not extreme urgency. What is important right now is getting familiarized with the API. Unfortunately, we have a GPT for that. Number two, looking at different examples that we need to test for reliability. So as we talked, Bartech test driven development, and I'd love your guidance on how to go about that. That goes beyond just having two examples. 
+
+Speaker 1
+And number three, the prompt for the assistant to be able to parse and capture the requirement of oh, we need to set up a task correctly. The assistant will probably need to speak in JSON. So that's a plus for using the assistant API. Let's go step by step. We need to get familiarized. We can do that in our own time. We need to create examples and we need to set up the assistant. Let's look at the assistant first and then we'll look at examples. Or would the other way around make more sense? 
+
+Speaker 2
+I think examples, Pierce examples. If you want to test driven development, then yeah, examples. 
+
+Speaker 1
+Thank you for keeping me to what I just said 10 seconds ago. Awesome examples. 
+
+Speaker 2
+Yeah. And then it will be also even not thinking from a test driven development point of view, it will be easier to work with PFA on the prompt when we have examples already set up. 
+
+Speaker 1
+So true. Oh my God. Of course you can just give them the examples and it'll do what it needs. Hey, there's one thing that I have not, I'm not going to ask right now. JSon mode on assistance. We can look at that later. Okay, samples. Let's do five examples. We can include two counter examples as well. 
+
+Speaker 2
+You know what, copy this cell to PFA and ask it to make more examples. 
+
+Speaker 1
+Sure. Yes. Let's get there for better data. I just wanted to go through my brain because we talked. I'm speaking to the page directly, who's behind me. Just so you know, I'm not talking to the wall. We sat with Devin for 2 hours. What are other things that came up regarding needing to set this up as a task or as a calendar event? Real estate agent. There's new prospects. 
+
+Speaker 4
+It's managing the tasks that like you said. Hey, I need this pre approval form by tomorrow. Hey, are you good for our meeting at 03:00 p.m.? Tomorrow? Yes or no? And these are really. We spent 2 hours talking with her just about client relationships. We didn't even go into any of the other process aspects of her business, which could be a whole other thing. We talked about her touch points, and what makes her a really cool first client for faster eyes is that she's excited about this. 
+
+Speaker 1
+Oh yeah. 
+
+Speaker 4
+And she has some of the puzzle pieces in play, but it's a matter of connecting them. So one thing that she does that's really important for referrals and client loyalty and touch points is, for example, she'll send out quarterly gift baskets to every realtor in her database. Ideally, she doesn't have touch anything. And every quarter, any person in her CRM that is tagged as a realtor the end of quarter hits it automates a trigger that sends a message to another company that she already is working with that puts together the gift baskets and mails them out. So the automation we would set up would involve extracting the names, the addresses, and the contact info of all the current realtors that are tagged and sending it over to the company she's working with to arrange the gift basket. 
+
+Speaker 4
+She also has another company she works with that will do handwritten notes or just kind of thank you card, that kind of thing. Depending on where a client might be in their action plan. A client gets the settlement day. So then in follow up boss, when that action happens, okay, it's settlement day. There's an automation that then triggers, okay, we need to send this handwritten card to this client. Again, she's already working with this company. It's really about integrating that system. 
+
+Speaker 1
+Integrating. 
+
+Speaker 4
+And she spends a lot of time on calls on her. Mean, the simple automation of text to Google calendar event or meeting is simple, but it saves her so much time of them having to go into her phone, create the Google calendar events at the time. Yada yada yada. And it just does it for her. 
+
+Speaker 1
+Yeah. 
+
+Speaker 4
+Okay, I'm pulling back up my notes. 
+
+Speaker 1
+The gift baskets, the handwritten letters. Then as scheduled. Okay, I'm going to take RtEx wise advice, not throw this into. I came up with one counterexample which was, oh, the prospect got approved for a mortgage. So that wouldn't really require an action, a task to be set. It might further down the line we might want to trigger an action plan. We might want to trigger, oh, now send them this email and then two days later send them this reminder email so we can move the process forward. But it's not a, right now I need to set up an appointment or a task to do so we'll leave it at there for now and that might change in the future, but for now, that is one of the counterexamples that we're looking at. So help me complete. 
+
+Speaker 1
+Wait, no, I literally just did a thing here with PFA. Yeah, no, wait. Where is it? Hello, boss. Yes, there we go. Okay, wonderful. Oh yeah. I asked in different approaches for triggering the task. So regular expression. Sure. Natural language processing. We're not going to go that way. Classifiers. Oh, we need to train a model. That's what JGBT is, man. All these NLP tasks are just like embeddings based now. It's crazy. Anyway, these are all old. And it's funny because LLMs is not in there. Okay, we need to create examples to teach a model when an appointment task needs to be set up. Help us fill these out. Yes. Sample one, message one. Then example one, message two. Yes. Then set up the task. Is there a task to be done? Is there confirmation even needed? Using these guiding questions. 
+
+Speaker 1
+Is there a task to be done? Is there confirmation, is there a task to be done? Or appointment to set? Is there confirmation, is confirmation needed? Is there explicit confirmation if needed. Okay. Requires action. Yes, prospect X is ready for mortgage pre approval task that needs to get done. Default with default date and time. 09:00 a.m. The next day. That's probably unnecessary here. Okay, let's see. I it reason the first message proposes a meeting with a specific date and time. And the second message confirms the appointment. Love it. Of course we need reasons. The message indicates a task, mortgage pre approval that needs to be initiated for the prospect. Looking at the counter example, prospect X was approved for mortgage. The message takes a completed action rather than requesting a new task or appointment to be set. 
+
+Speaker 1
+Okay, backtracking sample three, a message that requires action but does not explicitly mention an appointment or task. Can you call prospect Y to discuss listing their house? Fair. There's a question mark, but that doesn't feel like a question. Like if Kim sends this to Devon, she's not asking a question. An implicit task to call and discuss. Great, wonderful. Great job on closing the deal with prospect Z. Requires action. No, this message is, I think the. 
+
+Speaker 2
+Example tree is like out of the scope of this initial automation we're doing, because we're doing four meetings. 
+
+Speaker 1
+Right. 
+
+Speaker 2
+And I would keep it simple because it's free. Let's keep it simple, let's deliver it fast, and let's not go to the, you can do that in version two. Yeah, let's say I would keep the. 
+
+Speaker 1
+Message will not only be for meetings, the explicit ask was, hey, if there's a task, I need to have it in my calendar. And in this case, all right, this is a task kind of like this one prospect as it's ready for mortgage pre approval. And that is a task that needs to get done. If we're talking only this, I see the straightforward let's have it working. At the very least, let's have a prototype working. Do you feel like ideally we're showing this kind of like in 24 hours that we get at least a few examples working is what I mean. And we would want to show kind of exactly these examples. Right. So these examples would fuel the quality of our essentially closing sales call tomorrow. 
+
+Speaker 2
+Yes. Are you doing the live presentation or showing screenshots or video or something like that? 
+
+Speaker 1
+Oh, I'll share videos screenshot. We don't want anything going awry and we know how live stuff goes. 
+
+Speaker 2
+Yes. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+But anyways, for now, the examples that resonate the most and are easily replicable because this example three could be vague sometimes. And let's not promise that early on, let's say it will be, let's say next iteration or something like that, unless it's really needed and explicitly say like, no. 
+
+Speaker 1
+Yeah, I hear what you're saying. I. Okay, we're saying makes a lot of sense. The example that she gave us explicitly is, hey, if there's someone ready for mortgage pre approval, put it as a task, this would be like extra. So yes, let's not promise that. Maybe it'd be like, hey, would this functionality be also something you're interested in, that you get a message from your partner, from your business partner and it's like, hey, can you call this prospect and making sure that gets scheduled too? But yes, that is a good point. So if we're cleaning this up, yeah. 
+
+Speaker 2
+But I will be careful with telling that because I'm not saying this example won't work. I think this could work. I see it working. But if she thinks like, okay, they can do also this, then what others can do, and it might later might come up with some examples that could be harder to achieve. So let's say we can have that as a bonus, but let's bring a little education about LLMs and about randomness and stuff that we see it as a good potential to have more stuff. But let's take this in mind that it might not work in more complex. 
+
+Speaker 1
+More complex that I think is a very good thing to be aware of. So we'll keep the conversation then to what we know we can do, number one, which is what they asked for. And then kind of like an open floor of like, what else can you guys come up with? There are some that might be more difficult to implement given that LLMs work this way and that way, so we can come back next time and see which ones are feasible to implement. Would that make sense? Or not even open it up. They're going to have more ideas. That's the thing. It'd be like we can take these ideas back to our dev team and then evaluate which ones are actually feasible. 
+
+Speaker 2
+Yes. 
+
+Speaker 1
+Okay, so these are this old and now we have these requires action. Yes, no and no. Okay. 
+
+Speaker 2
+What you could do to have more of those, more variants of those examples. We want to show fears. We could just say, give me more examples for variants of example one or two or one end. Got you. I would say every possible variance so we can see all the ways it could go. 
+
+Speaker 1
+Yeah, it has no limits. We can just ask it for. Okay, so we'll pause that here. I'll integrate that back. It is 330 a m for me, so I only have so much fuel left, but definitely some left. So let's go through some checklist stuff first. Number one, let me share the conversation with you guys with this GPT, we're going to create a new channel for real estate client Kuba. I will not forget the personalized outreach system and we will continue with that. The time sensitivity on this kind of requires so much of our attention and we're definitely still going forward with the outreach system. 
+
+Speaker 3
+Yeah, I totally understand. 
+
+Speaker 1
+Okay, so that's number one, sharing this conversation. Number two, sharing the assistant initial conversation with follow up boss GPT about the API migrating leads to CRM from CSV to CRM. And then there's the other one we talked about, which is setting appointment from text message. 
+
+Speaker 2
+Now can you also share with me the chat that you created this prompt with PFA? Yes, if it's successful, then that's a good case study. And I would like if you can share me some more of examples, you find it useful, that will be great. So I would try to aggregate that for some content. 
+
+Speaker 1
+Yes. 
+
+Speaker 2
+Also, do we have a content team in faster eyes or it's just like marketing doing content or how that looks? 
+
+Speaker 1
+We are focusing on video and page is our engine and our everything for marketing right now. 
+
+Speaker 2
+I'm also thinking that maybe we could do some recruiting for fasterized like some people. For example, I had this training groups last year, I was just recruiting people from Facebook, not say free employees. But kind of, you can sort of have people who just want to learn and they will join you and just kind of do stuff for learning and then maybe be an employee if they are already good. 
+
+Speaker 1
+You mean when it comes to content? 
+
+Speaker 2
+I mean when it comes to everything. I think we could use more people everywhere. 
+
+Speaker 1
+I agree. Managing those people tends to be very time consuming. However, if it's a win, I'm all for it, man. Yeah. 
+
+Speaker 2
+Because definitely I'm thinking fears of content. Definitely. We need to spread the world more and post way more content. 
+
+Speaker 1
+Oh yes we do. So introduce us, bring them in. Let's have a conversation. Let them join the discord. 
+
+Speaker 2
+I mean, I don't have people ready yet. I would start looking for them. So we can maybe discuss that later how we want to plan that out. 
+
+Speaker 4
+For now, you and I, let's connect. And we need more video for PFA. I think that's going to be one of our best content generators. I'm working with Opus to put some video out and also there will be more info coming on podcast hour, which is where we're going to get a lot of our video content from. So stay tuned or else come to the gen exec tomorrow and we're going to talk about that. 
+
+Speaker 2
+I think we can also make a podcast, like pasteurized podcast. Or maybe invite somebody, like networking with someone and then have some kind of call. I don't know. I'm just thinking out of my head now. 
+
+Speaker 1
+What was that? Sorry, I missed it. 
+
+Speaker 2
+I'm thinking that we could also make a podcast, either ourselves as a team, or invite somebody from outside, like some, I don't know, subject matter expert or whatever. 
+
+Speaker 4
+We are on the same brainwaves, Bartech. Yes, 100%. And yeah, dual purpose, because we can post full on podcast hours of us talking about different topics, products, PFA. My 03:00 a.m. Brain isn't working, but shout out to PFA. Let's talk about PFA. And we can use the longer versions as short video content that can go out on various platforms. That's the direction we're going. 
+
+Speaker 2
+Yep. So swimming up, you want to connect separately or on the gen exec tomorrow? Or both? 
+
+Speaker 4
+Probably both. Gen exec will be a lot of general updates and explaining what podcast hour is and get some ideas going for it. And I think if you and I get on video again the same way we did last time, and we can talk more about use cases, I'm guessing video content from that will be most helpful. So Alejo will probably need to take a few minutes and get in front of a video camera and just say, hey, so I used PFA and I did this and these are some of my results I think will be the best way to get you those testimonials. 
+
+Speaker 1
+I agree. 
+
+Speaker 2
+And also I think we have two videos to extract a short from. Like the first try of PFA when ale make the transcript prompt. That's definitely great for content. We were all excited. 
+
+Speaker 1
+Which one? 
+
+Speaker 2
+The excitement for the non vocal stuff. This one. Yeah, that will be perfect. And I think you didn't show quite the chat. So maybe we can do separately today example. But I think we had a call, another dev call at some point back then where we used the PFA, but I don't remember exactly when that was. So I don't know if you guys can find it. But yeah, let's also record some new content. I'm also thinking about because I'm still kind of trying to get myself to make this swarm thing and I'm trying to document the journey, like the dev journey, like how I come up with the stuff and things like that. 
+
+Speaker 1
+Let's figure out how we can best support you in documenting that journey. If it's like showing us the updates once a week and that's the video, that's something that helps me personally. If I have somebody listening, it's much easier for me to say, oh, this is what I did this week and this is what I want to show. This is the progress. This is why, this is why I made that decision and not this one. Might not work for everybody. It might be like your own time, your own space that works best, but rely on us for recording and documenting any content. 
+
+Speaker 2
+I noticed that also this helps me to, instead of just me talking like a loom recording or something, it's better to have a conversation. It's more natural. 
+
+Speaker 4
+Yeah. It comes out more organic. 
+
+Speaker 1
+Yeah. 
+
+Speaker 4
+I feel that sometimes it's hard to just stare into a camera and talk. 
+
+Speaker 1
+Yeah. But it's also hard to talk into a group of people. Hey, Kuba, I wanted to quickly check in on you and see if anything has changed from when we talked Friday. 
+
+Speaker 3
+I updated everything. Like I've updated you to the GitHub. 
+
+Speaker 1
+Awesome. 
+
+Speaker 3
+I corrected the prompts for the email, my stocking crash. We got a limits error, so I fixed that also. And John, do I fixed it also? 
+
+Speaker 1
+Okay, and how did we fix that? How do you fix the limiter? 
+
+Speaker 3
+Yeah, it's actually the prompt from the email agents. 
+
+Speaker 1
+Okay. 
+
+Speaker 3
+So I have a question regarding this project. I want to start, can you explain that confirmation part? Because it is okay. Once the tax. Once created tax? Yeah, you said we need a confirmation. Again, I don't really understand. Why do we need the confirmation? 
+
+Speaker 1
+Yeah. So is your question regarding the example of let's meet tomorrow at 05:00 p.m. And the confirmation is yes. Okay, so let's say we do create the event, the task, when that message gets received, let's meet tomorrow at 05:00 p.m.. Whatever, and we create the task. But the answer to that question is, no, I can't at that time. Let's do a different time. But we already created the task, so that would be an issue. 
+
+Speaker 3
+Okay. 
+
+Speaker 1
+So there are some messages for which we'll need confirmation. So keeping a thread of the messages, even just like the last four messages, last five messages, would be very useful. We want to avoid any false positives. We want to avoid any creating any tasks that weren't confirmed or that shouldn't have been created. The main thing we want to avoid are false negatives that if a task needed to be created, that it actually gets created. The worst case scenario is that a task needs to be created and it doesn't get created. That's the first worst case scenario that we want to avoid. That's our priority. Which what you're saying in that way would actually prevent false negatives because even just getting the question without the confirmation would create an event. But it's a thin line that we're treading. 
+
+Speaker 1
+And these questions are very useful that you're asking are very useful because there's a lot of failure states that we need to avoid. So having PFA is like, hey, make more examples is going to be a great way to avoid that. And on Tuesday, hopefully we get more real examples, not only pre approvals and lunches, it's also this and that, and we can also create variations for that. 
+
+Speaker 3
+All right, cool. 
+
+Speaker 1
+Okay. Could you send me a link to the notebook? Because I think I'm seeing the right one, but I'm not sure. 
+
+Speaker 3
+Okay. I uploaded the right one to the GitHub. 
+
+Speaker 1
+GitHub, that's right. You said that. Thank you. Okay, wonderful. Do you have any questions for me, ma'am? Anything I can help with? 
+
+Speaker 3
+No, nothing for now. 
+
+Speaker 1
+Okay, cool. I'll check out the. There we go. I'll check out the personalized outreach system update and back to you tool the agent would use so we can keep talking later, brother. 
+
+Speaker 3
+All right, bro. Goodbye, guys. Bye, guys. 
+
+Speaker 1
+See you soon. Bye. 

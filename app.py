@@ -46,7 +46,7 @@ llm = ChatOpenAI(
 )
 
 # Load data and create embeddings
-extracted_data = load_file(["2024-03-12_Dev_Meeting_-_Knowledge_Now_summary_1.txt", "2024-03-12-Dev-Meeting-Knowledge-Now-Transcrpt-2.txt"])
+extracted_data = load_file(["2024-02-06 Dev Working Sesh - Scheduler Assistantcleaned.txt", "2024-02-19 Advocates Meeting, reconnect after camp and plan, simplify and move forwardcleaned.txt", "2024-02-19 Dev Meeting - Outreach System Demo V1cleaned.txt", "2024-02-20 Dev Meeting - Vector Database course, Personalized Outreach System, KnowledgeNow Earlycleaned.txt", "2024-02-21 Dev Meeting - Personalized Outreach System, Initial Promptscleaned.txt", "2024-02-22 Fasterise Storycleaned.txt", "2024-02-22 GenExec Meeting - Overview of products, teams, objectivescleaned.txt", "2024-02-26 Dev Meeting - Update Massive Outreachcleaned.txt", "2024-02-26 Outreach email Campaign Vacation Rentals with Jorgcleaned.txt", "2024-02-28 Dev Meeting - Half Revised Outreach System Flow, Icebreakers, Half RAG with Henrycleaned.txt", "2024-02-29 Outreach Strategy with Zachcleaned.txt", "2024-03-01 Dev Meeting - New Client Projects, Real Estate, Google Calendar automation, Follow up boss automationcleaned.txt", "2024-03-01 Paige, Bartek, Pawel - Plans and Updates for Real Estatecleaned.txt", "2024-03-05 Advocates Meeting - Profit Sharing, Real Estate Projectcleaned.txt", "2024-03-05 Dev Meeting - Follow Up Boss Automations, FUB GPT, API, CRM, starting code and ideas.mp3cleaned.txt", "2024-03-05 Dev Meeting - Follow Up Boss text automation Assistant Promptscleaned.txt", "2024-03-06 Discover Call Client - Real Estate Phase 1 and future integrationscleaned.txt", "2024-03-07 Dev Meeting - Planning Scrum, organizingcleaned.txt", "2024-03-07 GenExec Meeting - Client Updates, Dev products, Outreach progress part1cleaned.txt", "2024-03-07 GenExec Meeting - Client Updates, Dev products, Outreach progress part2cleaned.txt", "2024-03-12 Dev Meeting - Knowledge Now Final Draft 1cleaned.txt", "2024-03-12 Real Estate Email Campaign Prepcleaned.txt", "2024-03-13 Dev Meeting - KnowledgeNow Assignmentscleaned.txt", "2024-03-14 Dev Meeting - Knowledge Now Update, Context Agent Prompt, Chatbox, i dont know funny fail bloopercleaned.txt", "2024-03-15 Dev Meeting - no updates, learning rag together, demoing lessons next meetingcleaned.txt", "2024-03-15 Outreach Meeting - Final email review before first real estate campaigncleaned.txt", "2024-03-18 Dev Meeting - KnowledgeNow MVP steps, Kuba output reviewcleaned.txt", "2024-03-18 Speedrunning LangChain Multi Query Tutorialcleaned.txt"])
 text_chunk = text_split(extracted_data)
 embeddings = data_embedding()
 
@@ -54,10 +54,12 @@ embeddings = data_embedding()
 YOUR_API_KEY = os.getenv("PINECONE_API_KEY")
 Your_env = "gcp-starter"
 index_name = "knowledgenow"
+
 vectorstore = PineconeVectorStore.from_documents(text_chunk, embeddings, index_name=index_name)
 
 # Initialize retriever
 retriver = vectorstore.as_retriever(search_kwargs={'k': 25})
+
 retriever = MultiQueryRetriever.from_llm(retriever=retriver, llm=llm)
 
 # Set up logging
@@ -74,11 +76,12 @@ qa = RetrievalQAWithSourcesChain.from_chain_type(
 
 #creating a custom tool
 @tool
-def Knowledgebase(query:str)-> str:
+def Knowledgebase(user_query:str)-> str:
     """
     Use this tool when answering question about meeting, task, activities in a organization called Fastrise"""
-    result_str = qa.invoke(query)
+    result_str = qa.invoke(user_query)
     return result_str
+
 
 global_context = """Fasterise
 
@@ -139,12 +142,12 @@ conversational_memory = ConversationBufferWindowMemory(
     return_messages=True)
 
 def chat(text):
-    out = agent_executor.astream({
-        "input": text,
+    out = agent_executor.invoke({
+        "input": user_query,
         "chat_history": [memory2str(conversational_memory)],
         "global_context": global_context
     })
-    conversational_memory.chat_memory.add_user_message(text)
+    conversational_memory.chat_memory.add_user_message(user_query)
     conversational_memory.chat_memory.add_ai_message(out["output"])
     return out["output"]
 
@@ -183,7 +186,9 @@ if user_query is not None and user_query != "":
         st.markdown(user_query)
 
     with st.chat_message("AI"):
-        ai_response=st.write_stream(chat(user_query))
+        ai_response = chat(user_query)
+        st.markdown(ai_response)                                         
+        
 
     st.session_state.chat_history.append(("AI", ai_response))
 

@@ -1,0 +1,1350 @@
+Speaker 2
+Now I see myself and I don't like it, but it is what it is. Hey Bartek, how you doing man? Let's park the conversation on the knowledge base for Friday when we have Pablo. Also about that, what time do you leave? 
+
+Speaker 1
+What time do you have to go to the next thing? 
+
+Speaker 2
+It's not like I have a meeting. I just need to do something. So the faster the better. Let's discuss the out system and the knowledge-based stuff. You were trying to ask how we at Syllabus envision this knowledge-based system, right? 
+
+Speaker 1
+Yeah, that was one of my questions. 
+
+Speaker 2
+All right, so we don't have that figured out at all and now we're in a kind of chaotic situation with so many things going on. 
+
+Speaker 1
+What I was asking more was what are the components? So the same image that you showed us last time, going over those components again, because now I'm reviewing what components deserve to be there, and what components have to be there, and what components deserve the most attention. 
+
+Speaker 2
+All right, can we do it? Maybe you could just write me those components. I will think about it and I have time probably in the evening. 
+
+Speaker 1
+Oh yeah, it's written. I wrote the technical report. I can send that to you. 
+
+Speaker 2
+Super. Then we can actually look at some code together. I will have time in the evening if you want to make a call out, say 5 hours from now or 6 hours from now. 
+
+Speaker 1
+I'll make it work. Yeah, sounds good.
+
+Speaker 2
+So let's go to the outer system first of all. 
+
+Speaker 4
+Hi everyone. 
+
+Speaker 2
+Maybe I'll make a short introduction of how we met and how it all started that Hubert joined Celebrities. So first past year I've been doing some trainings for developers and Hubert was part of the flutter team. And it kind of developed because I pivoted my personal career from mobile development to AI. 
+
+Speaker 4
+I think basic is good for now. 
+
+Speaker 2
+When I'm off trying to tie the ends together so we can thrive in this AI space and have the income that we all need. 
+
+Speaker 4
+For now, I'm good. I'm trying to catch up and understand everything you're doing. 
+
+Speaker 1
+My background personally is in data science. Five years of Python and a lot of distributed computing and such, still very much into data analysis and data science. Is Python one of your interests or are you leaning more towards JavaScript web development?
+
+Speaker 4
+I think both. JavaScript is more for specific tasks for me, but Python is, I don't know, more universal. 
+
+Speaker 1
+And have you played around with any assistance API? OpenAI?
+
+Speaker 4
+Assistance OpenAI. Yeah. I have created some virtual agents. I call it GTPs for many tasks. 
+
+Speaker 1
+Using Chatterbt or GPTs in your daily life is probably the only prerequirement that exists here. 
+
+Speaker 5
+Yeah, so I guess I decided to go full time in just AI and AI agency about six months ago, seven months ago. And it's just been a journey, man, and it's been so much fun. I really think we're onto something.
+
+Speaker 2
+We're on something with the adjunctic system. 
+
+Speaker 2
+I have an existential question about this agentic system actually. We are sending an email at the end of the process, right? Why wouldn't we use some kind of email marketing machine? But I'm not sure about instantly AI. 
+
+Speaker 2
+So I'm thinking this system we're building, this agency system, should end on the excel. The objective here would be to have the excel, let's say we have from the navigator the excel data, and then it takes the input and outputs enriched Excel where we have all those variables we set in this email machine. 
+
+Speaker 1
+That is exactly what we're aiming to do. 
+
+Speaker 2
+We haven't played around with the instantly API yet, but we did buy the subscription that gives us access to the instantly API. 
+
+Speaker 1
+Whoever kind of raises their hand first to go figure out the API where we step forward with that. But it's not necessarily urgent if we don't have the emails first, and it shouldn't be that complicated. 
+
+Speaker 2
+Maybe let's try instantly because I've been thinking about other systems. 
+
+Speaker 1
+Which other system were you thinking of?
+
+Speaker 2
+I was thinking about Smart Leads. And this is basically something like instantly, but you can either link your HubSpot, your whole CRM to it, or you can just send a CSV file where you have columns with the variable names. 
+
+Speaker 1
+Okay, that's good. I would be very surprised if we weren't able to do that with instantly. Whenever we find a need for a CRM per se like HubSpot, we can come around to that. It doesn't feel extremely urgent.Speaker 5
+Still paying for go high level as well because we've got our CRM and it's got hosting the website. 
+
+Speaker 1
+It is hosting the website isn't. Yeah, yeah. 
+
+Speaker 5
+And we graded instantly so that the API would work with go high level. And then I'm not sure we ever did anything about. 
+
+Speaker 1
+Okay, right. Because we have the go high level CRM. Right. Let's pause on that conversation because that's a kind of bigger systems integration conversation and probably not super necessary right now. At the moment, all the leads that we have are mainly through the files that I found, essentially lead files. As we step into the real estate market, we have hundreds of thousands of contacts that we're going to send these emails to. So at that point we probably want something that is more organized like a CRM. Point is, given the speed that we need to go to right now and the little time we have to sort of get together. Yes, I'm going to write down, let's have that bigger systems integration conversation. As of right now, let's talk about the outreach system. But thank you for bringing that up. Bartek and smart leads. 
+
+Speaker 1
+We will keep it in mind if we have any blockers with instantly. We do have two email campaigns running right now. Instantly from emails that Jorg and Zach made. So emails are being sent. That's in line. And you guys asked. Well, no, I brought up last time, hey, what might it look like to have an email framework that this system can get, say, inspired by or a framework to follow when writing emails? I want to very quickly run Hoobie and all of you through this sequence I made because there's a couple tweaks and I just want us to agree on that these tweaks are the right way to go. I want to say, and I'm going to repeat it, do not worry about token usage right now. Token usage in our production system is going to be much lower. 
+
+Speaker 1
+But in our test system, we need to figure out what the best outputs are. I'm going to leave it at that. So research agent objective is simple. Gather prospect info. We have two ways to do this right now. There is a relevance AI tool that gets profile information, that gets recent posts, pretty much gets everything. It's pretty amazing. So we're going to get LinkedIn profile and LinkedIn posts. The tool that Kubai is using gets profile. I'm not sure that it gets posts. It works for right now, but it lacks depth. Anyway, what we want to do in the future also is get the company website and company analysis. So hey, say we're going for real estate. Okay, great. What aspect of real estate? 
+
+Speaker 1
+Because actually there's between twelve and 16 different people organizations that get involved in a real estate, in the sale of a house at any one point throughout the whole process. So what aspect of real estate is this company in? And what aspect of that company, in that process is this person in? So company analysis and company website are going to become important, but it's not immediate need right now. With LinkedIn posts and LinkedIn profile, it's a great way to have enough information to create an email. What about the profile? What about the posts? That's what we have the data analyst agent for find. 
+
+Speaker 2
+You. But I'm thinking why not make something like something we need the most right now? Like a very thin layer of what we think need the most now. And let's say maybe get those LinkedIn information into bullet point for the sales team so they can know what's faster. Don't going through all the information, just faster. Know what basically would be later output of this whole system. But now we make it use this first part and then later human. And later in the next iterations we bring more AI, more AI. And push the human to the further of the process. 
+
+Speaker 1
+So what you're saying is we get these two, or maybe even these three up and running and we let the human do the rest for now. And then we might get another step, say draft emails and then the human corrects the emails, is that what you're saying? 
+
+Speaker 2
+Yeah. And throughout this process we need to gather data. Every time email is corrected by human, we need to get that shit written down. 
+
+Speaker 1
+That is so good, man. Yes, that is such a good point. Okay. Yeah, I 100% support that idea. In fact, I was going to give an example of exactly what you just said, but in a different way. So let's stage one. Stage one, introduce human here. And in that stage one, maybe we can go in icebreakers. Why icebreakers and not data analyst? These gold nuggets aren't necessarily going to be bullet points. They're usually going to be short paragraphs. Why? Because there needs to be enough substance in there to say yes, this is what we're going to leverage about this person, about the post that they made to create an icebreaker. But also that data is very important to say. That is what's most important when we're writing the email. And then that is what's most important when we have the email critic. 
+
+Speaker 1
+So we need some substance to these insights. I want to show you an example of that really quickly. What might those insights look like? Services overview relevant to dance solo this is about us, what services we might provide. But this is the paragraph that I'm envisioning. Given Dan's involvement in running a ski lodge and consulting on technical integrations, our AI power automations to streamline operational processes. This might include booking, management, whatever. What if this paragraph is about Dan? That would be the point here. And the second paragraph is, hey, they posted about the whatever AI changes in their industry. Oh, okay. Let's make reference to that post. So we need a paragraph of what. 
+
+Speaker 3
+That post was about. 
+
+Speaker 1
+The icebreakers can be some sort of bullet points. Let's talk more on that point later. What exactly we give the human yeah. 
+
+Speaker 2
+I think it's right now and I think what we should do is assume we are doing this for the client. And let's say the client is the sales team. And what we need to do first to make an automation of the sales team. We need to make a workshop. We need to make analysis of what they do. And I think the important thing in here is also like I've been thinking about little how that fits that developers make a system that makes sales team work less. And I had some initial thought, but I don't want to bring it up right now. That's conversation for later. 
+
+Speaker 2
+But now I'm thinking actually of mitigating the thing by having sales team help build this and really have their input and sort of not record, but have written down all their process and all their thoughts and how they do it. And then we make AI version of the sales team rather than. 
+
+Speaker 1
+That is something that we've already started. So this is part of that integration. Let me get to the end and I think you'll start seeing how. 
+
+Speaker 3
+I. 
+
+Speaker 1
+100% agree with you. So who is the sales team? Zach, Jorg and me. Not necessarily only the outreach team but we're talking sort of who knows the sales frameworks, who knows the email framework. So in that perspective of having the sales input into this on Friday, I'm actually talking with Zach and we're going deeper into this. That's why I want to review this with you guys to make sure that this is making sense and that I'm on the right track to then sort of translate it to Zach. I think this is such a good point. And this is definitely something that Zach almost in a different way, agreed on. It's like, well, let's make the training data. Let's make the training data ourselves so we can keep guiding each of these agents. 
+
+Speaker 2
+We should assume that developers cannot sell like they don't know how to sell, so they cannot make a system to sell without the salespeople. 
+
+Speaker 1
+That's very good awareness. 
+
+Speaker 2
+Yeah, we're not building something out in the cloud. We're trying to make a basically digital twin to our salesforce. That's how we should keep it. 
+
+Speaker 3
+Right. 
+
+Speaker 2
+Let's go. Because I have very time. 
+
+Speaker 1
+I know. And you're asking about what is relevant. We actually met up with one of the lead, I'm going to simplify it. Real estate agents in Maryland yesterday and tomorrow we're meeting with another one. And that's the industry we're tackling. So this that you're saying is like, well, what is relevant? What exactly is our offer? What are we selling? That is very much in process of definition and it's been quite productive. So stay tuned on that and we'll talk more about that on Friday. All right. Okay, so we have the researcher agent get the info, the data analyst. What info is relevant? So how do we define relevance? The fasterized knowledge base, we need to create an ICP, who's our ideal customer profile, et cetera. Iceberg, your creator. Create relevant hooks, first lines, and through those first lines write simple, human, impactful emails. 
+
+Speaker 1
+Obviously that's not going to be the full prompt, but now we're leveraging the icebreakers, we're leveraging the faster ICE knowledge base. So it's like, oh, this is the products that we're making for real estate agents. So it knows what to fit in there based on the profile, based on the company. Obviously they leverage these gold nuggets about the profile. And this is one of the things that you're talking about. Examples of good and better. So very quickly, examples of good and better. This is the first version that we ran. 
+
+Speaker 3
+Okay. 
+
+Speaker 1
+Write a concise, human casual email to Dan, gave him his whole LinkedIn profile and this is what it wrote. You don't need to read it, but it's long. If it covers more than the page, then it's definitely way too long. Paragraphs need to be short, et cetera. I stumbled upon your impressive profile and couldn't help by none of that. None of that. Be much less corny and more human casual. So, quick chat, maybe I would remove this. Hey, Dan, I came across your profile and snowball chalet caught my eye. I mean, who wouldn't want to escape to the Japanese Alps? Okay. 
+
+Speaker 2
+We need a devil advocate agent that knows what our best salesman knows. I don't know who is the best salesman, but ask him about the emails from the AI we have currently and what he don't like. And then we put that into the devil advocate. 
+
+Speaker 1
+Bro, you're reading my mind. Yes. That is exactly what we're doing with Zach. Zach is our g when it comes to. 
+
+Speaker 3
+Sure. 
+
+Speaker 2
+Record the meeting and have the transcripts from that. 
+
+Speaker 1
+Absolutely. This is the first email. What don't we like? Okay. We don't like this. We don't like that. Perfect. This is a better email. What don't we like? We don't like this. We don't like that. This would be the best email. And that is one example of how we're going to few shot prompt this writer agent. This is the initial. This is better and this is best. 
+
+Speaker 2
+Yeah. Okay. 
+
+Speaker 1
+Now that I'm glad that we got there with a justification of why, of course. And we're going to add an email framework in there. So we have to. And this is for the future. We're going to let it free form first and we're going to leverage Zach and me in order to help guide it a little bit, create good examples. So the output is a variety of emails, one for each icebreaker. What is about these icebreakers? We don't know. Which ones are the effective ones? We don't know. You created categories. PFA created some categories. 
+
+Speaker 3
+That's great. 
+
+Speaker 1
+That's wonderful. Which ones are the effective categories? Let's go test those. And for that, we actually need to write emails once for each icebreaker. This is not set in stone, by the way. This is just my idea of how we can explore while refocusing day by day to make the agents better. Email critic. The objective is going to be choosing the most useful icebreakers. So this email critic may be in this step as opposed to after writing the email, this is left to see. We're evaluating. 
+
+Speaker 2
+I think we will add depth later and I think we need a critic at every intersection of this system. Like every generating agent should have critic agent every time. But let's have depth at later versions and now focus on the bare bones and what we need. 
+
+Speaker 1
+Yeah, sounds good. So email writer, you leverages the icebreakers, creates a draft. Email critic evaluates the icebreakers and the draft, and it'll output essentially a nine out of ten. Five out of ten. How can we prompt it to go with what we want? How many people out of 100 would actually answer this email before evaluating? 
+
+Speaker 2
+Imagine you are ICP. You can add it before the how it should imagine that it's ICP. And from perspective of ICP, do this. 
+
+Speaker 1
+Awesome, awesome. And then a written critique of what needs improvement, which it learns through all these examples of what is good and what is better with the justification. And then we go back to the email writer, say we choose one or two versions of the email and we. 
+
+Speaker 3
+Repeat, this is actually not it. 
+
+Speaker 1
+Rewrite emails, final emails. And then we go back to the email critic. And if the email critic says no, that doesn't work, then we go back and there might be a loop here. We might do one iteration. We always obviously don't want them iterating forever, but this is pretty much the same. 
+
+Speaker 2
+This critic is, I'm thinking of another critic agent. Not exactly critic agent, but we could have at the end of this process, client agent. And this client agent would be biased to not want to buy and leaves reasons why this email doesn't make me buy. 
+
+Speaker 1
+You're on fire, dude. 
+
+Speaker 3
+Client agent. Three reasons why this email doesn't want to. 
+
+Speaker 1
+Buy or I guess reply. 
+
+Speaker 3
+Okay, love it. 
+
+Speaker 1
+So I think that you're onto something, Bartek. We need to have something finished. And that something I think is these three steps being able to run. The reason I brought up, I wouldn't call what I brought up refactoring simply because I guess what I was thinking of is productionizing. So let's make sure that we can give this program a list of 1000 leads and that it does this for the 1000 just systematically. Right now, the code that Kuba wrote, gray code, doesn't allow us for this parallelization. So a next step is parallelizing the steps. Maybe it's running the file, say through a terminal 1000 times in parallel, or maybe it's some loop within the program. So running the program once and multithreading so we can talk about that later for sure. 
+
+Speaker 1
+As of right now, let's make sure that we have these three threads as solid as they can be, say that. 
+
+Speaker 2
+Again, you thought about assistant API threads. Doesn't this allow to run it in parallel? Let's just maybe note that for later. Check it out. 
+
+Speaker 1
+Yeah, I don't know that you can do multiple calls to the assistant API with the same API key in parallel. 
+
+Speaker 2
+I think it was the same way. You can use GPT in parallel in different. 
+
+Speaker 1
+Part. Okay, I'm going to leave a note and we can find out. Okay, what questions does anybody have? Kuba, does this go in line with. 
+
+Speaker 2
+I would like to go in two minutes, so can we save questions for where I go? And just one thing, I wanted to just write that down about the thread of assistance API thread. And I had one more comment. Let me gather my thoughts. Oh, I got it. You ready to the part we will be delivering right now, the productionized three steps. I'm thinking we should make it fit the variables we have instantly or whatever we're using right now for sending emails. So let's make it like I lost it again, because with the icebreakers, just maybe list variables for the email. 
+
+Speaker 3
+Okay, list variables. 
+
+Speaker 1
+For example, the name, the company. Those are the two that we're using right now instantly. 
+
+Speaker 3
+So those should be easy ones. 
+
+Speaker 2
+Right. So we would have like you can put in here the screenshot I sent in the prompt factory channel where we have this template. And this could be some more variables. Where am I going here? This part will not automate the whole work, but we can connect it with. 
+
+Speaker 4
+This. 
+
+Speaker 2
+Email marketing machine. Right. So we want out to be those variables in here and we will call it an MVP. 
+
+Speaker 1
+Okay, so what you're saying is let's make sure that we can add to instantly a new lead with the columns name, company and icebreaker. 
+
+Speaker 2
+Yeah, for starter, something like that. Later I would make something more. Instead of icebreaker, I would, for example, hook, twist, whatever later comes or different variants of those things does definitely need the mind of Safeman to know the specifics. But you get where I'm going, right? 
+
+Speaker 1
+Yeah, of course. 
+
+Speaker 2
+All right, cool. I think that's all for me. And I got to run. 
+
+Speaker 1
+That's what you mean by the interesting twist. Okay, opening hook about AI automation and then. Interesting twist. 
+
+Speaker 2
+Yeah. 
+
+Speaker 1
+Okay. Yes. So let's continue this conversation after I speak with Zach and actually give this a look. But it feels like now that we introduce the human, we'll be able to get very good examples for properly, hopefully many shot prompting each agent. And that gives me hope, that gives me confidence that it'll allow for more reliability because that's the main issue here, you can write one good email. Can you write 20 good emails? 
+
+Speaker 2
+Yeah, we'll work on that later after we get this. That's specific, but I think we have more control over the temperature, let's say, and other settings while we're doing init code. So I'm hopeful that we can manage that later on. All right. 
+
+Speaker 1
+On that point then the critic would probably be the most important agent. 
+
+Speaker 2
+Yeah. Or the client. The client agent. 
+
+Speaker 1
+The client agent. Okay, I'll look into that because that will be very specific by industry. And now we're getting good information about the real estate industry. Thank you, Bartek. 
+
+Speaker 2
+All right, can you walk through Hubert on the code on the call up? 
+
+Speaker 1
+We can. We're meeting up in a few hours with Kuba and we can go over some of the code. 
+
+Speaker 2
+All right, so another call? Yeah, I got it correctly. 
+
+Speaker 1
+Yes, a different. 
+
+Speaker 2
+So can you catch that with Hubert later on? I got a bounce. Hubert, ask questions if you have. So ask questions. Guys can answer. And I got around. See you later. 
+
+Speaker 3
+Cool. 
+
+Speaker 1
+See you, Bartek. While all of you are here, I want to open the floor to questions. I'm glad that Bartek was here to sort of speed up the whole process, but it might have been too fast, although some of us are familiar with the system. So questions. 
+
+Speaker 4
+Okay, I understand there is one more meeting today. Which hour? 
+
+Speaker 1
+Cuba. 07:00 p.m. GMT works for you. 
+
+Speaker 4
+07:00 p.m. 
+
+Speaker 5
+Is that outreach one? Because we don't have outreach tomorrow. Yeah. Okay, we'll just add one into scheduling then. 
+
+Speaker 1
+It's in scheduling outreach at 07:00 p.m. Gym tomorrow. 
+
+Speaker 3
+Yeah. 
+
+Speaker 5
+Okay, but is that the one we're on about for later? 
+
+Speaker 4
+To be clear. 07:00 p.m. GMT. Tomorrow or today? Today. Okay, it's fine for me. 
+
+Speaker 1
+Yes. Awesome. Kuba, could you confirm that time does work for you? 
+
+Speaker 3
+And then there's that. 
+
+Speaker 1
+And let me just make sure that. 
+
+Speaker 3
+I don't miss this 1 second. 
+
+Speaker 1
+How familiar are you with Langchain? 
+
+Speaker 4
+Langchain? I did some project with prompt engineering in GTPs. I don't know if it's the same, but I did some swarm. 
+
+Speaker 1
+Okay, cool. 
+
+Speaker 4
+Fun, but nothing special. I know, what is this? But I did a few projects with it. I'm at the beginning, I would say. 
+
+Speaker 3
+Okay, cool. 
+
+Speaker 1
+So I'm going to share a video. 
+
+Speaker 3
+With you. 
+
+Speaker 1
+And just watch it before our meeting. You won't really be modifying this code, but obviously understanding what is going on. Where does tools come in? Where do agent creation comes in is important just to keep track. And we are going to be, obviously, walking through the code at 07:00 p.m. And also looking at the prompts. So there's going to be a mix of, you're going to see the code, and it's like, oh, yes, this is what the agent does because the prompt is there, so it's relatively easy to follow. I'll send you a video on Langchain, or rather Kuba. Henry, if you guys can pull up a video that has worked for you, something simple that talks about, hey, this is memory, this is et cetera, that talks about the seven components. 
+
+Speaker 3
+Nothing too complex, but I know you. 
+
+Speaker 1
+Guys have gotten into, so I don't know if you, Henry, have gone into Langchain. 
+
+Speaker 5
+Yeah, I did a lang chain course on the plane, like, back in August. 
+
+Speaker 1
+Did you say on the plane? 
+
+Speaker 5
+Yeah, I bought plane wifi and just did the whole course. 
+
+Speaker 1
+Oh, that's so cool, dude. 
+
+Speaker 3
+That's great. Cool. 
+
+Speaker 5
+I've dropped the course that I did for. 
+
+Speaker 1
+We can definitely get around to the course. Just wanted to. 
+
+Speaker 5
+If you go in there's sections, so you'll probably recognize a few bits. So you can just choose memory or stuff like that. 
+
+Speaker 1
+Okay. I know how easy it is to get overwhelmed by a whole course. We will start simpler. And, yes, the course is a great. 
+
+Speaker 3
+Call for diving deeper. Cool. 
+
+Speaker 1
+Okay, this works. 
+
+Speaker 3
+I've seen this one before. Dope. 
+
+Speaker 1
+Yeah, that course is a great find, dude. And what's been going on with the last thing were working on? 
+
+Speaker 5
+I have not touched it since. I had to do some stuff this morning. I've decided, like, basically, my dad got injured and can't do a half marathon in six weeks. So I decided I'm just going to try train and do it. So I went on a run and absolutely killed myself this morning. 
+
+Speaker 1
+Wait, what? Injured? 
+
+Speaker 5
+I don't think he trained enough. Dad basically dropped out of the half marathon. I just said, I'll do it. 
+
+Speaker 1
+That's awesome, dude. Glad to hear that's an awesome objective. 
+
+Speaker 5
+Yeah. But, yeah, so that's what I was doing this morning, and then I was hoping to get back to it. But, yeah, we're just at the same point as. I can share my screen. 
+
+Speaker 1
+Yeah, let's get into it. We're going to get into some code, you guys. So if you need to leave, feel free to leave. If you want to stay and look at what we're working on, we stay. This is going to be a retrieval augmented generation system simplified. This is Henry giving a good go at it. And then we're going to use it for. We'll start with our. 
+
+Speaker 5
+Let me share screen. 
+
+Speaker 3
+There we go. 
+
+Speaker 1
+I do have to leave in about. 
+
+Speaker 3
+Probably 15 minutes, by the way, but fine. 
+
+Speaker 5
+Yeah, you can probably this little bit and then I can get going. So we're at the point where we've vectorized our database that we want to then put into. We've made embeddings and now we want to put it into the vector database. 
+
+Speaker 3
+Right. 
+
+Speaker 5
+So we want the name of the student as metadata and data frame with the ID, which is basically the index, the metadata and the average story vector, which we have in this. So we've got one and two ID could just be index. How do I put that into a data frame? 
+
+Speaker 1
+And then this is a great question. 
+
+Speaker 5
+This is the code we're going to be doing. 
+
+Speaker 3
+Cool. 
+
+Speaker 1
+Bye, Kuba. See you soon. Yeah. Let's work on creating that data frame. There's a few ways to do it. There's grabbing the previous data frame and putting stuff in it. Kind of like slicing. It is called slicing where you just grab the name column and then you include the vectors column. So that's one way to do it. There's a very important thing to keep track of when you're working with data frames. Am I using the full amount of rows? We started with like 23,000 rows, but there's not 23,000 vectors there. Do you remember how many there are? Yes. So we need to do the exact same thing if we're going to create a new data frame. 
+
+Speaker 5
+How do I do 200 instead of just it's colon? Oh yeah, you're right. 
+
+Speaker 1
+Yes. And if you're doing a string, it's because it's a column in a simplified manner. But you're not doing column, you're saying rows. I want the first hundred rows. So it's just a number. 
+
+Speaker 3
+Yes. 
+
+Speaker 1
+So now that you have the first hundred, how do you know that those hundred are that Tomasibara is the one that corresponds to the first array of the first vector. 
+
+Speaker 5
+Data frame story zero. The first vector should have been Thomas Abara. 
+
+Speaker 1
+So when you passed it's in the same order. You never randomized anything. But that's another thing to keep track of. So we have 100 vectors, we have 100 names. Now we need to put them together. So let's do that. You're going to say, like you said, new DF. 
+
+Speaker 5
+Yes. 
+
+Speaker 1
+And we might need a couple of tries in order to do that. But equals PD, create capital D. 
+
+Speaker 3
+And. 
+
+Speaker 1
+You should be able to do autocomplete. 
+
+Speaker 5
+No. 
+
+Speaker 1
+Tab autocomplete. 
+
+Speaker 5
+Well, when I pick tab, I don't think it's unless I do it in a new. 
+
+Speaker 3
+Weird. That's strange. 
+
+Speaker 1
+Okay, no worries. Create data capital D and frame capital F. 
+
+Speaker 3
+Cool. 
+
+Speaker 1
+You open the parentheses and now you want to insert the data. How are we going to do that? 
+
+Speaker 5
+My understanding, you just need a new free columns. One column for index. One column. 
+
+Speaker 1
+The index is going to be automatic. You're automatically going to create an index and I'll show you how. You pull out the index to make it a column. But we'll get there in a second. So the index is created automatically and now you have the values that you need and the metadata. So that's what we're going to call the columns. But first you insert the data. How are we going to do that? One way to do that is let's try it this way. You're going to create a list. So brackets. And inside the list you're going to put the two columns. 
+
+Speaker 3
+Yes. 
+
+Speaker 1
+That's one comma. 
+
+Speaker 5
+Yeah, it doesn't let me also complete. That's so annoying. 
+
+Speaker 1
+Yeah, we'll figure that out later. 
+
+Speaker 3
+Okay. 
+
+Speaker 1
+And we're going to try. Pandas has no funny, just data frame. Oh yeah, I'm thinking of Spark. I'm thinking of a different framework. Okay. Yeah, just data frame. 
+
+Speaker 5
+Yeah, I was thinking that's a bit long for pandas. 
+
+Speaker 1
+That is exactly how you do things. 
+
+Speaker 3
+You just search it. 
+
+Speaker 1
+And now built in how get indexer. 
+
+Speaker 3
+Built in function method has no attribute indexer. 
+
+Speaker 1
+List of serious two arrays. 
+
+Speaker 3
+List of series two arrays. 
+
+Speaker 1
+So it should be able to, okay, we're going to try, number one, adding the column names. So at the end of data frame, DF stories, embeddings. At the end of that list we're going to do comma columns. 
+
+Speaker 5
+Yes. 
+
+Speaker 1
+And we're going to do equal and then a list. 
+
+Speaker 5
+My keyboard just died. 
+
+Speaker 3
+Tragic. Yes. 
+
+Speaker 1
+You want to do the brackets. 
+
+Speaker 5
+Like this. 
+
+Speaker 1
+That is parentheses. Brackets is going to be square brackets. So columns equals brackets. And what are we going to put in that list? Because the brackets create a list. So doing parentheses, it's similar to doing only brackets. For now we just want to do brackets. So we're going to inside the brackets where it says list. We're actually going to remove list and we're going to put the names of the columns. So what do you want to call that first column? 
+
+Speaker 5
+Why is my keyboard not working? 
+
+Speaker 1
+Are they both bluetooth? 
+
+Speaker 5
+Both my keyboards aren't working. Wait, I'm typing on the screen. It's so weird. All right, let me stop the screen. 
+
+Speaker 3
+Sharing them. 
+
+Speaker 1
+Yeah. 
+
+Speaker 3
+Okay. 
+
+Speaker 5
+Let'S keep the name and. 
+
+Speaker 3
+Hold on. 
+
+Speaker 5
+Can you see my screen? 
+
+Speaker 3
+Hello? 
+
+Speaker 1
+Since they're column names, they're going to be strings. Cool. And I see a double bracket. 
+
+Speaker 4
+Sorry. Why is there story instead of stories? 
+
+Speaker 1
+I'll show you in a second. So where is the bracket misplaced. 
+
+Speaker 3
+Henry? 
+
+Speaker 5
+One bracket. Bracket is fine. 
+
+Speaker 1
+We have two components here. 
+
+Speaker 3
+Right? 
+
+Speaker 1
+So this is one component, which is the list, and then this is another component. 
+
+Speaker 5
+That's where it was. 
+
+Speaker 1
+There you go. Okay, so let's try that one. I'm also remembering panda syntax, so step. 
+
+Speaker 3
+By step, get indexer. 
+
+Speaker 1
+Okay, now we're gonna. Now we're gonna do one more thing, which is we're going to take the brackets and we're going to convert them into parentheses. 
+
+Speaker 5
+I know you only have 15 minutes. Can I give you control? 
+
+Speaker 1
+Yeah, I can show you. What was your question, Hooby? 
+
+Speaker 4
+There is columns, line, and there is in bracelet, name and story. Yeah, that orange one. I know where. I know what is name, but I don't know why there is story. 
+
+Speaker 3
+Okay. 
+
+Speaker 4
+Instead of embedding stories, for example. 
+
+Speaker 5
+Yeah. Could be stories. I just named it singular. 
+
+Speaker 1
+You can call it number one. You can call it whatever you want. 
+
+Speaker 4
+Number two. 
+
+Speaker 1
+Yes, stories could be also relevant. But I want you, Henry, to look at the piece of code that you copy pasted at the very end. 
+
+Speaker 5
+Yeah. 
+
+Speaker 1
+There's neither a name nor story in there. What are the things that we do see? 
+
+Speaker 5
+Yeah, let's just rename it to metadata and values. So much. 
+
+Speaker 3
+Exactly. 
+
+Speaker 1
+So that level of abstraction that were talking about yesterday, is this because now you can clone this notebook for a different use case and you don't have to change it? You don't have to change name and story because the metadata and the values might be different. You can call it the same thing. So there's one more thing we're going to try. I'm going to request control. 
+
+Speaker 3
+Yeah. So. 
+
+Speaker 1
+Right here, we're going to try changing this from a bracket to a parentheses. What that does is create a tuple instead of a list. Does tuple sound familiar? 
+
+Speaker 5
+Sounds familiar. It's like a dictionary, right? Or similar. 
+
+Speaker 1
+It is. It is the difference between how you have. You can have a list and there's a different thing called a dictionary and it does different things. Well, a tuple is similar to a list, but it does numbers, but it will have different functionalities. As of right now, this changed nothing. So we'll stop the tuple lesson and you don't need to worry about that. So let's go back to basics. What is not working? Data needs to be an array. Nd array means multiple dimensions, multiple dimension array. So more than any number of dimensions, in this case we have two dimensions, the names and the story embeddings. So that should be fine. It's asking for an iterable. An iterable is, for example, a list. You can iterate through the list or a data frame. 
+
+Speaker 3
+It contains series constants. 
+
+Speaker 1
+Then we go index. 
+
+Speaker 3
+Index is non. 
+
+Speaker 1
+Index to use for resulting frame will default to range index if no indexing information is given. So this is fine. Range index is fine. Columns index or array like column labels to use. If data contains column labels, we'll perform column selection instead. 
+
+Speaker 3
+Data contains column selection. 
+
+Speaker 1
+Okay, no. And copy. 
+
+Speaker 3
+Yes, we will get there. So. 
+
+Speaker 1
+This is the issue that I'm seeing. We're trying to pass an array on each line. Okay, so we're trying to pass an array of arrays, but we're also trying to pass a series. These are not the same type and this might be an issue. I wonder what PDDF to list might be like. 
+
+Speaker 3
+Convert pandas data frame to a list. 
+
+Speaker 1
+And it's just values to list. So that might be what we want. And trust me, these become automatic over time. Let's see, two columns passed past data had 100 columns. So what might this be doing wrong? 
+
+Speaker 5
+Making 100 columns instead of 100 rows. 
+
+Speaker 1
+Just want to see it is doing that, isn't it? 
+
+Speaker 3
+Mmm. 
+
+Speaker 5
+That's weird because we have the columns initiated after. 
+
+Speaker 1
+It's saying that we have 100 columns. 
+
+Speaker 5
+That doesn't make sense. What if chat GPC here, chat GBt. 
+
+Speaker 3
+Yeah, that's probably the move. There is one thing I want to try though. What if we zip this? 
+
+Speaker 1
+There we go. 
+
+Speaker 3
+Yay. 
+
+Speaker 1
+So I'm not about to go teach you what zip is because it's complicated. But we have two lists of things. 
+
+Speaker 3
+And I'm just going to show you. 
+
+Speaker 1
+What that looks like now. Hopefully it's right. Yeah, there we go. So we have two lists of things. We turn this into a list and this is already a list. A list of lists. But it counts as a list. They both have 100 elements. The issue is that were passing a list and then a list. What we wanted to do was, hey, the first element of this list and the first element of this list go together. The second element and the second element go together. So when you have two lists and you want to say, pass each row, the first element, and the first element into this data frame. What you use is zip. 
+
+Speaker 2
+Okay. 
+
+Speaker 5
+I'll have to get more experience just firsthand eventually to understand that. 
+
+Speaker 1
+Yeah. What I said yesterday was these are great videos to come back to. So we'll definitely archive them and have them well documented because little by little it'll start making sense and coming back to these built on each other. So you have the data frame now, which is the important part. You have 100 elements. And let's figure out where we go from here. I'm just going to change a few variable names and let you take it from there. 
+
+Speaker 3
+We have new DF. This would be new DF. 
+
+Speaker 1
+For in row. It is called metadata. We don't have the ID. 
+
+Speaker 5
+Yeah, sorry, go ahead. 
+
+Speaker 1
+We don't have the ID. Right. I said that the index, we can pull it up later. That's with reset index. So now we have the index. However, this is not saved. We're going to. 
+
+Speaker 3
+Index and this is. 
+
+Speaker 1
+How we're going to save this. 
+
+Speaker 3
+So there's one more thing to do. Copy. You can ignore that. Oof. 
+
+Speaker 1
+If you're grabbing something from a different data frame, always do this. Otherwise you can have some behaviors that become weird. You might be modifying the previous data frame without intending to copy. Says, don't modify anything from the previous data frame. So when creating a new data frame from a data frame, you usually want that. 
+
+Speaker 3
+It's just good practice in general. 
+
+Speaker 1
+Okay, so now we have the column index. So instead of ID, this is going. 
+
+Speaker 3
+To be row index and this should be values metadata. 
+
+Speaker 1
+And I will let you take it from here. 
+
+Speaker 5
+Let's run it. Let's see. Thomas Ibara is a name and this is the first. 
+
+Speaker 1
+To. I'm going to get in there real quick. That is one of the issues. But not on that line and the above line. Yeah, that's actually not. I'm not going to get into it. So try removing that line. Try commenting it out. 
+
+Speaker 5
+Well, where's meta used again? So we're going to have to rename that. 
+
+Speaker 1
+Yes. And it's actually going to be row. 
+
+Speaker 3
+Brackets, metadata. 
+
+Speaker 1
+And do you see why row? 
+
+Speaker 5
+Yeah, in fact, I don't know why row. If it was me and I was just spitballing it, I would have done that. 
+
+Speaker 1
+Which you kind of did up there when you started the for loop. 
+
+Speaker 3
+So this is a for loop. 
+
+Speaker 5
+Oh, row for I in. 
+
+Speaker 1
+Row. Right. 
+
+Speaker 5
+Okay. For I in. Yeah, this is like, yeah, I kind of will need more explaining of this. 
+
+Speaker 3
+Yes, I'll get it. 
+
+Speaker 1
+Working. 
+
+Speaker 5
+And then we will talk tomorrow. 
+
+Speaker 1
+Yes. Let's see. Index key error. 
+
+Speaker 3
+Index. Let's see where that happens. Row. Row at index. 
+
+Speaker 1
+Because I call it wrong. I didn't change the name when I added the index. I call that new DF, underscore index. And I didn't change it there. It's just new DF. 
+
+Speaker 5
+Yeah. You know when you wrote that, I had that in my brain and I just forgot it. 
+
+Speaker 3
+Cool. Yes. 
+
+Speaker 1
+All the instances. 
+
+Speaker 3
+Yes. That should be good. Malform notice or strength. 
+
+Speaker 1
+Okay. Yeah, that literal eval, you can remove that. I wonder. 
+
+Speaker 3
+What it was that made them do that. 
+
+Speaker 5
+Well, their metadata was a JSon or just curly brackets. Right? 
+
+Speaker 1
+This is for values. Oh, yeah, you're right. In that case. That's why they did it. But in values, you have an array, you have a list, and it worked. In this case, when you see the word array, it refers to a numpy array, not a python list. That is when array shows up. So maybe we can just have it be a list. 
+
+Speaker 5
+Yeah. 
+
+Speaker 1
+How do we do that? If we say row values, instead of removing that, let's try removing that, see what happens. 
+
+Speaker 3
+Okay. 
+
+Speaker 1
+Well, it worked later on. We have any problems with pine cone interpreting that array? This would be the reason why. 
+
+Speaker 5
+Index. Describe index stats, where this index defined pine cone. Oh, yeah. I've got index defined as a. Do I have it? 
+
+Speaker 1
+Do you have it? 
+
+Speaker 5
+Yeah, index. Index is a variable. 
+
+Speaker 3
+Did it actually. 
+
+Speaker 1
+Oh, we have an issue here. 
+
+Speaker 3
+Yeah. 
+
+Speaker 5
+Because we wrote index as that. 
+
+Speaker 1
+So that's interesting that you bring that up. That is the name of a column within a data frame. That's not a variable, so they're not going to mess with each other. 
+
+Speaker 5
+But when we go to turn it into a variable, if we ever need to, we might mess up. 
+
+Speaker 3
+Yes. 
+
+Speaker 1
+And that's why we want more separated names. Yes. We wouldn't want to repeat at this point. We're good. Let's just move forward. 
+
+Speaker 5
+Okay. Back to database. 
+
+Speaker 1
+Run that. Oh, I. 
+
+Speaker 3
+See. 
+
+Speaker 1
+The issue with changing those things so early on in the code is that if something breaks, you don't know where in the code it broke and how to. Generally, you want to change the variables later in the code, not earlier in the code, but right now we just need to move forward, Henry. So it's fine. 
+
+Speaker 3
+It works. 
+
+Speaker 1
+Let's just see one thing. Nothing, actually. Yeah, that's good. Nothing actually uploaded. Can you see why? 
+
+Speaker 5
+Oh, yeah. I thought it was crazy that it all did it at once. Yeah, this is why. Right. 
+
+Speaker 1
+That is exactly why. 
+
+Speaker 3
+Yeah. 
+
+Speaker 5
+So it did one nine tells me. 
+
+Speaker 1
+It went zero when it tried to upset what happened. 
+
+Speaker 5
+Which then explains why that, right? 
+
+Speaker 1
+Well, yeah, I guess so. I guess it does explain that. 
+
+Speaker 3
+You. 
+
+Speaker 1
+Have a dictionary that. Okay, so eval is going to grab a string and try to make it into an object, into a dictionary, into a list, into a math equation, into whatever. So you want to use eval when you have a string but you want it to be something else. In this case we would want Tomasibara to be the name. So we actually need to go back a little and modify that column. 
+
+Speaker 3
+Now how would we do that's. We need to have the column. 
+
+Speaker 1
+I'm gonna, I'm gonna. 
+
+Speaker 3
+Let'S see. 
+
+Speaker 1
+So we could do some tricky magic. 
+
+Speaker 3
+That should work. 
+
+Speaker 1
+Okay, I'm going to take control for a second and I'm just going to do a shortcut. 
+
+Speaker 5
+Speedrun. 
+
+Speaker 3
+Yeah, Speedrun. Yeah. 
+
+Speaker 1
+So we want metadata to be a dictionary as it asked down here to be a dictionary, but it's a string right now. Well, what we can do is say, hey, this name, make it into, insert. 
+
+Speaker 3
+Below. 
+
+Speaker 1
+Make it into something different, something that looks like a dictionary. And that's where the trick comes in. We want to say, wait. 
+
+Speaker 5
+Yeah, because in the other version if you go to the learning the other notebook, it is a dictionary because they have the chunk, they have the source. That's dictionary values. There. 
+
+Speaker 1
+I see the trick here is that it looks like a dictionary but it's a string. And eval, or again this case literal eval, makes the string into what it's representing. In this case it's representing a dictionary. You know, it's a dictionary because it starts with a curly bracket. 
+
+Speaker 5
+Okay, I understand it now. 
+
+Speaker 3
+Awesome. 
+
+Speaker 1
+That's what we're going to do. So we're going to say, hey, this column, metadata, we're going to apply something. We're going to apply a function and this is one thing that you'll learn. 
+
+Speaker 5
+I hate lambda functions. I never understood lambda functions ever. 
+
+Speaker 1
+They're tricky. They're tricky. You got to find the right places to use them. And when you're trying to modify columns on a data frame or add new columns in a data frame is the perfect time for lambda functions. So we're going to say, hey, this is just going to be a string and we're going to make it like it's a dictionary. And we're going to say, this is just name. Part of the metadata is just name. 
+
+Speaker 3
+We're going to say, don't you need. 
+
+Speaker 5
+The curly brackets outside of the quotes? 
+
+Speaker 3
+Do you need. 
+
+Speaker 5
+Yeah. Like in the other one. Like that? 
+
+Speaker 1
+Inside. 
+
+Speaker 5
+The curly brackets on the outside. 
+
+Speaker 1
+Yeah, I think you're right. 
+
+Speaker 3
+We're going to do name this and. 
+
+Speaker 1
+We'Re going to say, hey, this represents a dictionary. Yes. Maybe there's a reason why I do it this way, but I'll show you in a second. And then we're going to add, hey, string. We'll see how we make it this work, because right now this is a dictionary. We would be inserting a dictionary in there. 
+
+Speaker 3
+See if this works. We'll see what happens. 
+
+Speaker 5
+And then name equals name in the metadata. Okay. Yeah, that makes more sense and makes me understand why they want it as a dictionary, because I was just like, why would they want it as a dictionary? But now it makes sense. 
+
+Speaker 3
+Okay. We're just going to modify the previous. 
+
+Speaker 1
+Thing, which is not good practice, because now I'm going back in the code and changing it to something else. So this didn't work. I think the reason why is because this is a string, but now we're making a dictionary, and that's why these string quotes are there. 
+
+Speaker 3
+What we need to do is make this into something. 
+
+Speaker 1
+This is so ugly, dude. But I think it's just the way. We got to go. Ignore this, please. 
+
+Speaker 3
+This is not it. 
+
+Speaker 1
+Hey, this is. 
+
+Speaker 5
+Oh, you're adding the quotes. You need to add a double quote. 
+
+Speaker 1
+Oh, I added this wrong. 
+
+Speaker 5
+Okay. 
+
+Speaker 3
+Oh, God. Ad did not contain a loop with signature matching type. 
+
+Speaker 1
+Right. 
+
+Speaker 3
+Why is it coming out as an integer? Unsigned nine and string. And this metadata. Oh, of course. I'm just asking for this column to be modified. 
+
+Speaker 1
+There we go. 
+
+Speaker 5
+Can you put a comment next to it and just say what it's doing? 
+
+Speaker 1
+That's a tough request. Henry. 
+
+Speaker 5
+Is your code. You should be able to. Yeah, or say the role. 
+
+Speaker 1
+Yeah. 
+
+Speaker 5
+Just say the role. 
+
+Speaker 3
+That's fine. 
+
+Speaker 1
+We're going to say that. Modifying metadata column by adding dictator. Yeah. Yeah. Did you not know that? 
+
+Speaker 5
+That must be, like, an american thing. 
+
+Speaker 1
+Man, get on with the times, Henry. Tookie and Tookie for everything. Now, when we run this, we get name Tomasibara. And when we pass it through a literal. And this is why we comment out lines of code and we don't delete. 
+
+Speaker 3
+Because we might need it later. 
+
+Speaker 1
+So meta is going to be the row. 
+
+Speaker 5
+And then you want to change the fifth line of that function as well? 
+
+Speaker 1
+Yes, I do. 
+
+Speaker 3
+Let's see if this works. 
+
+Speaker 1
+And I'm going to put it at 100. 
+
+Speaker 3
+So when it goes to 100, we. 
+
+Speaker 5
+Can just upload it like that. No, it wasn't written like that. 
+
+Speaker 1
+Valid type requires value. Type require value to be string. And pass type was an Int. Oh, that's fine. 
+
+Speaker 3
+We can fix that. We can fix that. We can fix that. 
+
+Speaker 5
+You said ID, but it should be index. Or is it just. No, it's called ID. 
+
+Speaker 1
+Yeah, well, we call it ID here just because that's how it was. But we called it index in the data frame. 
+
+Speaker 5
+Got it. 
+
+Speaker 1
+It comes out as index by default when you reset index. So let find more about this. I want to make sure it comes out of a string. 
+
+Speaker 5
+Right level. 
+
+Speaker 1
+All right, that's for multidimensional indexes. You don't need to worry about that. Using the given string rename column, which. 
+
+Speaker 3
+Contains the index data. 
+
+Speaker 5
+Can you not just do index two string? 
+
+Speaker 1
+That's a great question. 
+
+Speaker 4
+Okay, guys, thanks for now. Was nice to meet you. 
+
+Speaker 3
+See you'll be nice to meet you. 
+
+Speaker 1
+Let's see. 
+
+Speaker 3
+Can I do reset index? Let's find out if I can do that. The apply. 
+
+Speaker 1
+Wait, are you touching your computer or am I tripping? 
+
+Speaker 5
+I'm not touching anything weird. Oh, you've gone into, like, pointer mode. You're, like, drawing on the zoom, I think. Yeah. 
+
+Speaker 3
+Okay. 
+
+Speaker 1
+Want to reset? 
+
+Speaker 3
+Cool. 
+
+Speaker 1
+No, I can't see your zoom controls. 
+
+Speaker 5
+Can you try to let me stop sharing screen? 
+
+Speaker 3
+Okay, cool. Let's go back at it. Nice. 
+
+Speaker 1
+This is another way to call columns. Instead of the brackets, you dot. 
+
+Speaker 3
+So we're going to put that in there. Okay, cool. So this should work because the column. 
+
+Speaker 1
+Is called index and we say, hey, DF. 
+
+Speaker 3
+Type. Yeah, hope that works. 
+
+Speaker 1
+Did I. 
+
+Speaker 3
+What? No. Oh, what did I change? What did I do? Okay, there we go. 
+
+Speaker 1
+After DF, reset. Index. How can I make the. 
+
+Speaker 3
+New index column? Sure, bruh. 
+
+Speaker 1
+And you ready? 
+
+Speaker 3
+It worked. 
+
+Speaker 1
+Yeah. Vector count 100. You're on me, by the way. 
+
+Speaker 5
+Oh, okay. Sorry. Yeah, here we go. Yeah, we just need to query it now. 
+
+Speaker 1
+Yeah, I'll let you run with it, dude. 
+
+Speaker 5
+Also, I was thinking this could be an easy YouTube video as well, of just going. 
+
+Speaker 1
+Damn right it can. 
+
+Speaker 5
+Because what I could do is I could combine this with some of this stuff, like the images, and just do loom going through the notebook, dude. 
+
+Speaker 1
+One piece of advice is start from the end. Like, hey, we uploaded 100 vectors of this data, and the step previous to that was having the metadata, having the IDs, having the values. How did we get those? This is what we did. 
+
+Speaker 5
+Yeah. 
+
+Speaker 1
+So that's one way to do it. 
+
+Speaker 5
+Yeah, it only cost me 15 p of my credits. 
+
+Speaker 1
+Well, yeah, this was only 100 out of 23,000. 
+
+Speaker 5
+Yeah, that was before I did this, actually. I think that was just for the creating another. 
+
+Speaker 3
+Cool. 
+
+Speaker 1
+So I'm curious. 
+
+Speaker 3
+What? 
+
+Speaker 5
+Yeah, we spent one p today. 
+
+Speaker 1
+Storage. Yeah. Okay, cool. Okay, I'm going to go now. 
+
+Speaker 5
+Enjoy. I'm sorry. I know. 
+
+Speaker 1
+It's fine. This is fun. Try some retrieval and see what happens. 
+
+Speaker 5
+All right, man. Peace out. 
+
+Speaker 3
+Yeah. 
+
+Speaker 1
+Take care, brother. 
+
+Speaker 5
+Yep. Bye. 

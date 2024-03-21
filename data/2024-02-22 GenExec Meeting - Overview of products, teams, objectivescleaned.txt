@@ -1,0 +1,489 @@
+Speaker 1
+What are you asking about for a website?
+
+Speaker 2
+Samantha.
+
+Speaker 2
+Zach offered some coaching on video making. I think Jorg is onto something. I think he's definitely onto something with that being a very effective method of outreach, because you just have to do what the market is asking you to do is just be genuine. Just send the message you want to send and see who resonates. And also, it needs a little bit of work for sure, which is a good thing, because we're able to identify how we can improve this. And it's awesome that Zach is also here to help out with perfecting our demos, perfecting a little speech, and embodying your elevator pitch, which we got asked about yesterday. And it's kind of like, how do we summarize it in one sentence? And part of what we came up with is amplify the human, which is the tagline in our website, and it resonated with people so much.
+
+Speaker 3
+Yeah, I'm going to an AI event near me because Microsoft had one of their headquarters near me, and there's going to be a talk on vector databases and other topics, so I was like, I'll just go.
+
+Speaker 2
+That's perfect.
+
+Speaker 2
+We have to figure out, as we start doing ads on LinkedIn with those credits and stuff, where do we send them? We could send them to our website, but that is a dead end.
+
+Speaker 3
+We should just make a landing page with that chatbot on it. It would be best if the landing page is just the chatbot box in which they talk.
+
+Speaker 2
+That makes a lot of sense to me. As we step into trying to prove what works and what doesn't, it's evident that people need help with marketing. At yesterday's event, a couple mentioned marketing, mentioned website. But beyond just yesterday's event, so many people need help with figuring out their marketing.
+
+Speaker 3
+Marketing is great, but it's also expensive. For example, if you want your product to sell well, the easiest formula is to do UGC. So user-generated content is pay creators on TikTok or to, they don't even have to be like famous creators.
+
+Speaker 2
+So how much money are we talking about for an effective campaign?
+
+Speaker 3
+It depends. Local ads are a lot cheaper than broad campaigns. It also depends on what they're trying to sell.
+
+Speaker 1
+Maintaining a presence on social media is extremely time-consuming, and going over how to automate social media posts was like mind-blowing to them. Just using chat GPT and some of the integrative features of chat GPT.
+
+Speaker 3
+A solution would be using a platform like go high level. It's used by many realtor companies and you can automate all the media posts.
+
+Speaker 1
+The other thing is that most of them already use some kind of CRM to manage their clientele base. It depends on if they're affiliated with an agency or if they're a freelance agent. Some of them were interested in integrations with the existing software platforms that they're using.
+
+Speaker 3
+Do you know the names of the platforms?
+
+Speaker 1
+The main one was RPR. Follow up boss is another.
+
+Speaker 3
+Automating posts, we could set up a go high level account just to do that. It's best to use a tool that's already existing than to build out whatever solution to do that.
+
+Speaker 2
+Three things that came up were, number one, marketing. Number two, consulting calls to offer an AI audit, a deep look at their business.
+
+Speaker 1
+Being able to automate keeping track of new listings and then communicating that to clients is crucial. So something I'm imagining is I have my clients profile, I have their budget range right into their dream range. And every time a new listing pops up on a website, an automatic message or something goes out to the client that I'm working with that fit that description with maybe a little personalized touch from me to let them know about the listing.
+
+Speaker 2
+It goes back to knowledge bases, right?
+
+Speaker 3
+Let me share my screen. This was something Edward wanted to provide for realtors, and it was very cool.Speaker 2
+I can't imagine for someone who's starting out. And then he did that the first time, and apparently, and then he did the exact same thing the second time where he just like did a tsunami of tools in no particular sort of order. So he was like, transcription tool, here it is. And then five tools down, he's like, oh, here's another transcript ##cription tool. There wasn't like a slide with, here are the three tools for transcription. That level of, well, yeah, that level of non clarity. So then when went up on stage, I think what we tried to relay is like, this is how these things play together. This is why getting custom instructions on chat GBT is valuable, because now it knows things about you that it can do, that it can go off of. 
+
+Speaker 2
+So then when we started talking about just very briefly or conceptually about knowledge bases, like, hey, that thing he shared about how can I describe my whole business and have a conversation with Chiji Pt? What questions would you ask me for me to be able to describe my business, answer those questions, put them into a prompt, and that's your system prompt. And we try to knock these things together. That thing that this guy talked about, that's called your system prompt, your context, how does that play in? Well, you're trying to do social media posts and you could start from scratch and just ask for something, but usually it's going to get the same generic post that 1000 other people have already gotten with the content. So trying to tie things together, it was a fun experience. 
+
+Speaker 2
+Before the talk even started, our website was already on the big screen. 
+
+Speaker 4
+I saw that picture. That's fucking awesome. That they recognized, and even beyond recognizing, they allowed you guys to come up and speak and provide real, in a different version context to the stuff that this guy was sharing. That's really awesome. So who put this on? What was the organization? 
+
+Speaker 1
+My cousin and my aunt work at a mortgage lending company. My aunt is the branch leader and they're the two top mortgage lenders in the state of Maryland. And a lot of their business is people to people. They certainly get people in from the agency that they work with, but they do so much for client retention and referral. Like, my cousin will send out Valentine's Day gift boxes, like her and her real estate partner will send out gifts to their clients or past clients, probably four or five times a year. And she was saying something like loyalty. Right. If there was an automation of like, oh, this came in and this. Now we send a thank you letter, or now we add this person to a list of who we need to send this to would be really helpful for her. 
+
+Speaker 1
+On another note, we need to be doing this because we can do it so much better. 
+
+Speaker 2
+Oh, conferences, like workshops. 
+
+Speaker 1
+Okay, yeah, we should be doing it. 
+
+Speaker 2
+Oh, my God. 
+
+Speaker 1
+This guy had energy, he had charisma, but, like, I could sort of sense. 
+
+Speaker 4
+It in a description. Yeah. 
+
+Speaker 1
+And especially from the lens that we came directly from Bermuda, which is like public speaking boot camp. It's just he mentioned, oh, this is going to be interactive. It wasn't interactive. 
+
+Speaker 2
+Oh, my God. It was not interactive at all. 
+
+Speaker 1
+People need. 
+
+Speaker 4
+That was one of my questions. Yeah. 
+
+Speaker 1
+And I'm imagining if we could spin this as like, use AI in your business or start your business with AI, or integrate your business with AI, and it's mostly crowdsourced of like, okay, let's think about the three biggest pain points. Now we find the common thread. What's the biggest pain point? Let's solve this together. This is how we're going to do it. Everyone does it. They leave the workshop with essentially a mini solution that they can implement right there. And they come back because they want the bigger integrations and that's where the money is. 
+
+Speaker 4
+Now my brain is turning. I really like this. Yeah, that's a really good idea. 
+
+Speaker 1
+Yeah. 
+
+Speaker 4
+Build in public, right? That's our whole thing, right? 
+
+Speaker 1
+Build in public. It's free value and we're giving them stuff that's already available. We're just helping them put the pieces together. And then when they're ready to take it to the next level, it's like, let's go. 
+
+Speaker 4
+Ready to roll. 
+
+Speaker 1
+We've also talked about getting back in contact with this guy, his name is Chris, and working out some sort of deal where he refers people to us and anyone that books something with us, we give him a finder's fee for because he's like, I don't really people. He's just word vomiting tools to everyone. 
+
+Speaker 4
+I believe you. I've been in those events. 
+
+Speaker 1
+People, they're craving it. They want it. And you realize how much of a bubble we're in by this population. Interested? They're showing up on a Saturday, I. 
+
+Speaker 2
+Guess it was Tuesday. 
+
+Speaker 1
+They're showing up on a Wednesday to this workshop, which is for free, because they want to learn. And what I think would have been really valuable is if they had walked out of that room and had half a solution already implemented, or at least been working on it themselves, and they didn't. So now they have all these resources. But even as someone who's familiar with a lot of these tools and has an above average understanding of how they work, I get overwhelmed by, like, I don't know which video editing tool is best. What do I use? You have to pay for everything. I'm not going to pay for everything. 
+
+Speaker 4
+Right. Which, by the way, since you mentioned that I have the Adobe subscription for the suite, so welcome to share that, if that would be helpful. 
+
+Speaker 2
+That would be very. 
+
+Speaker 1
+You could, barring money aside, if you could hire someone to do something, like, what would it be? Would it be admin? And almost all of them shook their head yes. 
+
+Speaker 2
+Oh, my God. 
+
+Speaker 1
+Okay. It sounds like it's admin. 
+
+Speaker 2
+Yeah. 
+
+Speaker 1
+And the response we got from a few of them was that I feel like I'm always behind. I never feel like I'm caught up. 
+
+Speaker 4
+That's interesting. It's terrible for a business owner, but, yeah. 
+
+Speaker 1
+Well, in a lot of agents, it's a hustle business. You might have an agency, but in large part, up to you to bring clients in the door, which means that your social media presence and your presence online is important. That alone takes a lot of time, let alone showing houses, managing the listings, walking your client through the whole process. 
+
+Speaker 3
+It's a great opportunity for building rapport as well. And it's quite funny, because one of the things I was talking about at my work when I was thinking of stuff was, I think I said to Alejo yesterday, is when I actually teach them something, and then they'll happily buy the computer. If I teach them how the CPU and the Ram works, then they'll buy the computer. And I was thinking, because I'm potentially speaking to the CEO of John Lewis, I was brainstorming ideas. One of them was, just be able to teach them about AI, because I know, for example, we have areas in the stores where, for example, they'll do a fashion area, and there'll be people that come in that they sit down on the chairs and they'll have someone talk about fashion and how to make dress and stuff. 
+
+Speaker 3
+But what if you just had AI, for example, if you just had a school with chat GPT on it and they could just go try it out, they'd be so interested. It's crazy because also the audience for that store is probably around 30 to 60 and over. 
+
+Speaker 4
+Yeah, interesting. 
+
+Speaker 1
+Yeah. One of the guys we talked to, whoever his contact information, who is, I would say he's in the early adopter, he's already implementing a lot. He sees the value and he said, I see this. I'm predicting this trend where with all the increase in AI tools, there's going to be at least a very sharp increase in people wanting human connection because of the lack of trust that comes from deep fakes online. How do you know information is real? So in this AI increase, now there's this trend towards, I want to talk to a human because that's who I can trust. So finding those human touch points like you're saying in store, Henry, I think that's brilliant. 
+
+Speaker 4
+Yeah, I agree. I think sort of the other side of the coin when it comes to the human interaction and I do this, I find myself like when I have to deal with customer service, with T Mobile or whatever, I'm going to be on the phone for 45 minutes. I just have to sit down and deal with it. They've now started to give the robot option. The reality is most people, when they get that option, it's not always a trust thing first, it's more. I already know this robot is not going to be able to solve the problem because it's not trained. 
+
+Speaker 4
+But if it's a specific solution that is trained and can solve any problem that a human would be able to, I think that really helps with the trust factor, because now you can trust that this AI is actually going to help you as opposed to wasting 45 minutes of your time collecting your information, sending you to a human to solve the problem, and then they have none of the information that was collected previously. So it was just a complete waste of time. So the efficiency of that solution actually working, I think is another big piece. And so in store is a really great opportunity. You can train it about ten new products, new line of hoodies. Right? What colors do you have? What sizes do you have, what fonts? 
+
+Speaker 4
+You can easily train the bot sitting there on a screen about that stuff and allow someone to. Just, what colors do you have? We have all these colors. And if you know, there, these colors are limited, blah, blah. That would be a really great implementation in store. 
+
+Speaker 3
+Yeah. 
+
+Speaker 4
+A bit of a tangent, but. 
+
+Speaker 3
+Yeah, one of the things I do worry about in store is they don't want to replace the human work. So, for example, great. 
+
+Speaker 2
+But that's all they want to do. Just fire them. 
+
+Speaker 4
+That's what I want to do. 
+
+Speaker 3
+Well, for example, well, the head of the business, not the guy I'm seeing, but someone else went on public, released a statement saying, we're not going to let AI take over the customer experience. And that kind of makes sense. These people are deciding in our era to actually go into a store to shop. And John Lewis is kind of like known for the customer experience. So they normally go into the store expecting to speak to a stylist, expecting to speak to someone who knows about, and quite often I'll be serving someone and they'll end up just talking because they're older. They just want to talk to someone. 
+
+Speaker 4
+So that's where your pitch comes in, and we can talk about this more during the outreach. So your whole thing, Mr. John Lewis, is the customer experience and making sure that it's top tier. Why don't we take AI and not touch the customer experience? Let's touch the employee experience. Make that as great as it can possibly be with scheduling with a knowledge base, whatever his pain points are, in this case, scheduling, I think, is where we're starting. That trickles down to your customers. Your employees are not stressed out because they knew that they're working this shift. They're not surprised because they're not working ten shifts in a row. Whatever it may be that improves your customer experience. That's what you focus on. 
+
+Speaker 1
+Four employees managing a schedule right now. That's four employees that could be out on the floor boosting the. 
+
+Speaker 4
+Exactly. Exactly. Yeah. 
+
+Speaker 2
+Damn right. And Henry, we got to go the route of, as Paige very wisely says, the beginner's mind. So grab a notebook and only questions. I have answer for that. And this opportunity for you is an opportunity of year long relationship. Of decades long relationship. So your objective, Henry, is to come across as coachable, which we know you are, and curious. Coachable and curious. And then the following week, it's like, hey, we talked about all this because you have your notebook. So you took all the questions and all the notes, and he sees you taking the notes, and the following week it's like, hey, I came up with this and this. We actually built it. Who do I talk? 
+
+Speaker 3
+Yeah, I definitely see. Yeah, I don't want to go in there thinking I'm some big shot and I'm trying to sell him on whatever. 
+
+Speaker 4
+It's not the right move. Yeah. 
+
+Speaker 2
+At your age, and Zach knows this, at your age, I was ready to leave college, sit down in an interview, and it's like, so why do you see yourself in this? Like, no, this is not a job I want. I want your job. Yeah, bro. That level of ego and unawareness of what I learn. 
+
+Speaker 4
+And you can still think that, by the way, you just can't say it. 
+
+Speaker 1
+No, of course. The illness of the advanced practitioners. 
+
+Speaker 2
+Yeah. 
+
+Speaker 4
+So, Henry, I think either later today, tomorrow, or maybe even some point this weekend, I think it'd beneficial for you and I. Obviously, everybody's welcome, but to have, like, we could do kind of like a role play where I'm John Lewis, I ask a bunch of know and just kind of go through what a conversation structure might look. 
+
+Speaker 3
+He's not. He's not actually called John Lewis. 
+
+Speaker 4
+I just assumed. 
+
+Speaker 2
+Nish is his name. 
+
+Speaker 3
+Yeah, nish Kankawala. So John Lewis has never had a CEO before. It's always been partner owned by the employees, and it was founded in the 18 hundreds. So it's a very old british middle class store. 
+
+Speaker 4
+Really. So the brand is John Lewis? 
+
+Speaker 3
+Yeah, the actual store, the brand is called John Lewis. And then they partnered with Waitrose, which is kind of a Walmart but not a Walmart. It's probably a bit posher than Walmart, like that description. So they do a supermarket and like a. 
+
+Speaker 4
+Gentleman with some partners. 
+
+Speaker 1
+Interesting. 
+
+Speaker 2
+Henry, are you familiar with the british bank, the oldest bank and the most loyalty sort of focused bank in british history? 
+
+Speaker 3
+Explain a bit. I know a bit about how. 
+
+Speaker 2
+They stayed so in the past that their accounting and their accountability was just a matter of trust of people. So eventually they handed a lot of power to this really good trader who was making millions of dollars trading in the stock market. And this is in the year 1990, 719 98. They move him to Singapore and they give him, I don't know if it was like 30, $40 million to trade with. A year later, he's $75 million in the hole. But the accountability was fictitious, so he had to cover it or he was going to get fired and never get a job ever again anywhere. A year later, he's $300 million in the hole. 
+
+Speaker 1
+Holy shit. 
+
+Speaker 2
+$300 million in the hole. And an inspector comes to the offices to check all the numbers and we're talking like paper, printed paper, all the balances, all the accounts. And he found a way to hide the account, but not quite that an inspector wouldn't be able to realize, wait, there's something fishy going on. And they did. They realized, oh, wait, there's something fishy going on. But they just closed the case. It was all good. It was just a routine audit. I guess time ran out for the inspector and they closed the thing and they left. They went to the next poor guy that was covering accounts anyway. 2001 hits, dude, the oldest bank in Britain. All the rich people had their money there. All of them. 
+
+Speaker 2
+I think it was like something ridiculous, like put $2.1 billion in the whole, man, and the whole bank went back, went bankrupt. 
+
+Speaker 4
+Jesus. Yeah. 
+
+Speaker 2
+It is fucking dark, dude. It is. Yeah. So when we look at companies being like, well, we don't have time to go organize our Google Drive. We have to go focus on sales. We have to go do this. We have more pressing matters. And they just let shit pile up and pile up. 
+
+Speaker 3
+That's why they never feel like you were saying. They never feel they've, on top of everything, caught up. 
+
+Speaker 4
+Yeah. 
+
+Speaker 2
+So the employee experience is what gets harmed. It's the Nike programmers spending hours per week just trying to find the documentation. Dude, who the fuck built this program two years ago? Who the fuck is whatever? With a title that then you click on the profile, it is inactive. And that documentation didn't automatically get inherited by someone else. How do you expect to run a company that way, dude? And that shit piles up. So when Paige said admin and everybody's head nodded, it's serious help that they need because it compounds to become worse and worse and more annoying and harder to fix. 
+
+Speaker 2
+So we have something that can save them a lot of everything, a lot of money, a lot of time, a lot of stress, and help them focus on what they need to focus on what they saying they need to focus on, which is amplifying the human. 
+
+Speaker 4
+I just thought of a weird. Not weird, but sort of a new line into exactly what you're talking about before COVID everybody, when you walk into any office or any place that has executives or corporate people, there's always secretaries or admin folks. And a couple of times I've seen two or three secretaries at one desk. And then COVID happens, they got to cut the fat. And those are the first people to go. And in a lot of cases, those people are doing this admin work, this organization, making sure that the executives have the information at their fingertips. Most companies still haven't replaced those absences. I still go into companies that have a beautiful lobby. Fantastic. No one's sitting at that desk, no one's answering the phone, no one's keeping track of incoming information. 
+
+Speaker 4
+So I think that's another value point in the sense that we know companies cut cost and they had to. But it's now time to replace those folks with a new solution, because otherwise you're going to end up in the same position as Alejo was saying. You're going to lose customer experience, and they already are. The fact of the matter, someone's not answering the phone, their service or their sale isn't happening. It didn't get to the right person, but they never know because it never got to the right person. 
+
+Speaker 3
+Yeah. That's crazy. 
+
+Speaker 4
+Yeah. 
+
+Speaker 2
+So let's do what the four of us do best, which is people. 
+
+Speaker 3
+Yeah, I do want those events. Sound great. 
+
+Speaker 4
+So now the when and the where. What's the idea here? Who are we targeting? Why are we targeting them? I think real estate is a great place to start. You guys have already done one kind of impromptu we have partner with that. 
+
+Speaker 2
+Has the specialization in real estate. 
+
+Speaker 3
+I think the easiest thing to do is build, like, a lead magnet. And that lead magnet is our talk. And then at the end of the talk, you go, like how you said you want them leaving with the first step into their solution. By the end of the talk, they're leaving with, okay, I know I can use Alejo and that's help to do this. And then maybe we upsell or maybe we just straight sell them from there. But I believe you two could probably get that same audience at. 
+
+Speaker 2
+Yeah. Yeah. Zach, how familiar with the real estate industry are you? 
+
+Speaker 4
+Well, I was actually going to mention to Paige that at some point I'm going to have to call one of your family members and get on a fact finding call because I am trying to buy a house. So in the last year, quite familiar. I think I pretty much know everything I can without talking to an expert. 
+
+Speaker 2
+Cool. That was my honestly expectation. I didn't expect anything less from you. You know me, buy a house. Let me go understand the depths of this industry. 
+
+Speaker 4
+Yeah. As much as I possibly can. Again, without talking to an expert. But that's the next step right now. 
+
+Speaker 2
+Okay. 
+
+Speaker 1
+Yeah, we can definitely hook you up with my aunt, my cousin. Definitely get that going. We're going to sit down with them and have a deeper fact finding call. One of my cousin's best friends already offered herself up without any prompting. Be like, I'll be a test case you can use. 
+
+Speaker 2
+Jessica. 
+
+Speaker 1
+Jessica. Yeah. So I've got some follow up work to do to see make the most of the next nine days that we have here in Maryland to get some in person meetings, at least some consultations with folks. 
+
+Speaker 4
+Awesome. 
+
+Speaker 1
+And if we can get a system together that works for one, it'll work for a lot of them, and it will spread like wildfire. I think that and getting together workshops where we can do what we do and get the human touch and teach people and educate. 
+
+Speaker 3
+I also see room for growth in this as well. You two are perfectly trained to train people to do workshops as well. If were to grow. 
+
+Speaker 1
+No, I half the way I wanted to be like, hey, do you guys want facilitation training? Because we can up level these workshops? A. 
+
+Speaker 2
+Sure. Yeah. 
+
+Speaker 1
+Now I'm wondering, too, because we've been talking about building a base for a knowledge base with my education company in the vein of what Alejo is talking about, of our Google Drive is so unorganized because it's ridiculous. And my partner mentor boss needs an upgrade. She'll work on a word document and then forget to put it in the drive and then get frustrated and send out of us a bunch of messages because she can't find anything because she's not working in one yet. Yeah, it's a mess. And then it feels like everything's behind. And I bet we could figure out a trade of some sort where if we build a sort of prototype knowledge based system for them in exchange for some leadership coaching or, oh, my God, training. 
+
+Speaker 2
+That's such a good idea. 
+
+Speaker 1
+Whether it might be when we're doing pitches or in these customer calls, I think it can be a really good value exchange. 
+
+Speaker 4
+Light bulb. 
+
+Speaker 1
+Yeah, it's valuable training. It really is. 
+
+Speaker 2
+Oh, it is. Being able to get up on stage yesterday, impromptu, we didn't know when were going up at the beginning of the call, when were talking to him and our website was up, he's like, yeah, maybe you want to come up and say a few words later. And halfway through the talk, he's like, oh, yeah, we actually have people from other country that are building this. You guys want to come up? It's like, oh, now? Sure. Yeah. And, dude, we felt so ready. 
+
+Speaker 1
+It felt good. 
+
+Speaker 2
+It felt like, oh, yeah, we know exactly what the fuck we're talking about. There's nothing to be nervous about. And we know the value that we can provide. 
+
+Speaker 4
+I'm very glad you're a better public speaker than Sam Altman. So that's good. 
+
+Speaker 1
+Because you will never look at public speakers the same. 
+
+Speaker 2
+Yeah. Disillusionment is the first sign that you're learning about public speaking. 
+
+Speaker 4
+That's funny. 
+
+Speaker 1
+Lifelong journey. 
+
+Speaker 2
+Couple notes. Yesterday was great. We're going to follow up with these people. Live events is where the fuck it's at until we can make our own live event. I want to show you guys a framework that you may or may not be familiar with, but has been very useful to think about for marketing. And I'll show you guys the rest of this in a second. 
+
+Speaker 3
+Nvidia has gone up $100 today. 
+
+Speaker 2
+Okay. BCVE is branding, community, virtual event. And then there's live event, which we're going to not do for now. Branding. It's our videos, it's what we put out, it's our brand and the digitalization of who we are. Community, a way for people to channel from our content to a place where they can interact with us or with others into virtual event. Like an online conference. Like online conference for realtors, where we might intro an expert like Chris to talk ten minutes about the state of real estate, the challenges of real estate, and the opportunities, and then back to us where we're like, hey, and these are some solutions we've created for this and that. However, you need something different for your business. What is that? Set up a consultation with us. So the fuzziest part, these feed into each other. This is a sequence. 
+
+Speaker 2
+So these are a sequence. We're going to keep live events out for now from our branding and content. How do we step into a community, into a live interaction of some sort? And then for a virtual event, even just that concept that I threw out, there could be a great first live event with expert in real estate. Bam. With expert in AI solutions. Bang. Join us at this virtual event. So landing page. And I'm sure, Henry, you can picture the funnel landing page. This is a framework that is so straightforward. And what this guy that we talked to that has been in this space for so many years, kind of the framework that he landed on, that he's seen be most effective. 
+
+Speaker 2
+And he comes from the age of ten years ago where just a decent looking website got you leads, and he has had to battle through a transition in digital marketing where that is just not even close to enough anymore, and that this has proven to be an effective framework. 
+
+Speaker 4
+I agree. The first thing I think of is going live on LinkedIn once a week and maybe adding some structure to it, where once we build a little following, I'm not looking at the LinkedIn page right now. But maybe this is where we use those ad dollars to promote these live events in order to bring in fresh faces, the people that we've talked to before for experience and start to generate leads through live events on LinkedIn, which is free and easy to do. 
+
+Speaker 2
+Yeah, I love that. That could definitely be where we spend our ad dollars. 
+
+Speaker 4
+The LinkedIn specifically ad dollars. I wouldn't necessarily go much beyond. 
+
+Speaker 2
+Yeah, we have those credits. Yeah. So, you know, it's funny, people kept saying that the real estate market is saturated for AI because that's one of the first three markets you think about. You think about vacation rentals like Airbnb, because it's easy, because it's all chat, right? So just put a chat button and save yourself time. Real estate, because of the hotness of the market and the high ticket clients that there are there. And number three was social media marketing agencies. So everybody in the AA first flocked to those industries. And we're here at this live event talking to actual people. Gen Xers, to be fair, but talking to actual people. And they think they're first, dude. They think they're first. They're excited that they're the first ones to discover this, bro. It's so fucking crazy. 
+
+Speaker 2
+This is how well positioned we are that they think that they're first and that we created this technology is what they think. How do you know so much about it if nobody knows? It's been a year and a half, dude. You're not first. But what an awesome opportunity to guide someone through the first steps. First and so much more sellable. On that note, and if anybody, any ideas come to mind, please interrupt me. On that note, since we're in marketing, I want to talk about marketing. We're going to simplify. We're going to simplify. We're going to focus on two things in marketing. Short video content and fake MVP. Short video content is grabbing everything we have so far and chunking it down. 
+
+Speaker 2
+Re record some of our demos that make it so we can do 30 42nd shorts that very quickly go through the ski chalet concierge that has three different utilities. It can make up a day for skiing for you. It can plan your day for this specific chalet. There are specific services. Number one, that's one video. Number two, it can look up which ski lifts are open for whichever mountain you ask. That's number 230, 40 seconds. And then there's number three, which is find restaurants near me. And suddenly you have three videos out of one product that are very easily consumable and that go straight to the point. 10 seconds. Who we are at faster ICE. 20, 30 seconds. We came up with this very interesting utility for vacation rentals. Bang. Done. Scheduler assistant. Hey, how many employees do you manage? 
+
+Speaker 2
+How much time do your people spend scheduling those people? Oh, well, we created this for a company managing 200 employees for twelve different tasks. And our solution creates your schedule in a few seconds. Here it is. But it can also put time off. And that's a different video. And redo the schedule when somebody'sick. Bam. Two video series, 40 seconds each. And that's another one of our products. And we have content on content. On content, dude, so short video content, I think that just speaks for itself. But we don't only have two projects and those are ones that are done if we're talking building in public. This is unlimited amount of content. Okay, I think I've made up my point. And then fake MVP, part of what I'd also like to use LinkedIn dollars for, which is within an industry. 
+
+Speaker 2
+And we've been talking a lot about real estate and we already have the in on real estate and we disproved what was my main concern, which was. 
+
+Speaker 3
+You said you have the recordings of that talk. You did. You could chop that up and throw on short video. 
+
+Speaker 2
+Bang, another one. Yes, exactly. So live event, product building, public tutorial. 
+
+Speaker 4
+Maybe GPT tutorial or something? 
+
+Speaker 2
+Yeah, absolutely. We have PFA, we have a lot, and there's no type of video that's easier to make than short video content. And now we have tools that can create the edit, create, subtitle everything for us. So huge fake MVP within the real estate industry, what resonates most? That's what we're going to go test and we can go ask people and all that stuff. But how do we do it at scale? And I think this is a really good way to do that. Maybe it's simply like for our live event, we create sort of, hey, this is what we have built. If you want to see what else you can build for your real estate agency, come to the slide event. And it's the same ad three times showing three different products. The scheduler for appointments. 
+
+Speaker 2
+When we create one, the concierge and the whatever. And lead qualifier is the other one that we want to revamp, which we also heard yesterday. Hey, if I could just get some kind of lead qualifier. So fake MVP, that's that for marketing. We're going to forget about blog posts for now. We're going to forget about anything that's time intensive. We're going to forget about posting schedule other than for short video content, because right now the manpower that we have is solid, but it's not large. So let's focus on what is most effective right now. 
+
+Speaker 3
+Okay. 
+
+Speaker 4
+Alejo, quick question, and this might be a silly question. Do you have a fasterize email? Alejo p one at fasterize. 
+
+Speaker 1
+Yes, you do. That's alejo@fasterize.com. 
+
+Speaker 4
+Perfect. I just want to use that for when we reach out to Roberto, who is also in property management, because his biggest pain point is following up with clients in the beginning of sales process, which is exactly what we're talking about. So I want that email to come from faster eyes and we can talk about that and send it later. 
+
+Speaker 2
+Sounds good. Awesome. Awesome. So let's also take the outreach time to do that. 
+
+Speaker 4
+Yeah, definitely. 
+
+Speaker 2
+So, Zach, I need your headshot. 
+
+Speaker 4
+Yes, sir. I'm actually doing a new one for LinkedIn anyway, so Keanu will have that soon. 
+
+Speaker 2
+Awesome. And for current projects to get you guys up to date, we have the zoom transcriber to pine cone. I'm going to get a better name for this. Pine cone is where we store data. And it's not a normal database. It's a database that contains a bunch of numbers that represent the text. So in a normal database, you have, hey, you posted this post on LinkedIn, and this is the post that you posted. And that's how you would save it. In a vector database, it's just numbers. How do you do it? So for knowledge basis to work, this feeds directly into this. A knowledge base works with those numbers, with those representations of the words, because computers understand numbers, not words. So some really smart people said, hey, what if we can create a mapping a. 
+
+Speaker 2
+This word is this number, and this word is that number, and this paragraph is this series of numbers. That's how a knowledge base works. And then you do math on top of it and it works. It's wonderful. It's wonderful because we don't have to build it ourselves, but we are going to build the application. So that's what's so cool about it. And this is why the knowledge base builder is our core priority for the coming weeks, months, however long it takes to build and test it. And our first client is ourselves. This call right now is great food for what were planning on doing in an hour, which was recording the story of faster eyes and what we do, what projects we're working on. 
+
+Speaker 2
+This call right now is actually what were planning to do in an hour, which is, hey, where are we at? What have been our past projects? What are we currently working on, and what's our strategy moving forward with that knowledge for the next outreach call, for example, we can start asking questions to the knowledge base like, hey, I have this idea and that idea. How does that fit our current strategy, and how can I make it put it in practice? So very exciting. And then the massive outreach system, which is very exciting. Our initial prototypes have shown a lot of promise in taking somebody's LinkedIn, gathering all the information and the recent posts, and outputting a very natural sounding email. Yeah, and. 

@@ -5,6 +5,8 @@ from langchain_core.messages.human import HumanMessage
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.tools import tool
 import os
+from langchain_experimental.text_splitter import SemanticChunker
+
 
 def load_file(data):
     loader = DirectoryLoader("data",
@@ -16,7 +18,7 @@ def load_file(data):
 
 #split documents into chunks
 def text_split(extracted_data):
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=20)
+    text_splitter = SemanticChunker(OpenAIEmbeddings(), breakpoint_threshold_type="percentile")
     documents = text_splitter.split_documents(extracted_data)
 
     return documents

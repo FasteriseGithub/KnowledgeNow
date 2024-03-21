@@ -1,0 +1,816 @@
+Speaker 4
+Aloha, Henry. I was just talking to my dad and I was basically saying about the Zoom knowledge base thing and he brought up a good point, was Microsoft Copilot. It can do that a lot with a lot of the teams, all the teams calls. 
+
+Speaker 2
+Sorry, do what? 
+
+Speaker 4
+So Microsoft Copilot can ask it, like who contributes the most on the calls about profit sharing. That's one of the features of Microsoft Copilot. So Copilot already has this knowledge base. So that is a competitor to think about. So then do that. And to what extent do Microsoft have that? So that's something we should probably look into is copilot. 
+
+Speaker 2
+Good call. Very good call. Yeah, we have access to the full Microsoft ecosystem, including code pilot through the founders hub. 
+
+Speaker 4
+Know, we could probably move everything to teams then. But do we want to? Because right now we're doing Zoom and discord. Or it could all be in Microsoft Teams. 
+
+Speaker 2
+That's true. It would be a transition for everyone. 
+
+Speaker 4
+Yeah, I think for now I don't want to do any more sort of, hey, this would be admin. 
+
+Speaker 2
+Before we. 
+
+Speaker 4
+Get a client because right now that would be a 5% better thing where we need to focus on the things that can get us 50% better. 
+
+Speaker 2
+That's a very good point. Yeah. 
+
+Speaker 3
+Have you figured out the LinkedIn scripture issue? 
+
+Speaker 2
+I did, actually. Kind of. There's progress. Let me show you. We have three options. This is the one that I was looking at yesterday. Maybe they emailed me back. 
+
+Speaker 2
+There'S bright data them, there's relevance AI apparently, and phantom busters. And I love relevance. So we good start there for an initial build and it's very easy to integrate into GPT, which is the really cool part. How much have you played with relevance? 
+
+Speaker 3
+I played with. 
+
+Speaker 2
+Sorry, suddenly I can't quite hear you. Okay, there we go. 
+
+Speaker 2
+Let's see. We're talking tools, templates. LinkedIn scraper is how compatible job candidate improve LinkedIn post company research. Scrape Lincoln's profile. Get someone's professional data from LinkedIn profile. 
+
+Speaker 2
+So we get an about section. We get followers count, full name headline hqcDHQ country where are you? Okay, so this does not contain posts education experiences. More companies, more companies. Okay, and now we're getting user posts. But you see how this is an agent by itself, which has actions that it can do. It just doesn't get to choose which actions it does. 
+
+Speaker 2
+We're absolutely over the moon. We have broken ground and snowman apartment is going ahead. So they're building new apartments for this ski place. 
+
+Speaker 2
+Two years ago. So this is probably not our guy for the posts part. What we would like to do. Oh, it gets like a bunch of posts. This is not using LinkedIn credits, I believe. Yeah, no, this is not using LinkedIn credits. This LLM step so we want to say, bartech, I might need your help in here. I have LinkedIn full one. Let's call it LinkedIn posts. This is the profile and these are the posts. 
+
+Speaker 2
+How can I append a JSon to the next tool to the previous one? How can I append LinkedIn posts to LinkedIn full? See, like I need to run this. 
+
+Speaker 2
+So I get the answers and now filter and I need to write. So I have LinkedIn posts. You have created a string by adding multiple variables. So how do I make this into one object? 
+
+Speaker 5
+So you need both, right? You need full data and post data both. 
+
+Speaker 2
+Yeah. 
+
+Speaker 5
+So what about, you can make two steps like this, like clone this step or something and have them separate. 
+
+Speaker 2
+That's true. Yeah. So I can say, hey, LinkedIn post data, this parameter requires an object, just a list of any. 
+
+Speaker 2
+We want to return this returns return object and then this returns list. So I say outputs should be. 
+
+Speaker 2
+Okay, now I'm getting it. So, so it's going to grab a list. No, this returns an object. That's strange. What's the big difference here? URL, get user posts. 
+
+Speaker 2
+I want us to make sure that we can use this because it's a very important thing moving forward. So when you get profile, it returns an object. So then you're talking that this action getuser profile returns always an object. That's just how they coded it, which is fine. Get user posts is going to return a list. So we wouldn't need to extract JSOn fields from it. 
+
+Speaker 2
+Returns list is just pass it in the right format to the LLM. So instead of filtering JSon by field, what I'd like to do is I'd like for it to be python data. Combine array of strings, filter jSon by fields, combine array. 
+
+Speaker 2
+LinkedIn full is returning a json. 
+
+Speaker 2
+Okay, so I'm going to add python code. 
+
+Speaker 2
+And now I have a variable called LinkedIn posts. So LinkedIn posts should exist. 
+
+Speaker 2
+And I want to get the, let's say, latest three posts. 
+
+Speaker 2
+LinkedIn posts is a thing. It already exists. 
+
+Speaker 5
+I'm wondering about the cost. You said it's way cheaper in this relevance because when I check it ago, it was quite expensive. 
+
+Speaker 2
+$20 gives you 10,000 credits and getting a profile and parsing it is going to be about the same amount of credits than the other options that were looking at cost. But they give you 2500 credits for like what, $50? And this is like 10,000 credits for $20.Speaker 5
+All right. 
+
+Speaker 2
+So I don't know what happening. 
+
+Speaker 5
+I also have a question about actual scraping because they have like scraper off of their own kind of on their build or this is some kind of, I don't know, LinkedIn API. 
+
+Speaker 2
+They built their own scraper essentially. 
+
+Speaker 1
+Yeah. 
+
+Speaker 2
+I want it standard out. Okay, so data. Oh, I have to go into LinkedIn post data. So it is an object. That's strange. Come on. It's an object. Is it a dictionary that it's. 
+
+Speaker 1
+Let'S see. 
+
+Speaker 2
+Tuki tuki tuki. 
+
+Speaker 1
+Tuki tuki. 
+
+Speaker 2
+And there we go. It gets the first three LinkedIn posts. 
+
+Speaker 1
+It does not get the first link. 
+
+Speaker 2
+Number of comments post URL posted on posted LinkedIn URL text. So I want to get to this field. 
+
+Speaker 1
+This field. Okay, this is it. 
+
+Speaker 2
+Data, recent posts. 
+
+Speaker 1
+Recent posts. 
+
+Speaker 2
+Would be the first three elements. And of the first three elements we just want text and kind of how long ago? So I'm going to say from data, give me. 
+
+Speaker 1
+Text and I kind. 
+
+Speaker 2
+Of want like how long ago am I able to, I've never done this before. Am I able to say like this in a dictionary to give me these. 
+
+Speaker 1
+Two fields. 
+
+Speaker 2
+Text and time? I don't think this is valid. 
+
+Speaker 1
+Yes, must be integers, not tuple. 
+
+Speaker 2
+Okay, so we're going the other way. Data text. We're just getting one. So what am I doing here? We're going to, the data is just the placeholder first post and give me just the text. So this is his latest post. 
+
+Speaker 1
+Okay, let's just move forward. 
+
+Speaker 2
+So we're getting this. It's part of this element. Recent posts. We are deleting this step. 
+
+Speaker 1
+We don't need it anymore. And we're expanding. 
+
+Speaker 2
+We haven't run this LinkedIn full data, though. I'm going to run it all at the same time. And just return no relevant info. Do not make things up. 
+
+Speaker 1
+Wait, what? 
+
+Speaker 2
+Include specially recent experiences in the summary. If there is no relevant information about. Just no relevant info. 
+
+Speaker 1
+Okay. Do not make things up. 
+
+Speaker 2
+Bo is a LinkedIn profile of potential prospect called Bam. Can you please help me summarize this person's profile? Include specially recent experiences in the summary. And it's given this JSON filtered. 
+
+Speaker 1
+Profile. Recent posts. 
+
+Speaker 2
+I called it recent posts. 
+
+Speaker 1
+There we go. 
+
+Speaker 2
+I believe this is the right way to do it. Let's run all of it and see. 
+
+Speaker 1
+What happens. 
+
+Speaker 2
+And all before my computer dies. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+Oh, the user profile gets saved into LinkedIn full. 
+
+Speaker 1
+LinkedIn full. Whoa. 
+
+Speaker 2
+Let me rearrange. 
+
+Speaker 1
+This. Okay. Weird. 
+
+Speaker 2
+Getting the user profile. I just really want us to unblock this. 
+
+Speaker 1
+If I'm killing time, please let me know. 
+
+Speaker 2
+This is weird. It was working right. 
+
+Speaker 1
+About. 
+
+Speaker 2
+And. 
+
+Speaker 1
+Experiences it. It experiences. 
+
+Speaker 2
+Very strange. 
+
+Speaker 1
+Well. 
+
+Speaker 2
+It was working. Not quite working right now. And I'm going to call it done for now and we'll get the whole thing. 
+
+Speaker 1
+Properly. Does this need the data thing? 
+
+Speaker 2
+Okay, well, let's move forward. We have some other options. I think that I'm going to make sure that I make this work, you guys. And we can call it. We can also create an action for this from a GPT. What are next steps. 
+
+Speaker 4
+For me? I'm going to look into some of the autogen stuff a bit more. Then there's some stuff I want to play around. And then it'd be. I think what I'll do is I'll focus on creating the other agents to go around, like the checker that checks it and the flow, and then just plugging in the relevance, if we need to, into the cool. 
+
+Speaker 6
+One, the Roger. 
+
+Speaker 1
+Dilemma two. 
+
+Speaker 2
+What are some next steps? 
+
+Speaker 3
+So, since we're using relevance, I'm thinking of using the first agent that is getting the LinkedIn details and the outreach agency getting the LinkedIn data and. 
+
+Speaker 1
+Extracting. 
+
+Speaker 3
+The right information from it before building the second one. 
+
+Speaker 2
+Yeah. 
+
+Speaker 4
+Okay. 
+
+Speaker 1
+Can we. Yeah, sorry. 
+
+Speaker 4
+Can we hop on a call later to just write up this message? And then we'll take like ten minutes. Five minutes? 
+
+Speaker 2
+Yeah. 
+
+Speaker 5
+How it went? There was off for three minutes. 
+
+Speaker 2
+So, yeah, I got to figure out a small kink. It was working before. It's not working now, but that's just kind of how it goes. I would like to. I would like to do something with you all in the next five minutes and see how fast we can do it, which is kind of like get us into a next version. And what might that look like? That might look like we are building a fully automated outreach system which takes in profiles from LinkedIn and creates emails. Make a prompt. 
+
+Speaker 3
+Sorry, quick question. 
+
+Speaker 2
+Yeah. 
+
+Speaker 3
+Is it the name or the LinkedIn profile? 
+
+Speaker 2
+Don Solo. 
+
+Speaker 1
+Okay. 
+
+Speaker 3
+Just Don Solo. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+Was that your question? 
+
+Speaker 3
+The input, is it just like the LinkedIn profile URL or. 
+
+Speaker 2
+Correct the URL. Make a prompt for analyzing the data of LinkedIn profile and extracting only the. 
+
+Speaker 1
+Relevant portions that would help create this. 
+
+Speaker 2
+Is speedrun, the email, the outreach email. The context of what is relevant will be provided to the agent in a document. Make a prompt for an agent. 
+
+Speaker 1
+Which. 
+
+Speaker 2
+What's been your experience, Bartech, with like saying make a prompt for an agent. 
+
+Speaker 5
+I usually say make a prompt for AI that will do something like do X. And I say the X is what I want to do. Yeah, I didn't really test it, this version against making agents, but in before versions it was working just the same as actually it surprises in the way I would just say it. So it's like my childhood or something. 
+
+Speaker 2
+Yeah. Well, it feels like it's gone to a point where it is reformulating. 
+
+Speaker 1
+Yeah. 
+
+Speaker 2
+So reformulating users requirements into a prompt for an AIA and then it's like the same format that, the standardized format. 
+
+Speaker 1
+That you're talking about. Yes. 
+
+Speaker 2
+Cool. Constitutes relevant data for this purpose, ensuring the extraction process is both efficient and tailored to a specific needs of an automated outreach system. Innovative angle generator. Love it. Love it. AI expert, agent one, data analysis and extraction methodology expert. 
+
+Speaker 3
+Oh. 
+
+Speaker 2
+My God. Did it cut off early? It didn't create the markdown, did it? 
+
+Speaker 5
+Actually, that's correct. It should just guide you to like, you know, it's actually saying you to define your criteria. 
+
+Speaker 4
+Not right now. 
+
+Speaker 5
+So it actually needs your input for the next step. If the next step can be without the user input, it should usually guide to the next sort of steps by saying you can't press the y letter on the keyboard and proceed to the next step. I think you could actually do that now and maybe AI will decide for you if you just press y and continue. 
+
+Speaker 2
+I think I forget, include a fourth agent that will judge and that will criticize and provide feed forward on how to make the email more natural and human like. 
+
+Speaker 5
+You're referring to agents now in the brainstorming process or agents like you want to make four prompts? 
+
+Speaker 2
+I want to make four prompts, yes. 
+
+Speaker 5
+Because now if you say include, it will include to the brainstorming here in the above. So I would start from before what you just written. I would just say in this agentic system include the fourth or in our plan? In our plan include fourth agent. 
+
+Speaker 2
+Okay, cool, love it. And I'm going to go get the LinkedIn outreach prompt. I'm going to go get. 
+
+Speaker 1
+The story of fastrise. Where's the story of faster ICE? 
+
+Speaker 2
+I put it somewhere here. AI solutions. This is his profile. And then we're like, fast rise GPT. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+Where are you? Where are you? 
+
+Speaker 1
+There we go. That's right, origin story. 
+
+Speaker 2
+And I made a story and then I tagged prompt factory assistant to make it into instructions. 
+
+Speaker 5
+What's been your experience with tagging and conversation length? Because I didn't quite use it that much and I'm curious about the constraints. How far can you go with making long conversation with one GPT and then mentioning another to answer to the whole conversation? I think you need to make a distinct now because it doesn't quite get it still that you're making swarm in here because it confuses the agents of its own in the brainstorming process and the agents you want to have in the swarm. 
+
+Speaker 2
+Yeah, well, let's find out. Oh, it revises the initial task to incorporate a fourth AI agent whose role is to critically review and provide constructive feedback on the generated emails. 
+
+Speaker 1
+Okay, interesting. 
+
+Speaker 2
+Seasoned copy editor with a deep understanding of persuading. Engaging email communication doesn't just critique, it applies principles from psychology and marketing specific improvements that make emails more compelling. Yeah, it's definitely getting confused. 
+
+Speaker 5
+You can maybe say in our plan to make agent swarm for fully automated outreach system, like you can copy it from above how you started it all with the first sentence, fully automated outreach system. You can copy that and then say that the plan is to make the swarm that does this in the letter message. 
+
+Speaker 1
+Interesting. 
+
+Speaker 5
+Unless this is actually what you want to build. If, if those description match what you wanted to achieve, then you can just say, make me prompt for each of those. 
+
+Speaker 2
+Yeah, so I would start with like, okay, great. Now write the full prompt for the AI expert, agent one, right? 
+
+Speaker 5
+Yes, the best of the parts here. And saying the prompt, take a great care to the details and expand it as much as you can and make the advanced markdown hierarchy, things like that. Also trying to make the stakes higher, like say something like this is very important or something. Or like those tricks giving tips to AI and stuff. 
+
+Speaker 2
+Right? 
+
+Speaker 5
+I bet it works in here also, especially even though it has things like take time to think or do it step by step already in the prompt that I make for the PFA. But still, if you use it also in your prompts, it's even better, because it's like a kind of compound effect and it's not every time, get every word from the initial prompt. So it's better to always include something like take time to think about your own solution. 
+
+Speaker 2
+Yeah. 
+
+Speaker 5
+Do every agent separately. 
+
+Speaker 2
+Yeah, I'm going to ask it for now that it has all the context. And to answer your question, I am pretty sure that this is the 128,000 context window. Now write the full prompt for AI OLa for AI expert agent one, narrative. 
+
+Speaker 1
+Transformation. 
+
+Speaker 2
+And its emphasis on automating business processes to amplify human creativity, connection and strategic thinking. Develop a comprehensive data analysis and extraction methodology. Methodology should aim to identify and extract key information from diverse data sources that can be leveraged to automate business processes, enhance decision making and optimize marketing strategies. Alignment with fasterized core goals and services is something it has less information on. So this fasterized bio needs quite a bit of tuning, but yeah. 
+
+Speaker 1
+So if. 
+
+Speaker 2
+We have this as an assistant API, it could know to grab this markdown and make it as the prompt of a new assistant. And I think that's like super exciting. That's great. Now continue with. 
+
+Speaker 1
+Expert two. Cool. 
+
+Speaker 2
+So I'm going to grab this and I'm going to create a new agent and then we'll try the same thing. 
+
+Speaker 5
+With can you send me this chat because I see another malfunction in here. 
+
+Speaker 4
+I'm going to drop out the call and just watch a video and follow it and do some more autogen stuff. 
+
+Speaker 2
+Sounds good. Sounds good. Yeah, sorry that I made it all about this. Yeah, sorry. Are there any questions about next steps? I want us to have a good v zero that you guys can play with to test it and stuff. 
+
+Speaker 4
+No. 
+
+Speaker 5
+Okay. 
+
+Speaker 4
+All that comes to mind, I just message you, let me know. Is today your last day or are you online tomorrow? 
+
+Speaker 2
+I'm on a plane most of tomorrow. 
+
+Speaker 4
+Okay. 
+
+Speaker 2
+Yeah. 
+
+Speaker 4
+What time do you leave your home? I guess. 
+
+Speaker 2
+Yeah, 04:00 a.m.. 
+
+Speaker 1
+Okay. 
+
+Speaker 4
+All right, we'll catch up later today on just whatever. 
+
+Speaker 2
+Sounds good. Sounds good. Yeah, let's catch up later today. So what's cool is we can give this new GPT, this first GPT, the relevance action. 
+
+Speaker 1
+Not that give me 1 second in and. 
+
+Speaker 2
+Yeah, it was some point of equation. 
+
+Speaker 6
+Your. 
+
+Speaker 1
+Sent you the thing, the linkman? Yeah. 
+
+Speaker 5
+I was thinking if you considered making your own scraper with the puppeteer and the GPT vision or maybe using some API, like there are those API kind of websites and you can buy some APIs. 
+
+Speaker 2
+I thought about it. It feels like the lift, the amount of work that we would be doing and research for a good one is more that we want to put into it. And the more that we want to put into it means that system, that API, whatever, usually stops working. We found a project on GitHub that would work, but it has a lot of limitations because your account gets easily banned. Yeah, your account gets easily banned on LinkedIn if you're scraping and stuff. So we didn't want that. Yeah, we really didn't want to risk that. And I realized that I gave it the documents instead of telling what to. 
+
+Speaker 1
+Do with the future document. So I'm going to not do that. 
+
+Speaker 2
+If you want to humor me a few more minutes. 
+
+Speaker 1
+Will. Okay, we'll restart that one. 
+
+Speaker 2
+Whoa, it's writing in rust. That is funny. Oh, that's funny. 
+
+Speaker 5
+That's actually a title. That's actually correct behavior, because in the prompt it should go with two code windows. One should be title of the prompt. So for the user. But while doing the good behavior, it also fucked up the markdown. So you later have to make advanced markdown structure in the prompt because just how to say the bolt, it's only making it bolt and listing. 
+
+Speaker 1
+It. 
+
+Speaker 2
+So this is how it should run, right or no? 
+
+Speaker 5
+Yes, it should be there. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+Yeah. 
+
+Speaker 5
+As you can see, when this is activated, this function, it's actually responsible partly for the structure, because all of the considering of the components is coming from first thinking of the structure. The relevance thing is working correctly. Just the prompt is wrong, right. 
+
+Speaker 2
+The template was working just fine and then where you cloned it and it was working and then I must have changed something and it stopped working. 
+
+Speaker 5
+But it's not working in a prompt wise manner. Or is something wrong with the script or the automation? 
+
+Speaker 2
+It was scripting fine. Yeah, it was scraping fine. 
+
+Speaker 5
+So the prompt was wrong? 
+
+Speaker 2
+No, it's supposed to parse the data into JSON and it wasn't doing it, but it was before, but then it suddenly stopped. 
+
+Speaker 5
+It don't think maybe there is better approach or maybe it's just something wrong with the copying, maybe that. Check it first, obviously. But I'm thinking you can also while doing something with those builders. If I have some troubleshooting to make, I usually make screenshots and send it to the chat. And now with the PFA brainstorming capabilities it's even better because it also can show you things you didn't think about. 
+
+Speaker 1
+Yeah. 
+
+Speaker 5
+So what you want to do next about this? 
+
+Speaker 2
+Sorry, say that again. 
+
+Speaker 5
+No, I'm just asking what you want to do next about this prompt. 
+
+Speaker 2
+So I'm going here I am changing this, and there's a couple things to change goals. Read and interpret the context document to understand company sex with Branson and the. 
+
+Speaker 1
+Type of services we provide. 
+
+Speaker 2
+We provide nice LinkedIn profiles using. 
+
+Speaker 1
+No, using. 
+
+Speaker 2
+Your analytical skills. 
+
+Speaker 5
+Now you could just make an iteration prompt for that. I'm just sending one command. Find it, maybe actually I'll even drop it in discord for everybody in the PFA. Also should share actually the new version for that. 
+
+Speaker 2
+You said you dropped it in. 
+
+Speaker 5
+I'm just dropping it right now in the factory. Also the link. And I have a question for you. If you could encourage people to give feedback, like sending chats or whatever or screenshots of when they use it. 
+
+Speaker 2
+Yeah, absolutely. 
+
+Speaker 5
+You're currently even turn that into some educational value. Maybe if we could gather this whole feedback somewhere on the discord, maybe. And then, I don't know, having some time to go over. 
+
+Speaker 2
+They don't really have access to the latest version first, so maybe we could start there or whatever, a newer version so that you kind of get encouraged to use it in the first place. 
+
+Speaker 1
+Feel me? Yes. 
+
+Speaker 2
+And we can go from there. But they saw it just now at work, so I think that can help with wanting to use it. 
+
+Speaker 1
+Let's see. So were in templates and were searching LinkedIn. 
+
+Speaker 5
+All right, you got the command. We got distracted by the post. There is the command in the post to have the iteration this quoted command I sent. 
+
+Speaker 2
+Okay. 
+
+Speaker 1
+Let'S see. This is the first agent, right? 
+
+Speaker 5
+The user case. It's better actually to say something. Maybe it would figure it out, but always better to add what you want to do. Exactly. 
+
+Speaker 2
+In user use cases. 
+
+Speaker 1
+In personal life. User experiences and vacation rentals. 
+
+Speaker 5
+But I cannot ever write the word experience correctly. It's the nightmare of my english grammar. 
+
+Speaker 2
+Experience experiencing said. 
+
+Speaker 5
+Yeah, I have to check that in Google every time. Sometimes it's already so many times, sometimes I just don't give up. I noticed in a post I posted it wrong in here. And even to my juniors at celebrities, they also got it wrong. Chat deputy gets that. It doesn't have big worry about that. But still, I should correct that. 
+
+Speaker 2
+See, userless, a sophisticated keyword matching system. But then it's going to try to code and we don't want that. It already knows how to do this. 
+
+Speaker 5
+Yeah, I would copy that frameworks or methods, copy this whole section, these two lines, and then say something like make those tangible thinking frameworks for AI. 
+
+Speaker 1
+And. 
+
+Speaker 5
+You can add like just solely we're doing only prompt engineering. Something like that. We only focus on prompt engineering. What's your time and page in next hours? Because puffer wanted to make a meeting with four of us. 
+
+Speaker 2
+Yeah, it's not looking like there's time. We are rushing around already. I just really wanted to get this. 
+
+Speaker 1
+Out. 
+
+Speaker 2
+For Henry and Kuba to be. 
+
+Speaker 1
+Able to keep going. 
+
+Speaker 6
+Before overdoing. 
+
+Speaker 1
+True. 
+
+Speaker 6
+Yeah. Bartech, I'm still trudging along with this video stuff and I just wasted a bunch of time because now that I've taken all the silence out, I can't actually get the file out of the fire cut thingy. So what would be super helpful and probably good practice anyway. Can you turn on your camera, take a five minute video screen sharing of what is PFA? Because when the files are like five minutes or less, it's super easy to edit in canva. But with an hour and a half of content, I can't put it in canva. It's too big. 
+
+Speaker 5
+All right, we can do it. 
+
+Speaker 6
+Yeah, I think that'll be the fastest way and maybe it'll be expressed. So I'll fresh go at it. But yeah, I've just got to find what software. 
+
+Speaker 5
+Well, let's maybe think of some use case that would be. 
+
+Speaker 6
+Yeah. 
+
+Speaker 5
+Because were thinking with Pavel. I mean maybe I'll call him because talk about this meeting. So if you guys have like ten minutes, we can briefly talk about this ICP because we are thinking about those middle aged corporate workers with some experience already under their debut. And maybe we can think from there. What's the best use case to show on those videos? To be aligned with what the corporate user would be doing with that PFA. All right, so you have like 15 minutes or something. So I call Pavel and he can join us here. 
+
+Speaker 2
+Oh, right now I need to eat and talk with non. No, I don't have time. Later today at like 09:00 p.m.. GMT. 
+
+Speaker 6
+Okay. 
+
+Speaker 2
+Or I just eat and listen and add some stuff. Okay. Yeah, let's just do it. 
+
+Speaker 5
+Let's do it right now. 
+
+Speaker 2
+Yeah, call Powell. 
+
+Speaker 5
+All right. 
+
+Speaker 2
+I just need like five minutes though. 
+
+Speaker 1
+Okay. 
+
+Speaker 2
+So finishing this first agent. 
+
+Speaker 1
+I need to copy the story one more time. 
+
+Speaker 2
+We're going to give this action, which is going to be the relevance thing, which I'm going to finish up, figure out. 
+
+Speaker 1
+Okay. 
+
+Speaker 5
+We had to have a brief update because we actually wasn't talking today yet, Pablo. So yeah, he'll be joining a minute. You send him a link. 
+
+Speaker 3
+Cool. 
+
+Speaker 5
+So that's the output of the PFA prompt. 
+
+Speaker 2
+This is, no, this is not the output of the TFA prompt. This is just getting the LinkedIn profile and we want to just return hey. 
+
+Speaker 1
+Experiences. 
+
+Speaker 2
+And we want to remove this LLM step right now. And it's just a tool output. You just want to say, hey, Jason. 
+
+Speaker 5
+I sent Pavel the link to this meeting or we make another page. Do you think. 
+
+Speaker 3
+Luci? 
+
+Speaker 2
+Yeah, let's do a different one. 
+
+Speaker 5
+Right. 
+
+Speaker 2
+And now if I say run all. 
+
+Speaker 1
+It should give me. 
+
+Speaker 2
+I'm not even using like credits. 
+
+Speaker 1
+Just works as a tool. 
+
+Speaker 2
+Name. 
+
+Speaker 1
+And. 
+
+Speaker 2
+This is what it returns. Experiences. 
+
+Speaker 1
+Experiences might be too long. 
+
+Speaker 2
+Some actions get LinkedIn profile open AI schema API key. 
+
+Speaker 5
+All right, so we're putting the meeting. 
+
+Speaker 2
+Yeah, can you send me the link it Google me. 
+
+Speaker 1
+Sure. 
+
+Speaker 5
+All right, cool. 
