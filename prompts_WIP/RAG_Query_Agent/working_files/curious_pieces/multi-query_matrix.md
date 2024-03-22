@@ -1,0 +1,18 @@
+# Break Down User Question into Database Queries for LLM-Powered Applications
+- Start with the **User's Question**: `{{user_question}}`
+- **Lexicon Lookup**: 
+  - For acronyms or technical jargon, perform a preliminary search: `{{term}} definition`.
+- **Query Decomposition**:
+  - Dissect into sub-questions such as `{{sub-question 1}}`, `{{sub-question 2}}`, etc.
+- **Synthesis of Information**:
+  - Combine answers to form a complete response: `{{synthesize_information}}`.
+- **Innovative Understanding**:
+  - Offer resources for unfamiliar terms: `{{term}} related tutorials`.
+- **Global Contextualization**:
+  - Frame the query within global trends: `{{global_trend}}`.
+- **Technical Procedure Breakdown**:
+  - Detail steps for technical processes: `{{step_by_step_instruction}}`.
+- **Learning Path Creation**:
+  - Suggest a sequence of tutorials: `{{learning_path_sequence}}`.
+- **Relevance and Accuracy Evaluation**:
+  - Validate information against user needs: `{{validation_process}}`.
