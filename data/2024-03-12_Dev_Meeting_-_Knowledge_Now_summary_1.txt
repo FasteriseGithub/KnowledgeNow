@@ -1,0 +1,69 @@
+AI meeting summary:
+    • **Kuba** showcases integrating Pine Cone Vector Database and OpenAI embeddings to generate responses from meeting transcriptions. The team discusses agents essential to their system, including context enrichment, rag extractor, evaluator, QA, supervisor, merger, and answer formatting agents. Automated tasks like cleaning and rendering transcripts are considered for system input. Use cases like messaging bots providing assignment updates post-meetings are highlighted. 
+    • Future iterations aim at self-refinement agents to enhance AI performance over time. **Kuba** introduces data integration methods, emphasizing the importance of maintaining high-quality underlying data for accurate outcomes. The team prioritizes achieving Minimum Viable Product (MVP) status before delving into complexities like contribution calculators or project log automation. Tasks are assigned among team members to progress product development focusing on different 'agents' within their pipeline. 
+Action items:
+    • **Bartek**
+    • Share intermediate and advanced prompt engineering resources with Kuba (1:27:21)
+    • Draft prompts for context enrichment agent, RAG extractor agent, evaluator agent and answer formatting agent in relation to Knowledge Now MVP (2:06:19)
+    • **Kuba**
+    • Review Bartek's shared prompt engineering resources (1:28:33)
+    • Work on draft prompts provided by Bartek for Knowledge Now MVP once received (2:07)
+Notes:
+    • ? **Developing Automation Services**
+    • The team is working on implementing automation services to streamline the project management process.
+    • A focus is placed on enhancing content creation and idea generation. 
+    • **Hubi** is tasked with specific duties that need clarity.
+    • ? **Using 'Knowledgenow' for Task Management**
+    • 'Knowledgenow' is being used to generate a list of tasks for team members after each meeting.
+    • It is aimed to provide clarity on the tasks assigned to each individual.
+    • **Hubi** is given examples of how the system functions.
+    • ? **Success Criteria and Project Management**
+    • The team discussed the success criteria for the project, emphasizing clear task distribution and responsibility assignment.
+    • The introduction of a scrum master assistant was mentioned as a way to further improve task clarity.
+    • ? **Supervisor and Moderator Roles**
+    • The supervisor will guide the conversation, deciding what information is relevant.
+    • The moderator is responsible for overseeing the conversation and ensuring it stays on topic.
+    • ? **Focus on Markdown and Documentation**
+    • The team is advised to familiarize themselves with markdown syntax for better documentation.
+    • **Kuba** is given resources to get started on this.
+    • ? **Answer Formatting and Evaluation**
+    • An answer formatting agent is proposed to help evaluate and format the responses.
+    • The team also discussed the need for a separate agent to handle answer generation.
+    • ? **Assigning Team Members and Deadlines**
+    • The team members are assigned specific tasks and deadlines.
+    • A tool like Airtable is suggested as a potential way to track project progress.
+    • ? **Meeting Summaries and Global Context**
+    • The team discussed the importance of meeting summaries and the need for a global context in project management.
+    • The idea of categorizing transcripts based on the nature of the meeting (dev call, marketing call) was proposed.
+    • ? **MVP Use Case**
+    • The first MVP use case is decided to be a bot that sends you to-dos after meetings and allows you to clarify assignments.
+    • It checks assigned deliverables and tasks, as well as the capacity of each team member.
+Outline:
+    • Chapter 1: Introduction to the Proposed System (10:21 - 13:12)
+    • 10:21: Discussion begins on the issues of short, non-detailed prompts and the possibility of using markdown for more structure.
+    • 13:12: **Kuba** is asked about his experience with starting the rack system from a single document transcript.
+    • Chapter 2: Processing and Transcript Considerations (18:43 - 28:00)
+    • 18:43: **Kuba** shares his process of importing the meeting transcript using planchain.
+    • 22:48: The team discusses potential improvements in the processing side, particularly the initial parts of the transcript.
+    • 27:53: The team acknowledges that the transcript quality and the limitations of context extraction are affecting query outputs.
+    • Chapter 3: Task Clarification and Success Criteria (32:10 - 34:22)
+    • 32:10: The objective of the meeting is clarified as understanding individual tasks within the system project.
+    • 33:44: The team identifies success criteria as the ability to message each person clarifications after the meeting.
+    • Chapter 4: Knowledge Extraction and Enrichment (43:24 - 54:48)
+    • 43:24: The team discusses enriching the extracted information to create an improved prompt.
+    • 50:42: An extractor agent is introduced, which uses the transcript as a knowledge base.
+    • 53:06: Importance of being explicit and clear in step-by-step extraction and understanding client requirements is emphasized.
+    • 54:48: The idea of having a supervisor to lead free conversations among agents is proposed.
+    • Chapter 5: Evaluation and Formatting of Answers (1:07:02 - 1:18:55)
+    • 1:07:02: A system is proposed where a manager agent selects the best parts from high-scored chunks to form an answer.
+    • 1:13:59: The team agrees on the need for an answer formatting agent to provide a structured output.
+    • 1:17:52: The role of a supervisor in tracking the conversation and identifying necessary information is highlighted.
+    • Chapter 6: Transcript Analysis and Knowledge Extraction (1:49:55 - 2:01:40)
+    • 1:49:55: The team discusses the potential of using all available transcripts or detailed summaries as resources.
+    • 1:51:18: The idea of saving the output from the analysis of a single transcript into a knowledge base is proposed.
+    • 1:56:32: The team talks about modifying the dev team global context document and categorizing transcripts.
+    • 2:01:15: A QA agent is proposed to review the full transcript and evaluate how well the evaluator agent did its job.
+    • Chapter 7: Final Steps and Use Cases (2:03:06 - 2:06:37)
+    • 2:03:06: The team discusses the final steps, such as giving the output format to the answer agent to create a final output.
+    • 2:03:36: The first use case is introduced as a bot that provides meeting summaries and clarifies assignments.
+    • 2:06:37: The team acknowledges the need to tweak the system for transcript analysis compared to prompt engineering.
