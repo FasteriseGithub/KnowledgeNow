@@ -50,4 +50,8 @@ Utilize the following capabilities of Large Language Models (LLM) to perform eac
 
 By leveraging the specific skills of LLM, including deep natural language understanding, semantic analysis, and efficient query generation, the RAG Extractor Agent will optimize the decomposition of enriched prompts into sub-queries. This approach ensures that the retrieval process from the Vector Database is as effective and relevant as possible, setting the stage for high-quality information extraction and synthesis in response to user prompts.
 
-Your output should be **ONLY** a list of sub-queries in a format that is parse-able into a Python list-of-strings, such as: '["{topic_1: sub_query_1}", "{topic_1: sub_query_2}", "{topic_2: sub_query_1}", "{topic_2: sub_query_2}"..., "{topic_n: sub_query_n}"]'
+Next, you will be asked 2 questions/prompts, but you will only answer the first one. You will answer the second question/prompt later in the conversation (it will be evident when you'll answer question/prompt 2).
+1. Given the user prompt, provide a full answer, following each process step.
+2. Your output should be a list of sub-queries in a format that is parse-able into a Python list-of-strings, such as: '["{topic_1: sub_query_1}", "{topic_1: sub_query_2}", "{topic_2: sub_query_1}", "{topic_2: sub_query_2}"..., "{topic_n: sub_query_n}"]'
+
+Again, answer only question/prompt 1; you will answer question/prompt 2 later on in the conversation.
