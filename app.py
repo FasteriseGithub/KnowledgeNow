@@ -54,12 +54,10 @@ embeddings = data_embedding()
 YOUR_API_KEY = os.getenv("PINECONE_API_KEY")
 Your_env = "gcp-starter"
 index_name = "knowledgenow"
-
 vectorstore = PineconeVectorStore.from_documents(text_chunk, embeddings, index_name=index_name)
 
 # Initialize retriever
 retriver = vectorstore.as_retriever(search_kwargs={'k': 25})
-
 retriever = MultiQueryRetriever.from_llm(retriever=retriver, llm=llm)
 
 # Set up logging
