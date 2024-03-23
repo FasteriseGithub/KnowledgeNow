@@ -1,4 +1,6 @@
 from pyairtable import Api
+import os
+from dotenv import load_dotenv 
 
 #airtable_key = 'pato8cChB3wsNWWyG.c8cea7e3657770665e0400a6dfd1819c9ebe01e606688294152e78f190e9a2a7'
 #airtable_api = Api(airtable_key)
@@ -16,7 +18,7 @@ class AirTable:
         base_id (str): The ID of the base in Airtable (the first code after airtable.com/BASE_ID/...). Eg, in https://airtable.com/app4ngdBC3uyeutjO/tbl6TmlXJj90bOFaZ/ , the base ID is 'app4ngdBC3uyeutjO'.
         table_name (str): The name of the table in Airtable (not the id, just the name).
     """
-    airtable_api_key = 'pat0aBSKUoSeUHC8b.093ccf2cd043adffcbecd3b03d18a52c71dfdf92fe5c06dc1e5b169cbd0a89a9'
+    airtable_api_key = os.getenv('AIRTABLE_API_KEY')
     base_id = 'appFJEwA3C5AynRXI'
     table_name = 'KnowledgeNowMVP'
 
@@ -67,5 +69,5 @@ class AirTable:
         except Exception as e:
             print(f"Error posting to Airtable: {e}")
 
-airtable = AirTable()
-airtable.post_data_to_table(data={'name_of_dev': "Alejo_Fastest"})
+#airtable = AirTable()
+#airtable.post_data_to_table(data={'name_of_dev': "Alejo_Fastest"})
