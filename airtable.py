@@ -2,7 +2,6 @@ from pyairtable import Api
 import os
 from dotenv import load_dotenv 
 
-#airtable_key = 'pato8cChB3wsNWWyG.c8cea7e3657770665e0400a6dfd1819c9ebe01e606688294152e78f190e9a2a7'
 #airtable_api = Api(airtable_key)
 
 #base_id = 'app4ngdBC3uyeutjO'
