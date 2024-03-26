@@ -3,7 +3,7 @@
 This project implements a RAG (Retrieval-augmented generation) chatbot based on Fastrise Zoom meeting transcripts. The RAG chatbot is a management tool used to quickly confirm tasks and to do verify information.
 
 ### File Structure (unfinished)
-`
+
 project/
 ├── data/
 │   ├── raw/
@@ -25,7 +25,7 @@ project/
 │   └── README.md
 ├── requirements.txt
 └── main.py
-`
+
 
 ## Setup
 
