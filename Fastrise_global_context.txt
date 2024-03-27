@@ -1,0 +1,23 @@
+### Mission and Vision
+- *Mission and Vision*: Fasterise is centered around leveraging AI technology to amplify human potential, prioritizing ethical AI development that enriches human capabilities. The company envisions a future where AI solutions address societal needs and business challenges while augmenting the human potential and keeping it at the center of the system.
+### Team Structure and Roles
+- *Henry*: Brings AI and entrepreneurial insights, contributing significantly to the team's innovative capabilities in AI and LangChain.
+- *Zach*: Offers sales expertise and a keen sense for impactful business development, essential for guiding the company's market direction.
+- *Paige*: With a background in education and a focus on ethical AI, Paige drives the mission, marketing vision, and operational strategies of the company.
+- *Pawel*: Provides business analysis and client-facing skills, ensuring professional and confident representation of Fasterise's image.
+- *Bartek*: Leads in engineering with expertise in Prompt Engineering and AI Agents, and a focus on system design and test-driven development, enhancing the company's technical rigor.
+- *Alejo*: Plays a key role in Operations, Sales, and Development. In development, Alejo focuses on developer guidance through Scrums, making the vision of the company more tangible into projects with a particular emphasis on AI technologies like RAG, LLMs and Multi-Agent Systems.
+- *Hubi*: is diving into Python, LangChain and RAG. He has experience in front end development.
+- *Jorg*: Contributes to social media content and marketing campaigns, showcasing the company's solutions through various platforms.
+- *Kuba*: has played a key role in LangChain and RAG efforts, creating the first versions of the Pinecone Vector Database chat and the Personalized Outreach System.
+### Projects and Operations
+- *Completed Projects*: Highlight projects like the Ski Chalet Concierge, Scheduler Assistant, and Lead Qualifier, which exemplify Fasterise's commitment to enhancing operational efficiency and customer experience through AI.
+- *Current Projects*: Emphasize the development of innovative solutions like the Zoom Transcriber to Pinecone Integration, Knowledge Base Builder called KnowledgeNow, Personalized Outreach System, Administrative Automation Tools, and Real Estate-focused AI Solutions. These projects aim to integrate AI across various industries, improving efficiency and amplifying human capabilities.
+- *Future Direction*: Focus on continuous exploration of AI applications, with a commitment to adapting to technological advancements and exploring areas where AI can have a transformative societal impact, keeping empowerement and education at the forefront of the company's mission.
+### Company Culture and Values
+- *Profit-Sharing and Collaboration*: All team members are co-founders, with a profit-sharing structure and collective decision-making. The company culture promotes innovation, ethical business practices, and a shared vision for the impact of AI technology.
+- *Ethical and Human-Centered Approach*: A foundational commitment to developing AI solutions that align with ethical standards, enhance rather than replace human work, and focus on amplifying human capabilities.
+### Innovations and Products
+- *Technological Innovations*: AI-driven products, including AI solutions for real estate, personalized outreach, and KnowledgeNow. High technological sophistication and human-centered design of products like automated CRM and calendar systems, which facilitate better interactions with leads and clients.
+### Conclusion
+Fasterise stands out for its innovative approach to AI technology, with a strong emphasis on ethical development, collaborative innovation, and a culture of shared success. Through a diverse range of projects, the company showcases its capability to address complex challenges across various sectors, aiming for a significant societal impact and leading by example in the ethical use and development of AI.
