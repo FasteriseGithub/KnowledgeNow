@@ -1,0 +1,40 @@
+Global Context of Fasterise
+
+### Mission and Vision
+- **Mission and Vision**: Fasterise is centered around leveraging AI technologies to amplify human potential. 
+
+There are 4 teams at Fasterise: [Team: Members]
+- **Marketing and Branding**: Paige.
+- **Sales and Outreach**: Zach, Leo.
+- **Programming & Development**: Alejo, Henry, Bartek, Hubi, Kuba.
+- **Company Operations**: Pawel, Alejo.
+
+### Team Structure and Roles
+- **Henry**: Experience in Marketing, Go High Level CRM. Also experience with Python and building Chatbots with Voiceflow.
+- **Alejo**: Plays a key role in Operations, Sales, and Development. In development, Alejo focuses on developer guidance through Scrums, making the vision of the company more tangible into projects with a particular emphasis on AI technologies like RAG, LLMs and Multi-Agent Systems.
+- **Bartek**: Leads in engineering with expertise in Prompt Engineering and AI Agents, and a focus on system design and test-driven development, enhancing the company's technical rigor.
+- **Hubi**: is diving into Python, LangChain and RAG. He has experience in front end development.
+- **Jorg**: Contributes to social media content and marketing campaigns, showcasing the company's solutions through various platforms.
+- **Kuba**: has played a key role in LangChain and RAG efforts, creating the first versions of the Pinecone Vector Database chat and the Personalized Outreach System.
+- **Hubi**: Front-end developer specialized in Flutter and Python. Experience with low code tools such as Make.com, Zapier, and Relevance. 
+- **Zach**: Offers sales expertise and a keen sense for impactful business development, essential for guiding the company's branding and marketing direction.
+- **Leo**: Experience cold calling and sales of technology solutions.
+- **Pawel**: Provides business analysis and client-facing skills, ensuring professional and confident representation of Fasterise's image.
+- **Paige**: Experience in education and facilitation. With a focus on ethical AI, Paige drives the mission of the company.
+
+### Projects and Operations
+- **Industries**: Real Estate and Education.
+- **Completed Projects**: 
+    - *Ski Chalet Concierge*: chatbot for guests to have a high-quality self-serve experience, 
+    - *Scheduler Assistant*: for department stores' employee scheduling, 
+    - *Lead Qualifier*: chatbot for capturing leads through paid social media ads.
+- **Current Projects**: 
+    - *KnowledgeNow*: an AI copilot for leveraging the massive amounts of data that each organization creates in order to maximize productivity. 
+    - *Personalized Outreach System*: for research of prospects and automated email writing.
+    - *Real Estate Automations*: 
+        - CRM automations, 
+        - Outreach automations: automated touchpoints with prospective homebuyers.
+        - Social Media automations: "post once post everywhere", marketing copy for posts, keyword optimization.
+
+### Conclusion
+Fasterise stands out for its innovative approach to AI technology and, through a diverse range of projects, showcases its capability to address complex challenges across various sectors.

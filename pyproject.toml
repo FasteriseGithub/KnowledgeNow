@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "knowledgenow"
+version = "0.1.0"
+description = ""
+authors = ["alejo, kuba, bartek"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+openai = "^1.14.3"
+langchain = "^0.1.13"
+langchain-openai = "^0.1.1"
+langchain-community = "^0.0.29"
+langchain-pinecone = "^0.0.3"
+pydantic = "1.10.8"
+pytube = "^15.0.0"
+python-dotenv = "^1.0.1"
+tiktoken = "^0.6.0"
+pinecone-client = "^3.2.1"
+flask = "^3.0.2"
+langchainhub = "^0.1.15"
+pyairtable = "^2.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

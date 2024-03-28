@@ -8,10 +8,8 @@ pytube
 python-dotenv
 tiktoken 
 pinecone-client 
-
--e .
 flask
 langchainhub
-streamlit==1.18.1
-streamlit-extras
- pyairtable
+#streamlit==1.18.1
+#streamlit-extras
+pyairtable
