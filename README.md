@@ -6,39 +6,46 @@ The initial MVP is a task management tool for devs to keep track of their delive
 ### File Structure for MVP
 
 ```
-project/
+KnowledgeNow/
 ├── data/
 │   ├── raw/
 │   ├── data_processing_pipeline.py
 │   ├── processed/
-|      ├── transcripts/
-|      ├── discord_chats.txt
-|      ├── global_context.txt
+│   │   ├── transcripts/
+│   │   ├── discord_chats.txt
+│   │   └── global_context.txt
 ├── prompts/
-|   ├── current/
-|   ├── archived/
+│   ├── current/
+│   └── archived/
 ├── utils/
-|   ├── airtable.py
-|   ├── pinecone/
-|      ├── upload_doc.py
-|      ├── retrieve.py
-|   ├── langchain.py
-|   └── langsmith.py
-├── use_cases/
+│   ├── airtable.py
+│   ├── pinecone/
+│   │   ├── upload_doc.py
+│   │   ├── retrieve.py
 ├── infrastructure/
+│   ├── discord.py
 │   ├── streamlit.py
-│   ├── docker/
+│   └── docker/
 ├── tests/
 │   ├── standard_tests.py
 │   └── use_case_tests.py
 ├── logs/
 │   ├── logs.txt
+│   ├── langsmith.py
 │   └── outputs.py
+├── scripts/
+├── config/
+│   ├── config.json
+│   └── streamlit.json
+├── documentation/
+│   ├── user_guide.md
+│   ├── diagrams.md
 ├── README.md
 ├── requirements.txt
-├── config.json
 └── main.py
 ```
+
+
 
 ## Setup
 
