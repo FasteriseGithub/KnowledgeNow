@@ -1,29 +1,42 @@
-# RAG Chatbot Based on Fastrise Zoom Meeting Transcript
+# KnowledgeNow
 
-This project implements a RAG (Retrieval-augmented generation) chatbot based on Fastrise Zoom meeting transcripts. The RAG chatbot is a management tool used to quickly confirm tasks and to do verify information.
+This project implements a multi-agent RAG system based on Fasterise's Zoom meeting transcripts. 
+The initial MVP is a task management tool for devs to keep track of their deliverables, confirm details of each deliverable and understand the objective of the deliverable in the larger scope of the whole project.
 
-### File Structure (unfinished)
+### File Structure for MVP
+
 ```
 project/
 ├── data/
 │   ├── raw/
+│   ├── data_processing_pipeline.py
 │   ├── processed/
-│   └── datasets.py
-├── domain/
-│   ├── models.py
-│   └── services.py
-├── application/
-│   ├── use_cases/
-│   └── controllers.py
+|      ├── transcripts/
+|      ├── discord_chats.txt
+|      ├── global_context.txt
+├── prompts/
+|   ├── current/
+|   ├── archived/
+├── utils/
+|   ├── airtable.py
+|   ├── pinecone/
+|      ├── upload_doc.py
+|      ├── retrieve.py
+|   ├── langchain.py
+|   └── langsmith.py
+├── use_cases/
 ├── infrastructure/
-│   ├── data_sources.py
-│   └── repositories.py
+│   ├── streamlit.py
+│   ├── docker/
 ├── tests/
-│   ├── test_models.py
-│   └── test_services.py
-├── docs/
-│   └── README.md
+│   ├── standard_tests.py
+│   └── use_case_tests.py
+├── logs/
+│   ├── logs.txt
+│   └── outputs.py
+├── README.md
 ├── requirements.txt
+├── config.json
 └── main.py
 ```
 
