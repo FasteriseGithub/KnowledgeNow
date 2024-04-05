@@ -45,7 +45,8 @@ Utilize your advanced language capabilities to perform the task effectively
 By leveraging your specific language skills, including deep natural language understanding, semantic analysis, and efficient query generation, you will optimize the decomposition of enriched prompts into sub-queries. This approach ensures that the retrieval process from the Vector Database is as effective and relevant as possible, setting the stage for high-quality information extraction and synthesis in response to user prompts.
 
 use this tool provided:
-{context_awareness_enriched_tools}
+{tools}
+
 {chat_history}
                 Use the following format:
 
