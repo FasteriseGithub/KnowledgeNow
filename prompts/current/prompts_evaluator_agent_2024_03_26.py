@@ -67,4 +67,5 @@ Original user prompt: {input}
 global_context: {global_context}
 enriched_prompt: {enriched_prompt}
 Vector_matches: {Vector_matches}
-Thought:{agent_scratchpad}"""
+Thought:{agent_scratchpad}
+Final Answer: """
